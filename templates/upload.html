@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload File</title>
+  <link rel="stylesheet" href="/static/css/upload.css" />
+</head>
+<body>
+  <header>
+    <h1>Upload File to Knowledge Base</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/knowledge-base">Knowledge Base</a>
+      <a href="/upload">Upload Files</a>
+    </nav>
+  </header>
+
+  <main class="upload-container">
+    <form id="uploadForm">
+      <label for="knowledge">Knowledge Base:</label>
+      <input type="text" id="knowledge" name="knowledge" placeholder="Enter KB name" required />
+
+      <label for="file">Select File:</label>
+      <input type="file" id="file" name="file" required />
+
+      <label for="file_url">Or File URL (optional):</label>
+      <input type="text" id="file_url" name="file_url" placeholder="https://..." />
+
+      <label><input type="checkbox" id="use_ocr" name="use_ocr" /> Use OCR</label>
+
+      <button type="submit">Upload</button>
+    </form>
+
+    <div id="uploadStatus"></div>
+  </main>
+
+  <script src="/static/js/upload.js"></script>
+</body>
+</html>
+

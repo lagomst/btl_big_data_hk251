@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Base Selection</title>
+    <link rel="stylesheet" href="/static/css/knowledge_base.css">
+</head>
+<body>
+    <header>
+    <h1>{{ title }}</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/knowledge-base">Knowledge Base</a>>
+            <a href="/upload">Upload Files</a>
+        </nav>
+    </header>
+    <div class="kb-container">
+        <h1 class="kb-title">Select Knowledge Base</h1>
+        <ul class="kb-list">
+            {% for kb in knowledge_bases %}
+            <li class="kb-item {% if kb.id == selected_kb %}selected{% endif %}" data-kb-id="{{ kb.id }}">
+                <div class="kb-name">{{ kb.name }}</div>
+                <div class="kb-description">{{ kb.description }}</div>
+                <div class="kb-stats">
+                    <span>Documents: {{ kb.document_count }}</span>
+                    <span>Last updated: {{ kb.last_updated }}</span>
+                </div>
+                <a href="/knowledge-base/{{kb.id}}">Select</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <form id="kb-create-form" style="margin-bottom:1rem;">
+        <input id="kb-create-name" placeholder="New knowledge name" />
+        <button type="submit" onclick="createKnowledgeBase('{{kb}}')">Create</button>
+    </form>
+    <script src='/static/js/knowledge_base.js'></script>
+</body>
+</html>

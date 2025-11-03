@@ -1,0 +1,836 @@
+2025-11-03 07:13:39,540 - lightrag - INFO - Creating working directory ./rag-storage
+2025-11-03 07:13:44,099 - lightrag - INFO - Created new empty graph
+2025-11-03 07:13:44,163 - lightrag - INFO - Process 6106 KV load bac_full_docs with 0 records
+2025-11-03 07:13:44,165 - lightrag - INFO - Process 6106 KV load bac_text_chunks with 0 records
+2025-11-03 07:13:44,169 - lightrag - INFO - Process 6106 KV load bac_llm_response_cache with 0 records
+2025-11-03 07:13:44,172 - lightrag - INFO - Process 6106 doc status load bac_doc_status with 0 records
+2025-11-03 07:13:44,175 - lightrag - INFO - Process 6106 doc status load bac_doc_status with 0 records
+2025-11-03 07:13:44,180 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 07:14:49,732 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 07:14:53,762 - lightrag - INFO - Created new empty graph
+2025-11-03 07:14:53,804 - lightrag - INFO - Process 6604 KV load bac_full_docs with 0 records
+2025-11-03 07:14:53,806 - lightrag - INFO - Process 6604 KV load bac_text_chunks with 0 records
+2025-11-03 07:14:53,808 - lightrag - INFO - Process 6604 KV load bac_llm_response_cache with 0 records
+2025-11-03 07:14:53,810 - lightrag - INFO - Process 6604 doc status load bac_doc_status with 0 records
+2025-11-03 07:14:53,814 - lightrag - INFO - Process 6604 doc status load bac_doc_status with 0 records
+2025-11-03 07:14:53,816 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 07:15:40,370 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 07:15:45,050 - lightrag - INFO - Created new empty graph
+2025-11-03 07:15:45,116 - lightrag - INFO - Process 6828 KV load bac_full_docs with 0 records
+2025-11-03 07:15:45,120 - lightrag - INFO - Process 6828 KV load bac_text_chunks with 0 records
+2025-11-03 07:15:45,123 - lightrag - INFO - Process 6828 KV load bac_llm_response_cache with 0 records
+2025-11-03 07:15:45,126 - lightrag - INFO - Process 6828 doc status load bac_doc_status with 0 records
+2025-11-03 07:15:45,129 - lightrag - INFO - Process 6828 doc status load bac_doc_status with 0 records
+2025-11-03 07:15:45,133 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 07:16:39,489 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 07:19:37,044 - lightrag - INFO - Created new empty graph
+2025-11-03 07:19:37,135 - lightrag - INFO - Process 7662 KV load bac_full_docs with 0 records
+2025-11-03 07:19:37,138 - lightrag - INFO - Process 7662 KV load bac_text_chunks with 0 records
+2025-11-03 07:19:37,142 - lightrag - INFO - Process 7662 KV load bac_llm_response_cache with 0 records
+2025-11-03 07:19:37,145 - lightrag - INFO - Process 7662 doc status load bac_doc_status with 0 records
+2025-11-03 07:19:37,149 - lightrag - INFO - Process 7662 doc status load bac_doc_status with 0 records
+2025-11-03 07:19:37,152 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 13:51:06,328 - lightrag - INFO - Created new empty graph
+2025-11-03 13:51:06,425 - lightrag - INFO - Process 3401 KV load bac_full_docs with 0 records
+2025-11-03 13:51:06,427 - lightrag - INFO - Process 3401 KV load bac_text_chunks with 0 records
+2025-11-03 13:51:06,429 - lightrag - INFO - Process 3401 KV load bac_llm_response_cache with 0 records
+2025-11-03 13:51:06,431 - lightrag - INFO - Process 3401 doc status load bac_doc_status with 0 records
+2025-11-03 13:51:06,434 - lightrag - INFO - Process 3401 doc status load bac_doc_status with 0 records
+2025-11-03 13:51:06,437 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 13:53:23,380 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 13:53:26,842 - lightrag - INFO - Created new empty graph
+2025-11-03 13:53:26,919 - lightrag - INFO - Process 4454 KV load bac_full_docs with 0 records
+2025-11-03 13:53:26,922 - lightrag - INFO - Process 4454 KV load bac_text_chunks with 0 records
+2025-11-03 13:53:26,924 - lightrag - INFO - Process 4454 KV load bac_llm_response_cache with 0 records
+2025-11-03 13:53:26,926 - lightrag - INFO - Process 4454 doc status load bac_doc_status with 0 records
+2025-11-03 13:53:26,936 - lightrag - INFO - Process 4454 doc status load bac_doc_status with 0 records
+2025-11-03 13:53:26,938 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 13:54:12,142 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 13:54:24,026 - lightrag - INFO - Created new empty graph
+2025-11-03 13:54:24,073 - lightrag - INFO - Process 4728 KV load bac_full_docs with 0 records
+2025-11-03 13:54:24,075 - lightrag - INFO - Process 4728 KV load bac_text_chunks with 0 records
+2025-11-03 13:54:24,078 - lightrag - INFO - Process 4728 KV load bac_llm_response_cache with 0 records
+2025-11-03 13:54:24,080 - lightrag - INFO - Process 4728 doc status load bac_doc_status with 0 records
+2025-11-03 13:54:24,083 - lightrag - INFO - Process 4728 doc status load bac_doc_status with 0 records
+2025-11-03 13:54:24,085 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 13:54:30,675 - lightrag - INFO - Created new empty graph
+2025-11-03 13:54:30,692 - lightrag - INFO - Process 4728 KV load abc_full_docs with 0 records
+2025-11-03 13:54:30,693 - lightrag - INFO - Process 4728 KV load abc_text_chunks with 0 records
+2025-11-03 13:54:30,695 - lightrag - INFO - Process 4728 KV load abc_llm_response_cache with 0 records
+2025-11-03 13:54:30,696 - lightrag - INFO - Process 4728 doc status load abc_doc_status with 0 records
+2025-11-03 13:54:30,699 - lightrag - INFO - Process 4728 doc status load abc_doc_status with 0 records
+2025-11-03 13:54:30,704 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 13:58:15,719 - lightrag - INFO - Created new empty graph
+2025-11-03 13:58:15,811 - lightrag - INFO - Process 7341 KV load abc_full_docs with 0 records
+2025-11-03 13:58:15,817 - lightrag - INFO - Process 7341 KV load abc_text_chunks with 0 records
+2025-11-03 13:58:15,821 - lightrag - INFO - Process 7341 KV load abc_llm_response_cache with 0 records
+2025-11-03 13:58:15,826 - lightrag - INFO - Process 7341 doc status load abc_doc_status with 0 records
+2025-11-03 13:58:15,831 - lightrag - INFO - Process 7341 doc status load abc_doc_status with 0 records
+2025-11-03 13:58:15,882 - lightrag - INFO - Created new empty graph
+2025-11-03 13:58:15,913 - lightrag - INFO - Process 7341 KV load bac_full_docs with 0 records
+2025-11-03 13:58:15,916 - lightrag - INFO - Process 7341 KV load bac_text_chunks with 0 records
+2025-11-03 13:58:15,920 - lightrag - INFO - Process 7341 KV load bac_llm_response_cache with 0 records
+2025-11-03 13:58:15,924 - lightrag - INFO - Process 7341 doc status load bac_doc_status with 0 records
+2025-11-03 13:58:15,924 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 13:58:15,927 - lightrag - INFO - Process 7341 doc status load bac_doc_status with 0 records
+2025-11-03 13:58:15,931 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:05:03,579 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:05:11,754 - lightrag - INFO - Created new empty graph
+2025-11-03 14:05:11,795 - lightrag - INFO - Process 8628 KV load abc_full_docs with 0 records
+2025-11-03 14:05:11,796 - lightrag - INFO - Process 8628 KV load abc_text_chunks with 0 records
+2025-11-03 14:05:11,798 - lightrag - INFO - Process 8628 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:05:11,799 - lightrag - INFO - Process 8628 doc status load abc_doc_status with 0 records
+2025-11-03 14:05:11,801 - lightrag - INFO - Process 8628 doc status load abc_doc_status with 0 records
+2025-11-03 14:05:11,822 - lightrag - INFO - Created new empty graph
+2025-11-03 14:05:11,839 - lightrag - INFO - Process 8628 KV load bac_full_docs with 0 records
+2025-11-03 14:05:11,840 - lightrag - INFO - Process 8628 KV load bac_text_chunks with 0 records
+2025-11-03 14:05:11,842 - lightrag - INFO - Process 8628 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:05:11,844 - lightrag - INFO - Process 8628 doc status load bac_doc_status with 0 records
+2025-11-03 14:05:11,844 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:05:11,846 - lightrag - INFO - Process 8628 doc status load bac_doc_status with 0 records
+2025-11-03 14:05:11,848 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:08:13,764 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:09:26,503 - lightrag - INFO - Created new empty graph
+2025-11-03 14:09:26,549 - lightrag - INFO - Process 10498 KV load abc_full_docs with 0 records
+2025-11-03 14:09:26,550 - lightrag - INFO - Process 10498 KV load abc_text_chunks with 0 records
+2025-11-03 14:09:26,553 - lightrag - INFO - Process 10498 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:09:26,555 - lightrag - INFO - Process 10498 doc status load abc_doc_status with 0 records
+2025-11-03 14:09:26,559 - lightrag - INFO - Process 10498 doc status load abc_doc_status with 0 records
+2025-11-03 14:09:26,586 - lightrag - INFO - Created new empty graph
+2025-11-03 14:09:26,608 - lightrag - INFO - Process 10498 KV load bac_full_docs with 0 records
+2025-11-03 14:09:26,610 - lightrag - INFO - Process 10498 KV load bac_text_chunks with 0 records
+2025-11-03 14:09:26,611 - lightrag - INFO - Process 10498 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:09:26,613 - lightrag - INFO - Process 10498 doc status load bac_doc_status with 0 records
+2025-11-03 14:09:26,613 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:09:26,616 - lightrag - INFO - Process 10498 doc status load bac_doc_status with 0 records
+2025-11-03 14:09:26,617 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:25:49,796 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:32:14,117 - lightrag - INFO - Created new empty graph
+2025-11-03 14:32:14,156 - lightrag - INFO - Process 14549 KV load abc_full_docs with 0 records
+2025-11-03 14:32:14,157 - lightrag - INFO - Process 14549 KV load abc_text_chunks with 0 records
+2025-11-03 14:32:14,159 - lightrag - INFO - Process 14549 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:32:14,162 - lightrag - INFO - Process 14549 doc status load abc_doc_status with 0 records
+2025-11-03 14:32:14,165 - lightrag - INFO - Process 14549 doc status load abc_doc_status with 0 records
+2025-11-03 14:32:14,188 - lightrag - INFO - Created new empty graph
+2025-11-03 14:32:14,201 - lightrag - INFO - Process 14549 KV load bac_full_docs with 0 records
+2025-11-03 14:32:14,203 - lightrag - INFO - Process 14549 KV load bac_text_chunks with 0 records
+2025-11-03 14:32:14,206 - lightrag - INFO - Process 14549 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:32:14,208 - lightrag - INFO - Process 14549 doc status load bac_doc_status with 0 records
+2025-11-03 14:32:14,209 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:32:14,212 - lightrag - INFO - Process 14549 doc status load bac_doc_status with 0 records
+2025-11-03 14:32:14,214 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:34:44,251 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:34:48,768 - lightrag - INFO - Created new empty graph
+2025-11-03 14:34:48,807 - lightrag - INFO - Process 15095 KV load abc_full_docs with 0 records
+2025-11-03 14:34:48,809 - lightrag - INFO - Process 15095 KV load abc_text_chunks with 0 records
+2025-11-03 14:34:48,811 - lightrag - INFO - Process 15095 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:34:48,813 - lightrag - INFO - Process 15095 doc status load abc_doc_status with 0 records
+2025-11-03 14:34:48,815 - lightrag - INFO - Process 15095 doc status load abc_doc_status with 0 records
+2025-11-03 14:34:48,838 - lightrag - INFO - Created new empty graph
+2025-11-03 14:34:48,857 - lightrag - INFO - Process 15095 KV load bac_full_docs with 0 records
+2025-11-03 14:34:48,859 - lightrag - INFO - Process 15095 KV load bac_text_chunks with 0 records
+2025-11-03 14:34:48,860 - lightrag - INFO - Process 15095 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:34:48,862 - lightrag - INFO - Process 15095 doc status load bac_doc_status with 0 records
+2025-11-03 14:34:48,862 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:34:48,864 - lightrag - INFO - Process 15095 doc status load bac_doc_status with 0 records
+2025-11-03 14:34:48,866 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:37:17,034 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:39:34,995 - lightrag - INFO - Created new empty graph
+2025-11-03 14:39:35,040 - lightrag - INFO - Process 16152 KV load abc_full_docs with 0 records
+2025-11-03 14:39:35,043 - lightrag - INFO - Process 16152 KV load abc_text_chunks with 0 records
+2025-11-03 14:39:35,045 - lightrag - INFO - Process 16152 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:39:35,047 - lightrag - INFO - Process 16152 doc status load abc_doc_status with 0 records
+2025-11-03 14:39:35,049 - lightrag - INFO - Process 16152 doc status load abc_doc_status with 0 records
+2025-11-03 14:39:35,079 - lightrag - INFO - Created new empty graph
+2025-11-03 14:39:35,103 - lightrag - INFO - Process 16152 KV load bac_full_docs with 0 records
+2025-11-03 14:39:35,107 - lightrag - INFO - Process 16152 KV load bac_text_chunks with 0 records
+2025-11-03 14:39:35,109 - lightrag - INFO - Process 16152 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:39:35,111 - lightrag - INFO - Process 16152 doc status load bac_doc_status with 0 records
+2025-11-03 14:39:35,112 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:39:35,115 - lightrag - INFO - Process 16152 doc status load bac_doc_status with 0 records
+2025-11-03 14:39:35,117 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:39:37,436 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:39:41,223 - lightrag - INFO - Created new empty graph
+2025-11-03 14:39:41,266 - lightrag - INFO - Process 16237 KV load abc_full_docs with 0 records
+2025-11-03 14:39:41,269 - lightrag - INFO - Process 16237 KV load abc_text_chunks with 0 records
+2025-11-03 14:39:41,271 - lightrag - INFO - Process 16237 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:39:41,273 - lightrag - INFO - Process 16237 doc status load abc_doc_status with 0 records
+2025-11-03 14:39:41,275 - lightrag - INFO - Process 16237 doc status load abc_doc_status with 0 records
+2025-11-03 14:39:41,298 - lightrag - INFO - Created new empty graph
+2025-11-03 14:39:41,317 - lightrag - INFO - Process 16237 KV load bac_full_docs with 0 records
+2025-11-03 14:39:41,319 - lightrag - INFO - Process 16237 KV load bac_text_chunks with 0 records
+2025-11-03 14:39:41,320 - lightrag - INFO - Process 16237 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:39:41,322 - lightrag - INFO - Process 16237 doc status load bac_doc_status with 0 records
+2025-11-03 14:39:41,322 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:39:41,325 - lightrag - INFO - Process 16237 doc status load bac_doc_status with 0 records
+2025-11-03 14:39:41,326 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:39:49,649 - lightrag - INFO - Created new empty graph
+2025-11-03 14:39:49,687 - lightrag - INFO - Process 16322 KV load abc_full_docs with 0 records
+2025-11-03 14:39:49,688 - lightrag - INFO - Process 16322 KV load abc_text_chunks with 0 records
+2025-11-03 14:39:49,691 - lightrag - INFO - Process 16322 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:39:49,693 - lightrag - INFO - Process 16322 doc status load abc_doc_status with 0 records
+2025-11-03 14:39:49,695 - lightrag - INFO - Process 16322 doc status load abc_doc_status with 0 records
+2025-11-03 14:39:49,719 - lightrag - INFO - Created new empty graph
+2025-11-03 14:39:49,741 - lightrag - INFO - Process 16322 KV load bac_full_docs with 0 records
+2025-11-03 14:39:49,743 - lightrag - INFO - Process 16322 KV load bac_text_chunks with 0 records
+2025-11-03 14:39:49,745 - lightrag - INFO - Process 16322 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:39:49,747 - lightrag - INFO - Process 16322 doc status load bac_doc_status with 0 records
+2025-11-03 14:39:49,748 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:39:49,750 - lightrag - INFO - Process 16322 doc status load bac_doc_status with 0 records
+2025-11-03 14:39:49,751 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:45:02,606 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:45:09,744 - lightrag - INFO - Created new empty graph
+2025-11-03 14:45:09,790 - lightrag - INFO - Process 17456 KV load abc_full_docs with 0 records
+2025-11-03 14:45:09,792 - lightrag - INFO - Process 17456 KV load abc_text_chunks with 0 records
+2025-11-03 14:45:09,795 - lightrag - INFO - Process 17456 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:45:09,797 - lightrag - INFO - Process 17456 doc status load abc_doc_status with 0 records
+2025-11-03 14:45:09,800 - lightrag - INFO - Process 17456 doc status load abc_doc_status with 0 records
+2025-11-03 14:45:09,827 - lightrag - INFO - Created new empty graph
+2025-11-03 14:45:09,843 - lightrag - INFO - Process 17456 KV load bac_full_docs with 0 records
+2025-11-03 14:45:09,845 - lightrag - INFO - Process 17456 KV load bac_text_chunks with 0 records
+2025-11-03 14:45:09,848 - lightrag - INFO - Process 17456 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:45:09,850 - lightrag - INFO - Process 17456 doc status load bac_doc_status with 0 records
+2025-11-03 14:45:09,851 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:45:09,853 - lightrag - INFO - Process 17456 doc status load bac_doc_status with 0 records
+2025-11-03 14:45:09,855 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:46:38,611 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 14:46:46,111 - lightrag - INFO - Created new empty graph
+2025-11-03 14:46:46,154 - lightrag - INFO - Process 17842 KV load abc_full_docs with 0 records
+2025-11-03 14:46:46,156 - lightrag - INFO - Process 17842 KV load abc_text_chunks with 0 records
+2025-11-03 14:46:46,159 - lightrag - INFO - Process 17842 KV load abc_llm_response_cache with 0 records
+2025-11-03 14:46:46,162 - lightrag - INFO - Process 17842 doc status load abc_doc_status with 0 records
+2025-11-03 14:46:46,165 - lightrag - INFO - Process 17842 doc status load abc_doc_status with 0 records
+2025-11-03 14:46:46,196 - lightrag - INFO - Created new empty graph
+2025-11-03 14:46:46,216 - lightrag - INFO - Process 17842 KV load bac_full_docs with 0 records
+2025-11-03 14:46:46,217 - lightrag - INFO - Process 17842 KV load bac_text_chunks with 0 records
+2025-11-03 14:46:46,220 - lightrag - INFO - Process 17842 KV load bac_llm_response_cache with 0 records
+2025-11-03 14:46:46,221 - lightrag - INFO - Process 17842 doc status load bac_doc_status with 0 records
+2025-11-03 14:46:46,221 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 14:46:46,224 - lightrag - INFO - Process 17842 doc status load bac_doc_status with 0 records
+2025-11-03 14:46:46,226 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:06:30,824 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:06:49,005 - lightrag - INFO - Created new empty graph
+2025-11-03 15:06:49,071 - lightrag - INFO - Process 21483 KV load abc_full_docs with 0 records
+2025-11-03 15:06:49,073 - lightrag - INFO - Process 21483 KV load abc_text_chunks with 0 records
+2025-11-03 15:06:49,075 - lightrag - INFO - Process 21483 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:06:49,077 - lightrag - INFO - Process 21483 doc status load abc_doc_status with 0 records
+2025-11-03 15:06:49,080 - lightrag - INFO - Process 21483 doc status load abc_doc_status with 0 records
+2025-11-03 15:06:49,105 - lightrag - INFO - Created new empty graph
+2025-11-03 15:06:49,131 - lightrag - INFO - Process 21483 KV load bac_full_docs with 0 records
+2025-11-03 15:06:49,134 - lightrag - INFO - Process 21483 KV load bac_text_chunks with 0 records
+2025-11-03 15:06:49,138 - lightrag - INFO - Process 21483 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:06:49,141 - lightrag - INFO - Process 21483 doc status load bac_doc_status with 0 records
+2025-11-03 15:06:49,141 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:06:49,145 - lightrag - INFO - Process 21483 doc status load bac_doc_status with 0 records
+2025-11-03 15:06:49,147 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:08:46,449 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:08:53,760 - lightrag - INFO - Created new empty graph
+2025-11-03 15:08:53,800 - lightrag - INFO - Process 22000 KV load abc_full_docs with 0 records
+2025-11-03 15:08:53,803 - lightrag - INFO - Process 22000 KV load abc_text_chunks with 0 records
+2025-11-03 15:08:53,806 - lightrag - INFO - Process 22000 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:08:53,808 - lightrag - INFO - Process 22000 doc status load abc_doc_status with 0 records
+2025-11-03 15:08:53,811 - lightrag - INFO - Process 22000 doc status load abc_doc_status with 0 records
+2025-11-03 15:08:53,843 - lightrag - INFO - Created new empty graph
+2025-11-03 15:08:53,869 - lightrag - INFO - Process 22000 KV load bac_full_docs with 0 records
+2025-11-03 15:08:53,872 - lightrag - INFO - Process 22000 KV load bac_text_chunks with 0 records
+2025-11-03 15:08:53,874 - lightrag - INFO - Process 22000 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:08:53,875 - lightrag - INFO - Process 22000 doc status load bac_doc_status with 0 records
+2025-11-03 15:08:53,876 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:08:53,877 - lightrag - INFO - Process 22000 doc status load bac_doc_status with 0 records
+2025-11-03 15:08:53,879 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:10:59,975 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:11:04,813 - lightrag - INFO - Created new empty graph
+2025-11-03 15:11:04,860 - lightrag - INFO - Process 22470 KV load abc_full_docs with 0 records
+2025-11-03 15:11:04,862 - lightrag - INFO - Process 22470 KV load abc_text_chunks with 0 records
+2025-11-03 15:11:04,865 - lightrag - INFO - Process 22470 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:11:04,867 - lightrag - INFO - Process 22470 doc status load abc_doc_status with 0 records
+2025-11-03 15:11:04,870 - lightrag - INFO - Process 22470 doc status load abc_doc_status with 0 records
+2025-11-03 15:11:04,904 - lightrag - INFO - Created new empty graph
+2025-11-03 15:11:04,929 - lightrag - INFO - Process 22470 KV load bac_full_docs with 0 records
+2025-11-03 15:11:04,932 - lightrag - INFO - Process 22470 KV load bac_text_chunks with 0 records
+2025-11-03 15:11:04,935 - lightrag - INFO - Process 22470 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:11:04,938 - lightrag - INFO - Process 22470 doc status load bac_doc_status with 0 records
+2025-11-03 15:11:04,939 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:11:04,942 - lightrag - INFO - Process 22470 doc status load bac_doc_status with 0 records
+2025-11-03 15:11:04,943 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:11:08,705 - lightrag - INFO - Created new empty graph
+2025-11-03 15:11:08,742 - lightrag - INFO - Process 22540 KV load abc_full_docs with 0 records
+2025-11-03 15:11:08,744 - lightrag - INFO - Process 22540 KV load abc_text_chunks with 0 records
+2025-11-03 15:11:08,746 - lightrag - INFO - Process 22540 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:11:08,749 - lightrag - INFO - Process 22540 doc status load abc_doc_status with 0 records
+2025-11-03 15:11:08,751 - lightrag - INFO - Process 22540 doc status load abc_doc_status with 0 records
+2025-11-03 15:11:08,774 - lightrag - INFO - Created new empty graph
+2025-11-03 15:11:08,795 - lightrag - INFO - Process 22540 KV load bac_full_docs with 0 records
+2025-11-03 15:11:08,797 - lightrag - INFO - Process 22540 KV load bac_text_chunks with 0 records
+2025-11-03 15:11:08,799 - lightrag - INFO - Process 22540 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:11:08,801 - lightrag - INFO - Process 22540 doc status load bac_doc_status with 0 records
+2025-11-03 15:11:08,802 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:11:08,804 - lightrag - INFO - Process 22540 doc status load bac_doc_status with 0 records
+2025-11-03 15:11:08,805 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:11:38,470 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:11:42,199 - lightrag - INFO - Created new empty graph
+2025-11-03 15:11:42,242 - lightrag - INFO - Process 22700 KV load abc_full_docs with 0 records
+2025-11-03 15:11:42,244 - lightrag - INFO - Process 22700 KV load abc_text_chunks with 0 records
+2025-11-03 15:11:42,246 - lightrag - INFO - Process 22700 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:11:42,248 - lightrag - INFO - Process 22700 doc status load abc_doc_status with 0 records
+2025-11-03 15:11:42,251 - lightrag - INFO - Process 22700 doc status load abc_doc_status with 0 records
+2025-11-03 15:11:42,275 - lightrag - INFO - Created new empty graph
+2025-11-03 15:11:42,295 - lightrag - INFO - Process 22700 KV load bac_full_docs with 0 records
+2025-11-03 15:11:42,297 - lightrag - INFO - Process 22700 KV load bac_text_chunks with 0 records
+2025-11-03 15:11:42,299 - lightrag - INFO - Process 22700 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:11:42,302 - lightrag - INFO - Process 22700 doc status load bac_doc_status with 0 records
+2025-11-03 15:11:42,303 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:11:42,305 - lightrag - INFO - Process 22700 doc status load bac_doc_status with 0 records
+2025-11-03 15:11:42,307 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:12:02,179 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:12:05,586 - lightrag - INFO - Created new empty graph
+2025-11-03 15:12:05,634 - lightrag - INFO - Process 22837 KV load abc_full_docs with 0 records
+2025-11-03 15:12:05,637 - lightrag - INFO - Process 22837 KV load abc_text_chunks with 0 records
+2025-11-03 15:12:05,639 - lightrag - INFO - Process 22837 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:12:05,641 - lightrag - INFO - Process 22837 doc status load abc_doc_status with 0 records
+2025-11-03 15:12:05,644 - lightrag - INFO - Process 22837 doc status load abc_doc_status with 0 records
+2025-11-03 15:12:05,669 - lightrag - INFO - Created new empty graph
+2025-11-03 15:12:05,684 - lightrag - INFO - Process 22837 KV load bac_full_docs with 0 records
+2025-11-03 15:12:05,686 - lightrag - INFO - Process 22837 KV load bac_text_chunks with 0 records
+2025-11-03 15:12:05,688 - lightrag - INFO - Process 22837 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:12:05,690 - lightrag - INFO - Process 22837 doc status load bac_doc_status with 0 records
+2025-11-03 15:12:05,691 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:12:05,693 - lightrag - INFO - Process 22837 doc status load bac_doc_status with 0 records
+2025-11-03 15:12:05,695 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:12:54,384 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:12:59,434 - lightrag - INFO - Created new empty graph
+2025-11-03 15:12:59,477 - lightrag - INFO - Process 23054 KV load abc_full_docs with 0 records
+2025-11-03 15:12:59,479 - lightrag - INFO - Process 23054 KV load abc_text_chunks with 0 records
+2025-11-03 15:12:59,481 - lightrag - INFO - Process 23054 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:12:59,483 - lightrag - INFO - Process 23054 doc status load abc_doc_status with 0 records
+2025-11-03 15:12:59,485 - lightrag - INFO - Process 23054 doc status load abc_doc_status with 0 records
+2025-11-03 15:12:59,510 - lightrag - INFO - Created new empty graph
+2025-11-03 15:12:59,530 - lightrag - INFO - Process 23054 KV load bac_full_docs with 0 records
+2025-11-03 15:12:59,532 - lightrag - INFO - Process 23054 KV load bac_text_chunks with 0 records
+2025-11-03 15:12:59,534 - lightrag - INFO - Process 23054 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:12:59,537 - lightrag - INFO - Process 23054 doc status load bac_doc_status with 0 records
+2025-11-03 15:12:59,537 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:12:59,539 - lightrag - INFO - Process 23054 doc status load bac_doc_status with 0 records
+2025-11-03 15:12:59,541 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:13:58,549 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:14:04,495 - lightrag - INFO - Created new empty graph
+2025-11-03 15:14:04,557 - lightrag - INFO - Process 23308 KV load abc_full_docs with 0 records
+2025-11-03 15:14:04,560 - lightrag - INFO - Process 23308 KV load abc_text_chunks with 0 records
+2025-11-03 15:14:04,563 - lightrag - INFO - Process 23308 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:14:04,566 - lightrag - INFO - Process 23308 doc status load abc_doc_status with 0 records
+2025-11-03 15:14:04,569 - lightrag - INFO - Process 23308 doc status load abc_doc_status with 0 records
+2025-11-03 15:14:04,614 - lightrag - INFO - Created new empty graph
+2025-11-03 15:14:04,643 - lightrag - INFO - Process 23308 KV load bac_full_docs with 0 records
+2025-11-03 15:14:04,648 - lightrag - INFO - Process 23308 KV load bac_text_chunks with 0 records
+2025-11-03 15:14:04,651 - lightrag - INFO - Process 23308 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:14:04,654 - lightrag - INFO - Process 23308 doc status load bac_doc_status with 0 records
+2025-11-03 15:14:04,655 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:14:04,660 - lightrag - INFO - Process 23308 doc status load bac_doc_status with 0 records
+2025-11-03 15:14:04,663 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:14:05,372 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:14:09,264 - lightrag - INFO - Created new empty graph
+2025-11-03 15:14:09,302 - lightrag - INFO - Process 23381 KV load abc_full_docs with 0 records
+2025-11-03 15:14:09,304 - lightrag - INFO - Process 23381 KV load abc_text_chunks with 0 records
+2025-11-03 15:14:09,307 - lightrag - INFO - Process 23381 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:14:09,309 - lightrag - INFO - Process 23381 doc status load abc_doc_status with 0 records
+2025-11-03 15:14:09,311 - lightrag - INFO - Process 23381 doc status load abc_doc_status with 0 records
+2025-11-03 15:14:09,335 - lightrag - INFO - Created new empty graph
+2025-11-03 15:14:09,355 - lightrag - INFO - Process 23381 KV load bac_full_docs with 0 records
+2025-11-03 15:14:09,357 - lightrag - INFO - Process 23381 KV load bac_text_chunks with 0 records
+2025-11-03 15:14:09,359 - lightrag - INFO - Process 23381 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:14:09,361 - lightrag - INFO - Process 23381 doc status load bac_doc_status with 0 records
+2025-11-03 15:14:09,361 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:14:09,364 - lightrag - INFO - Process 23381 doc status load bac_doc_status with 0 records
+2025-11-03 15:14:09,365 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:16:36,763 - lightrag - INFO - Stored 1 new unique documents
+2025-11-03 15:16:36,764 - lightrag - INFO - Processing 1 document(s)
+2025-11-03 15:16:36,764 - lightrag - INFO - Extracting stage 1/1: /abc/thelastquestion.txt/
+2025-11-03 15:16:36,764 - lightrag - INFO - Processing d-id: thelastquestion.txt
+2025-11-03 15:16:36,795 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-11-03 15:17:36,782 - lightrag - ERROR - limit_async: Error in decorated function: RetryError[<Future at 0x79b87e517c50 state=finished raised APITimeoutError>]
+2025-11-03 15:17:36,824 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/_base_client.py", line 1519, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/llm/openai.py", line 497, in openai_embed
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, input=texts, encoding_format="float"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/resources/embeddings.py", line 245, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/_base_client.py", line 1784, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/_base_client.py", line 1537, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/lightrag.py", line 1072, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/kg/nano_vector_db_impl.py", line 119, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/utils.py", line 610, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/utils.py", line 394, in worker
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/utils.py", line 240, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x79b87e517c50 state=finished raised APITimeoutError>]
+
+2025-11-03 15:17:36,824 - lightrag - ERROR - Failed to extract document 1/1: /abc/thelastquestion.txt/
+2025-11-03 15:17:36,840 - lightrag - INFO - Document processing pipeline completed
+2025-11-03 15:20:59,997 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:21:11,537 - lightrag - INFO - Created new empty graph
+2025-11-03 15:21:11,639 - lightrag - INFO - Process 25044 KV load abc_full_docs with 0 records
+2025-11-03 15:21:11,643 - lightrag - INFO - Process 25044 KV load abc_text_chunks with 0 records
+2025-11-03 15:21:11,646 - lightrag - INFO - Process 25044 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:21:11,662 - lightrag - INFO - Process 25044 doc status load abc_doc_status with 1 records
+2025-11-03 15:21:11,670 - lightrag - INFO - Process 25044 doc status load abc_doc_status with 1 records
+2025-11-03 15:21:11,696 - lightrag - INFO - Created new empty graph
+2025-11-03 15:21:11,713 - lightrag - INFO - Process 25044 KV load bac_full_docs with 0 records
+2025-11-03 15:21:11,714 - lightrag - INFO - Process 25044 KV load bac_text_chunks with 0 records
+2025-11-03 15:21:11,715 - lightrag - INFO - Process 25044 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:21:11,717 - lightrag - INFO - Process 25044 doc status load bac_doc_status with 0 records
+2025-11-03 15:21:11,717 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:21:11,719 - lightrag - INFO - Process 25044 doc status load bac_doc_status with 0 records
+2025-11-03 15:21:11,720 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:21:22,657 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:21:26,011 - lightrag - INFO - Created new empty graph
+2025-11-03 15:21:26,047 - lightrag - INFO - Process 25164 KV load abc_full_docs with 0 records
+2025-11-03 15:21:26,049 - lightrag - INFO - Process 25164 KV load abc_text_chunks with 0 records
+2025-11-03 15:21:26,051 - lightrag - INFO - Process 25164 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:21:26,058 - lightrag - INFO - Process 25164 doc status load abc_doc_status with 1 records
+2025-11-03 15:21:26,064 - lightrag - INFO - Process 25164 doc status load abc_doc_status with 1 records
+2025-11-03 15:21:26,091 - lightrag - INFO - Created new empty graph
+2025-11-03 15:21:26,111 - lightrag - INFO - Process 25164 KV load bac_full_docs with 0 records
+2025-11-03 15:21:26,113 - lightrag - INFO - Process 25164 KV load bac_text_chunks with 0 records
+2025-11-03 15:21:26,115 - lightrag - INFO - Process 25164 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:21:26,118 - lightrag - INFO - Process 25164 doc status load bac_doc_status with 0 records
+2025-11-03 15:21:26,119 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:21:26,121 - lightrag - INFO - Process 25164 doc status load bac_doc_status with 0 records
+2025-11-03 15:21:26,122 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:29:16,001 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:30:50,331 - lightrag - INFO - Created new empty graph
+2025-11-03 15:30:50,377 - lightrag - INFO - Process 27024 KV load abc_full_docs with 0 records
+2025-11-03 15:30:50,379 - lightrag - INFO - Process 27024 KV load abc_text_chunks with 0 records
+2025-11-03 15:30:50,382 - lightrag - INFO - Process 27024 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:30:50,392 - lightrag - INFO - Process 27024 doc status load abc_doc_status with 1 records
+2025-11-03 15:30:50,400 - lightrag - INFO - Process 27024 doc status load abc_doc_status with 1 records
+2025-11-03 15:30:50,436 - lightrag - INFO - Created new empty graph
+2025-11-03 15:30:50,457 - lightrag - INFO - Process 27024 KV load bac_full_docs with 0 records
+2025-11-03 15:30:50,459 - lightrag - INFO - Process 27024 KV load bac_text_chunks with 0 records
+2025-11-03 15:30:50,459 - lightrag - INFO - Process 27024 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:30:50,460 - lightrag - INFO - Process 27024 doc status load bac_doc_status with 0 records
+2025-11-03 15:30:50,461 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:30:50,464 - lightrag - INFO - Process 27024 doc status load bac_doc_status with 0 records
+2025-11-03 15:30:50,466 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:31:46,041 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:31:53,603 - lightrag - INFO - Created new empty graph
+2025-11-03 15:31:53,660 - lightrag - INFO - Process 27415 KV load abc_full_docs with 0 records
+2025-11-03 15:31:53,663 - lightrag - INFO - Process 27415 KV load abc_text_chunks with 0 records
+2025-11-03 15:31:53,665 - lightrag - INFO - Process 27415 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:31:53,674 - lightrag - INFO - Process 27415 doc status load abc_doc_status with 1 records
+2025-11-03 15:31:53,683 - lightrag - INFO - Process 27415 doc status load abc_doc_status with 1 records
+2025-11-03 15:31:53,725 - lightrag - INFO - Created new empty graph
+2025-11-03 15:31:53,757 - lightrag - INFO - Process 27415 KV load bac_full_docs with 0 records
+2025-11-03 15:31:53,768 - lightrag - INFO - Process 27415 KV load bac_text_chunks with 0 records
+2025-11-03 15:31:53,771 - lightrag - INFO - Process 27415 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:31:53,774 - lightrag - INFO - Process 27415 doc status load bac_doc_status with 0 records
+2025-11-03 15:31:53,775 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:31:53,778 - lightrag - INFO - Process 27415 doc status load bac_doc_status with 0 records
+2025-11-03 15:31:53,780 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:32:55,252 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:33:02,782 - lightrag - INFO - Created new empty graph
+2025-11-03 15:33:02,835 - lightrag - INFO - Process 27767 KV load abc_full_docs with 0 records
+2025-11-03 15:33:02,839 - lightrag - INFO - Process 27767 KV load abc_text_chunks with 0 records
+2025-11-03 15:33:02,844 - lightrag - INFO - Process 27767 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:33:02,854 - lightrag - INFO - Process 27767 doc status load abc_doc_status with 1 records
+2025-11-03 15:33:02,864 - lightrag - INFO - Process 27767 doc status load abc_doc_status with 1 records
+2025-11-03 15:33:02,897 - lightrag - INFO - Created new empty graph
+2025-11-03 15:33:02,914 - lightrag - INFO - Process 27767 KV load bac_full_docs with 0 records
+2025-11-03 15:33:02,917 - lightrag - INFO - Process 27767 KV load bac_text_chunks with 0 records
+2025-11-03 15:33:02,920 - lightrag - INFO - Process 27767 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:33:02,923 - lightrag - INFO - Process 27767 doc status load bac_doc_status with 0 records
+2025-11-03 15:33:02,923 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:33:02,926 - lightrag - INFO - Process 27767 doc status load bac_doc_status with 0 records
+2025-11-03 15:33:02,927 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:33:56,942 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:34:04,006 - lightrag - INFO - Created new empty graph
+2025-11-03 15:34:04,062 - lightrag - INFO - Process 28069 KV load abc_full_docs with 0 records
+2025-11-03 15:34:04,064 - lightrag - INFO - Process 28069 KV load abc_text_chunks with 0 records
+2025-11-03 15:34:04,065 - lightrag - INFO - Process 28069 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:34:04,070 - lightrag - INFO - Process 28069 doc status load abc_doc_status with 1 records
+2025-11-03 15:34:04,080 - lightrag - INFO - Process 28069 doc status load abc_doc_status with 1 records
+2025-11-03 15:34:04,112 - lightrag - INFO - Created new empty graph
+2025-11-03 15:34:04,133 - lightrag - INFO - Process 28069 KV load bac_full_docs with 0 records
+2025-11-03 15:34:04,135 - lightrag - INFO - Process 28069 KV load bac_text_chunks with 0 records
+2025-11-03 15:34:04,138 - lightrag - INFO - Process 28069 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:34:04,142 - lightrag - INFO - Process 28069 doc status load bac_doc_status with 0 records
+2025-11-03 15:34:04,142 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:34:04,145 - lightrag - INFO - Process 28069 doc status load bac_doc_status with 0 records
+2025-11-03 15:34:04,146 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:36:25,016 - lightrag - INFO - Created new empty graph
+2025-11-03 15:36:25,060 - lightrag - INFO - Process 30223 KV load abc_full_docs with 0 records
+2025-11-03 15:36:25,062 - lightrag - INFO - Process 30223 KV load abc_text_chunks with 0 records
+2025-11-03 15:36:25,063 - lightrag - INFO - Process 30223 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:36:25,070 - lightrag - INFO - Process 30223 doc status load abc_doc_status with 1 records
+2025-11-03 15:36:25,077 - lightrag - INFO - Process 30223 doc status load abc_doc_status with 1 records
+2025-11-03 15:36:25,100 - lightrag - INFO - Created new empty graph
+2025-11-03 15:36:25,123 - lightrag - INFO - Process 30223 KV load bac_full_docs with 0 records
+2025-11-03 15:36:25,125 - lightrag - INFO - Process 30223 KV load bac_text_chunks with 0 records
+2025-11-03 15:36:25,127 - lightrag - INFO - Process 30223 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:36:25,130 - lightrag - INFO - Process 30223 doc status load bac_doc_status with 0 records
+2025-11-03 15:36:25,130 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:36:25,133 - lightrag - INFO - Process 30223 doc status load bac_doc_status with 0 records
+2025-11-03 15:36:25,135 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:38:41,397 - lightrag - INFO - Created new empty graph
+2025-11-03 15:38:41,440 - lightrag - INFO - Process 31230 KV load abc_full_docs with 0 records
+2025-11-03 15:38:41,442 - lightrag - INFO - Process 31230 KV load abc_text_chunks with 0 records
+2025-11-03 15:38:41,444 - lightrag - INFO - Process 31230 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:38:41,451 - lightrag - INFO - Process 31230 doc status load abc_doc_status with 1 records
+2025-11-03 15:38:41,461 - lightrag - INFO - Process 31230 doc status load abc_doc_status with 1 records
+2025-11-03 15:38:41,488 - lightrag - INFO - Created new empty graph
+2025-11-03 15:38:41,510 - lightrag - INFO - Process 31230 KV load bac_full_docs with 0 records
+2025-11-03 15:38:41,512 - lightrag - INFO - Process 31230 KV load bac_text_chunks with 0 records
+2025-11-03 15:38:41,516 - lightrag - INFO - Process 31230 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:38:41,518 - lightrag - INFO - Process 31230 doc status load bac_doc_status with 0 records
+2025-11-03 15:38:41,518 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:38:41,520 - lightrag - INFO - Process 31230 doc status load bac_doc_status with 0 records
+2025-11-03 15:38:41,522 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:41:37,858 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:41:46,395 - lightrag - INFO - Created new empty graph
+2025-11-03 15:41:46,431 - lightrag - INFO - Process 31949 KV load abc_full_docs with 0 records
+2025-11-03 15:41:46,433 - lightrag - INFO - Process 31949 KV load abc_text_chunks with 0 records
+2025-11-03 15:41:46,436 - lightrag - INFO - Process 31949 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:41:46,444 - lightrag - INFO - Process 31949 doc status load abc_doc_status with 1 records
+2025-11-03 15:41:46,451 - lightrag - INFO - Process 31949 doc status load abc_doc_status with 1 records
+2025-11-03 15:41:46,477 - lightrag - INFO - Created new empty graph
+2025-11-03 15:41:46,499 - lightrag - INFO - Process 31949 KV load bac_full_docs with 0 records
+2025-11-03 15:41:46,501 - lightrag - INFO - Process 31949 KV load bac_text_chunks with 0 records
+2025-11-03 15:41:46,503 - lightrag - INFO - Process 31949 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:41:46,508 - lightrag - INFO - Process 31949 doc status load bac_doc_status with 0 records
+2025-11-03 15:41:46,509 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:41:46,511 - lightrag - INFO - Process 31949 doc status load bac_doc_status with 0 records
+2025-11-03 15:41:46,513 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:41:51,503 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:41:57,854 - lightrag - INFO - Created new empty graph
+2025-11-03 15:41:57,893 - lightrag - INFO - Process 32058 KV load abc_full_docs with 0 records
+2025-11-03 15:41:57,897 - lightrag - INFO - Process 32058 KV load abc_text_chunks with 0 records
+2025-11-03 15:41:57,900 - lightrag - INFO - Process 32058 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:41:57,909 - lightrag - INFO - Process 32058 doc status load abc_doc_status with 1 records
+2025-11-03 15:41:57,916 - lightrag - INFO - Process 32058 doc status load abc_doc_status with 1 records
+2025-11-03 15:41:57,945 - lightrag - INFO - Created new empty graph
+2025-11-03 15:41:57,965 - lightrag - INFO - Process 32058 KV load bac_full_docs with 0 records
+2025-11-03 15:41:57,967 - lightrag - INFO - Process 32058 KV load bac_text_chunks with 0 records
+2025-11-03 15:41:57,970 - lightrag - INFO - Process 32058 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:41:57,972 - lightrag - INFO - Process 32058 doc status load bac_doc_status with 0 records
+2025-11-03 15:41:57,972 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:41:57,974 - lightrag - INFO - Process 32058 doc status load bac_doc_status with 0 records
+2025-11-03 15:41:57,976 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:43:01,037 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:43:07,968 - lightrag - INFO - Created new empty graph
+2025-11-03 15:43:08,028 - lightrag - INFO - Process 32362 KV load abc_full_docs with 0 records
+2025-11-03 15:43:08,031 - lightrag - INFO - Process 32362 KV load abc_text_chunks with 0 records
+2025-11-03 15:43:08,033 - lightrag - INFO - Process 32362 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:43:08,041 - lightrag - INFO - Process 32362 doc status load abc_doc_status with 1 records
+2025-11-03 15:43:08,048 - lightrag - INFO - Process 32362 doc status load abc_doc_status with 1 records
+2025-11-03 15:43:08,067 - lightrag - INFO - Created new empty graph
+2025-11-03 15:43:08,088 - lightrag - INFO - Process 32362 KV load bac_full_docs with 0 records
+2025-11-03 15:43:08,091 - lightrag - INFO - Process 32362 KV load bac_text_chunks with 0 records
+2025-11-03 15:43:08,093 - lightrag - INFO - Process 32362 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:43:08,095 - lightrag - INFO - Process 32362 doc status load bac_doc_status with 0 records
+2025-11-03 15:43:08,096 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:43:08,098 - lightrag - INFO - Process 32362 doc status load bac_doc_status with 0 records
+2025-11-03 15:43:08,100 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:49:38,450 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:49:45,173 - lightrag - INFO - Created new empty graph
+2025-11-03 15:49:45,226 - lightrag - INFO - Process 33560 KV load abc_full_docs with 0 records
+2025-11-03 15:49:45,230 - lightrag - INFO - Process 33560 KV load abc_text_chunks with 0 records
+2025-11-03 15:49:45,233 - lightrag - INFO - Process 33560 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:49:45,244 - lightrag - INFO - Process 33560 doc status load abc_doc_status with 1 records
+2025-11-03 15:49:45,254 - lightrag - INFO - Process 33560 doc status load abc_doc_status with 1 records
+2025-11-03 15:49:45,293 - lightrag - INFO - Created new empty graph
+2025-11-03 15:49:45,324 - lightrag - INFO - Process 33560 KV load bac_full_docs with 0 records
+2025-11-03 15:49:45,328 - lightrag - INFO - Process 33560 KV load bac_text_chunks with 0 records
+2025-11-03 15:49:45,331 - lightrag - INFO - Process 33560 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:49:45,334 - lightrag - INFO - Process 33560 doc status load bac_doc_status with 0 records
+2025-11-03 15:49:45,334 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:49:45,339 - lightrag - INFO - Process 33560 doc status load bac_doc_status with 0 records
+2025-11-03 15:49:45,342 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:50:28,786 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:51:02,035 - lightrag - INFO - Created new empty graph
+2025-11-03 15:51:02,071 - lightrag - INFO - Process 33934 KV load abc_full_docs with 0 records
+2025-11-03 15:51:02,073 - lightrag - INFO - Process 33934 KV load abc_text_chunks with 0 records
+2025-11-03 15:51:02,075 - lightrag - INFO - Process 33934 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:51:02,080 - lightrag - INFO - Process 33934 doc status load abc_doc_status with 1 records
+2025-11-03 15:51:02,088 - lightrag - INFO - Process 33934 doc status load abc_doc_status with 1 records
+2025-11-03 15:51:02,109 - lightrag - INFO - Created new empty graph
+2025-11-03 15:51:02,129 - lightrag - INFO - Process 33934 KV load bac_full_docs with 0 records
+2025-11-03 15:51:02,131 - lightrag - INFO - Process 33934 KV load bac_text_chunks with 0 records
+2025-11-03 15:51:02,134 - lightrag - INFO - Process 33934 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:51:02,135 - lightrag - INFO - Process 33934 doc status load bac_doc_status with 0 records
+2025-11-03 15:51:02,136 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:51:02,138 - lightrag - INFO - Process 33934 doc status load bac_doc_status with 0 records
+2025-11-03 15:51:02,139 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:55:09,196 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-03 15:55:17,597 - lightrag - INFO - Created new empty graph
+2025-11-03 15:55:17,633 - lightrag - INFO - Process 34809 KV load abc_full_docs with 0 records
+2025-11-03 15:55:17,635 - lightrag - INFO - Process 34809 KV load abc_text_chunks with 0 records
+2025-11-03 15:55:17,637 - lightrag - INFO - Process 34809 KV load abc_llm_response_cache with 0 records
+2025-11-03 15:55:17,644 - lightrag - INFO - Process 34809 doc status load abc_doc_status with 1 records
+2025-11-03 15:55:17,651 - lightrag - INFO - Process 34809 doc status load abc_doc_status with 1 records
+2025-11-03 15:55:17,678 - lightrag - INFO - Created new empty graph
+2025-11-03 15:55:17,701 - lightrag - INFO - Process 34809 KV load bac_full_docs with 0 records
+2025-11-03 15:55:17,705 - lightrag - INFO - Process 34809 KV load bac_text_chunks with 0 records
+2025-11-03 15:55:17,707 - lightrag - INFO - Process 34809 KV load bac_llm_response_cache with 0 records
+2025-11-03 15:55:17,709 - lightrag - INFO - Process 34809 doc status load bac_doc_status with 0 records
+2025-11-03 15:55:17,710 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:55:17,712 - lightrag - INFO - Process 34809 doc status load bac_doc_status with 0 records
+2025-11-03 15:55:17,714 - lightrag - INFO - Storage Initialization completed!
+2025-11-03 15:55:28,632 - lightrag - INFO - No new unique documents were found.
+2025-11-03 15:55:28,632 - lightrag - INFO - Processing 1 document(s)
+2025-11-03 15:55:28,633 - lightrag - INFO - Extracting stage 1/1: /abc/thelastquestion.txt/
+2025-11-03 15:55:28,634 - lightrag - INFO - Processing d-id: thelastquestion.txt
+2025-11-03 15:55:28,645 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-11-03 15:56:28,934 - lightrag - ERROR - limit_async: Error in decorated function: RetryError[<Future at 0x751031db9d10 state=finished raised APITimeoutError>]
+2025-11-03 15:56:28,966 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/_base_client.py", line 1519, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/llm/openai.py", line 497, in openai_embed
+    response = await openai_async_client.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, input=texts, encoding_format="float"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/resources/embeddings.py", line 245, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/_base_client.py", line 1784, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/openai/_base_client.py", line 1537, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/lightrag.py", line 1072, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/kg/nano_vector_db_impl.py", line 119, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/utils.py", line 610, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/utils.py", line 394, in worker
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/b/schoolwork/big_data/app/core/light_rag/utils.py", line 240, in __call__
+    return await self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/hungn/anaconda3/envs/chat-api/lib/python3.13/site-packages/tenacity/__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x751031db9d10 state=finished raised APITimeoutError>]
+
+2025-11-03 15:56:28,967 - lightrag - ERROR - Failed to extract document 1/1: /abc/thelastquestion.txt/
+2025-11-03 15:56:28,985 - lightrag - INFO - Document processing pipeline completed
