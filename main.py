@@ -54,7 +54,7 @@ app = FastAPI(
 
 
 app.include_router(api_router, prefix=settings.API_V1_STR)
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/static", StaticFiles(directory="static", html=True), name="static")
 
 subapp = APIRouter()
 
@@ -74,9 +74,5 @@ async def knowledge_page(request: Request, kb: str):
         "knowledge_detail.html",
         {"request": request, "kb": kb, "title": f"Knowledge: {kb}"}
     )
-
-@subapp.get("/upload", tags=["UI"], response_class=HTMLResponse)
-async def upload_page(request: Request):
-    return templates.TemplateResponse("upload.html", {"request": request, "title": "Upload File"})
 
 app.include_router(subapp)

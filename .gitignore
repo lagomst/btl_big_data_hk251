@@ -1,2 +1,5 @@
 /.env
 /start-server.sh
+*.log
+knowledges/
+__pycache__/

@@ -1,0 +1,148 @@
+/* Shared application styles
+   - Use on all pages by linking /static/css/app.css
+   - Provides: san-serif headings, navbar, transparent background placeholder, and upload progress bar
+*/
+
+:root{
+  --primary:#2563eb; /* blue-600 */
+  --accent:#10b981; /* green-500 */
+  --muted:#6b7280; /* gray-500 */
+  --bg-overlay: rgba(255,255,255,0.55);
+  --glass-bg: rgba(255,255,255,0.6);
+  --card-shadow: 0 8px 24px rgba(16,24,40,0.06);
+  --radius: 10px;
+}
+
+/* Font stack: modern sans-serif for titles and descriptions */
+h1,h2,h3,.kb-name,.kb-description,.title {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  color: #111827; /* gray-900 */
+  margin-left: 2rem;   /* shifts the entire element right */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: #374151; /* gray-700 */
+  background-color: #f8fafc; /* light neutral */
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  /* Transparent background image placeholder - set `--bg-image` on body inline or via CSS */
+  --bg-image: none; /* set to `url("/static/img/my-bg.jpg")` when you add an image */
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 2rem;   /* shifts the entire element right */
+}
+
+/* A transparent overlay so text remains readable over any background image.
+   Use the class `.with-bg-overlay` on a top-level wrapper to enable the overlay. */
+.with-bg-overlay::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.35), rgba(255,255,255,0.55));
+  pointer-events: none;
+}
+
+/* Navbar */
+.navbar, header nav {
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.6); /* slightly translucent */
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(15,23,42,0.04);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+.navbar .brand {
+  font-weight:700;
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin-right: 1rem;
+}
+
+.navbar a, header nav a {
+  text-decoration:none;
+  color: #111827;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  transition: background-color .15s ease, color .15s ease;
+}
+
+.navbar a:hover, header nav a:hover{
+  background: rgba(37,99,235,0.08);
+}
+
+.navbar .nav-actions {
+  margin-left: auto;
+  display:flex;
+  gap:0.5rem;
+}
+
+/* Container helpers */
+.container {
+  max-width: 1100px;
+  margin: 1.25rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: var(--glass-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  padding: 1rem;
+  border: 1px solid rgba(15,23,42,0.03);
+}
+
+/* Upload progress bar */
+.upload-container {
+  width: 100%;
+  background: rgba(15,23,42,0.04);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(15,23,42,0.02);
+  height: 14px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--primary), #4f46e5);
+  transition: width 300ms ease;
+}
+
+/* Indeterminate state (unknown duration) */
+.progress-bar.indeterminate{
+  position:relative;
+  min-width: 30%;
+  animation: indeterminate 1.4s infinite linear;
+  transform-origin: left center;
+}
+
+@keyframes indeterminate{
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Small utilities */
+.row { display:flex; gap:1rem; align-items:center; }
+.col { display:flex; flex-direction:column; gap:.5rem; }
+.text-muted { color: var(--muted); }
+.btn { display:inline-block; padding:.45rem .9rem; border-radius:8px; text-decoration:none; border:none; cursor:pointer; }
+.btn-primary { background:var(--primary); color:white; }
+.btn-ghost { background:transparent; color:var(--primary); border:1px solid rgba(37,99,235,0.08); }
+
+/* Responsive tweaks */
+@media (max-width: 768px){
+  .container { padding: 0 0.75rem; }
+  .navbar { padding: .6rem .75rem; }
+}
+

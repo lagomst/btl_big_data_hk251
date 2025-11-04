@@ -834,3 +834,478 @@ tenacity.RetryError: RetryError[<Future at 0x751031db9d10 state=finished raised 
 
 2025-11-03 15:56:28,967 - lightrag - ERROR - Failed to extract document 1/1: /abc/thelastquestion.txt/
 2025-11-03 15:56:28,985 - lightrag - INFO - Document processing pipeline completed
+2025-11-03 15:57:00,002 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:29:47,813 - lightrag - INFO - Created new empty graph
+2025-11-04 02:29:47,889 - lightrag - INFO - Process 5211 KV load abc_full_docs with 0 records
+2025-11-04 02:29:47,891 - lightrag - INFO - Process 5211 KV load abc_text_chunks with 0 records
+2025-11-04 02:29:47,894 - lightrag - INFO - Process 5211 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:29:47,915 - lightrag - INFO - Process 5211 doc status load abc_doc_status with 1 records
+2025-11-04 02:29:47,922 - lightrag - INFO - Process 5211 doc status load abc_doc_status with 1 records
+2025-11-04 02:29:47,946 - lightrag - INFO - Created new empty graph
+2025-11-04 02:29:47,961 - lightrag - INFO - Process 5211 KV load bac_full_docs with 0 records
+2025-11-04 02:29:47,963 - lightrag - INFO - Process 5211 KV load bac_text_chunks with 0 records
+2025-11-04 02:29:47,965 - lightrag - INFO - Process 5211 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:29:47,966 - lightrag - INFO - Process 5211 doc status load bac_doc_status with 0 records
+2025-11-04 02:29:47,966 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:29:47,968 - lightrag - INFO - Process 5211 doc status load bac_doc_status with 0 records
+2025-11-04 02:29:47,969 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:46:02,653 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:46:14,716 - lightrag - INFO - Created new empty graph
+2025-11-04 02:46:14,811 - lightrag - INFO - Process 8633 KV load abc_full_docs with 0 records
+2025-11-04 02:46:14,814 - lightrag - INFO - Process 8633 KV load abc_text_chunks with 0 records
+2025-11-04 02:46:14,817 - lightrag - INFO - Process 8633 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:46:14,839 - lightrag - INFO - Process 8633 doc status load abc_doc_status with 1 records
+2025-11-04 02:46:14,849 - lightrag - INFO - Process 8633 doc status load abc_doc_status with 1 records
+2025-11-04 02:46:14,870 - lightrag - INFO - Created new empty graph
+2025-11-04 02:46:14,899 - lightrag - INFO - Process 8633 KV load bac_full_docs with 0 records
+2025-11-04 02:46:14,902 - lightrag - INFO - Process 8633 KV load bac_text_chunks with 0 records
+2025-11-04 02:46:14,905 - lightrag - INFO - Process 8633 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:46:14,909 - lightrag - INFO - Process 8633 doc status load bac_doc_status with 0 records
+2025-11-04 02:46:14,909 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:46:14,912 - lightrag - INFO - Process 8633 doc status load bac_doc_status with 0 records
+2025-11-04 02:46:14,913 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:51:03,709 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:51:08,156 - lightrag - INFO - Created new empty graph
+2025-11-04 02:51:08,284 - lightrag - INFO - Process 9549 KV load abc_full_docs with 0 records
+2025-11-04 02:51:08,294 - lightrag - INFO - Process 9549 KV load abc_text_chunks with 0 records
+2025-11-04 02:51:08,304 - lightrag - INFO - Process 9549 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:51:08,326 - lightrag - INFO - Process 9549 doc status load abc_doc_status with 1 records
+2025-11-04 02:51:08,338 - lightrag - INFO - Process 9549 doc status load abc_doc_status with 1 records
+2025-11-04 02:51:08,389 - lightrag - INFO - Created new empty graph
+2025-11-04 02:51:08,432 - lightrag - INFO - Process 9549 KV load bac_full_docs with 0 records
+2025-11-04 02:51:08,435 - lightrag - INFO - Process 9549 KV load bac_text_chunks with 0 records
+2025-11-04 02:51:08,439 - lightrag - INFO - Process 9549 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:51:08,444 - lightrag - INFO - Process 9549 doc status load bac_doc_status with 0 records
+2025-11-04 02:51:08,445 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:51:08,449 - lightrag - INFO - Process 9549 doc status load bac_doc_status with 0 records
+2025-11-04 02:51:08,451 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:51:57,772 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:52:01,786 - lightrag - INFO - Created new empty graph
+2025-11-04 02:52:01,839 - lightrag - INFO - Process 9795 KV load abc_full_docs with 0 records
+2025-11-04 02:52:01,841 - lightrag - INFO - Process 9795 KV load abc_text_chunks with 0 records
+2025-11-04 02:52:01,842 - lightrag - INFO - Process 9795 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:52:01,849 - lightrag - INFO - Process 9795 doc status load abc_doc_status with 1 records
+2025-11-04 02:52:01,856 - lightrag - INFO - Process 9795 doc status load abc_doc_status with 1 records
+2025-11-04 02:52:01,887 - lightrag - INFO - Created new empty graph
+2025-11-04 02:52:01,910 - lightrag - INFO - Process 9795 KV load bac_full_docs with 0 records
+2025-11-04 02:52:01,912 - lightrag - INFO - Process 9795 KV load bac_text_chunks with 0 records
+2025-11-04 02:52:01,914 - lightrag - INFO - Process 9795 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:52:01,916 - lightrag - INFO - Process 9795 doc status load bac_doc_status with 0 records
+2025-11-04 02:52:01,916 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:52:01,919 - lightrag - INFO - Process 9795 doc status load bac_doc_status with 0 records
+2025-11-04 02:52:01,920 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:52:04,400 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:52:12,372 - lightrag - INFO - Created new empty graph
+2025-11-04 02:52:12,407 - lightrag - INFO - Process 9928 KV load abc_full_docs with 0 records
+2025-11-04 02:52:12,409 - lightrag - INFO - Process 9928 KV load abc_text_chunks with 0 records
+2025-11-04 02:52:12,411 - lightrag - INFO - Process 9928 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:52:12,418 - lightrag - INFO - Process 9928 doc status load abc_doc_status with 1 records
+2025-11-04 02:52:12,424 - lightrag - INFO - Process 9928 doc status load abc_doc_status with 1 records
+2025-11-04 02:52:12,448 - lightrag - INFO - Created new empty graph
+2025-11-04 02:52:12,468 - lightrag - INFO - Process 9928 KV load bac_full_docs with 0 records
+2025-11-04 02:52:12,469 - lightrag - INFO - Process 9928 KV load bac_text_chunks with 0 records
+2025-11-04 02:52:12,471 - lightrag - INFO - Process 9928 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:52:12,473 - lightrag - INFO - Process 9928 doc status load bac_doc_status with 0 records
+2025-11-04 02:52:12,474 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:52:12,476 - lightrag - INFO - Process 9928 doc status load bac_doc_status with 0 records
+2025-11-04 02:52:12,477 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:56:20,140 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:56:23,927 - lightrag - INFO - Created new empty graph
+2025-11-04 02:56:23,969 - lightrag - INFO - Process 10735 KV load abc_full_docs with 0 records
+2025-11-04 02:56:23,971 - lightrag - INFO - Process 10735 KV load abc_text_chunks with 0 records
+2025-11-04 02:56:23,973 - lightrag - INFO - Process 10735 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:56:23,979 - lightrag - INFO - Process 10735 doc status load abc_doc_status with 1 records
+2025-11-04 02:56:23,984 - lightrag - INFO - Process 10735 doc status load abc_doc_status with 1 records
+2025-11-04 02:56:24,009 - lightrag - INFO - Created new empty graph
+2025-11-04 02:56:24,027 - lightrag - INFO - Process 10735 KV load bac_full_docs with 0 records
+2025-11-04 02:56:24,029 - lightrag - INFO - Process 10735 KV load bac_text_chunks with 0 records
+2025-11-04 02:56:24,031 - lightrag - INFO - Process 10735 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:56:24,033 - lightrag - INFO - Process 10735 doc status load bac_doc_status with 0 records
+2025-11-04 02:56:24,033 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:56:24,036 - lightrag - INFO - Process 10735 doc status load bac_doc_status with 0 records
+2025-11-04 02:56:24,037 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:56:29,918 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:56:36,924 - lightrag - INFO - Created new empty graph
+2025-11-04 02:56:36,965 - lightrag - INFO - Process 10867 KV load abc_full_docs with 0 records
+2025-11-04 02:56:36,967 - lightrag - INFO - Process 10867 KV load abc_text_chunks with 0 records
+2025-11-04 02:56:36,969 - lightrag - INFO - Process 10867 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:56:36,974 - lightrag - INFO - Process 10867 doc status load abc_doc_status with 1 records
+2025-11-04 02:56:36,981 - lightrag - INFO - Process 10867 doc status load abc_doc_status with 1 records
+2025-11-04 02:56:37,004 - lightrag - INFO - Created new empty graph
+2025-11-04 02:56:37,025 - lightrag - INFO - Process 10867 KV load bac_full_docs with 0 records
+2025-11-04 02:56:37,028 - lightrag - INFO - Process 10867 KV load bac_text_chunks with 0 records
+2025-11-04 02:56:37,030 - lightrag - INFO - Process 10867 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:56:37,031 - lightrag - INFO - Process 10867 doc status load bac_doc_status with 0 records
+2025-11-04 02:56:37,032 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:56:37,034 - lightrag - INFO - Process 10867 doc status load bac_doc_status with 0 records
+2025-11-04 02:56:37,036 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:57:48,462 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 02:57:56,038 - lightrag - INFO - Created new empty graph
+2025-11-04 02:57:56,086 - lightrag - INFO - Process 11201 KV load abc_full_docs with 0 records
+2025-11-04 02:57:56,089 - lightrag - INFO - Process 11201 KV load abc_text_chunks with 0 records
+2025-11-04 02:57:56,091 - lightrag - INFO - Process 11201 KV load abc_llm_response_cache with 0 records
+2025-11-04 02:57:56,098 - lightrag - INFO - Process 11201 doc status load abc_doc_status with 1 records
+2025-11-04 02:57:56,105 - lightrag - INFO - Process 11201 doc status load abc_doc_status with 1 records
+2025-11-04 02:57:56,131 - lightrag - INFO - Created new empty graph
+2025-11-04 02:57:56,153 - lightrag - INFO - Process 11201 KV load bac_full_docs with 0 records
+2025-11-04 02:57:56,155 - lightrag - INFO - Process 11201 KV load bac_text_chunks with 0 records
+2025-11-04 02:57:56,157 - lightrag - INFO - Process 11201 KV load bac_llm_response_cache with 0 records
+2025-11-04 02:57:56,159 - lightrag - INFO - Process 11201 doc status load bac_doc_status with 0 records
+2025-11-04 02:57:56,159 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 02:57:56,162 - lightrag - INFO - Process 11201 doc status load bac_doc_status with 0 records
+2025-11-04 02:57:56,164 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:01:31,632 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 03:01:43,102 - lightrag - INFO - Created new empty graph
+2025-11-04 03:01:43,156 - lightrag - INFO - Process 11915 KV load abc_full_docs with 0 records
+2025-11-04 03:01:43,159 - lightrag - INFO - Process 11915 KV load abc_text_chunks with 0 records
+2025-11-04 03:01:43,162 - lightrag - INFO - Process 11915 KV load abc_llm_response_cache with 0 records
+2025-11-04 03:01:43,173 - lightrag - INFO - Process 11915 doc status load abc_doc_status with 1 records
+2025-11-04 03:01:43,183 - lightrag - INFO - Process 11915 doc status load abc_doc_status with 1 records
+2025-11-04 03:01:43,221 - lightrag - INFO - Created new empty graph
+2025-11-04 03:01:43,244 - lightrag - INFO - Process 11915 KV load bac_full_docs with 0 records
+2025-11-04 03:01:43,248 - lightrag - INFO - Process 11915 KV load bac_text_chunks with 0 records
+2025-11-04 03:01:43,252 - lightrag - INFO - Process 11915 KV load bac_llm_response_cache with 0 records
+2025-11-04 03:01:43,254 - lightrag - INFO - Process 11915 doc status load bac_doc_status with 0 records
+2025-11-04 03:01:43,255 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:01:43,257 - lightrag - INFO - Process 11915 doc status load bac_doc_status with 0 records
+2025-11-04 03:01:43,258 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:09:20,354 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 03:09:28,532 - lightrag - INFO - Created new empty graph
+2025-11-04 03:09:28,575 - lightrag - INFO - Process 13335 KV load abc_full_docs with 0 records
+2025-11-04 03:09:28,576 - lightrag - INFO - Process 13335 KV load abc_text_chunks with 0 records
+2025-11-04 03:09:28,579 - lightrag - INFO - Process 13335 KV load abc_llm_response_cache with 0 records
+2025-11-04 03:09:28,587 - lightrag - INFO - Process 13335 doc status load abc_doc_status with 1 records
+2025-11-04 03:09:28,595 - lightrag - INFO - Process 13335 doc status load abc_doc_status with 1 records
+2025-11-04 03:09:28,621 - lightrag - INFO - Created new empty graph
+2025-11-04 03:09:28,644 - lightrag - INFO - Process 13335 KV load bac_full_docs with 0 records
+2025-11-04 03:09:28,647 - lightrag - INFO - Process 13335 KV load bac_text_chunks with 0 records
+2025-11-04 03:09:28,649 - lightrag - INFO - Process 13335 KV load bac_llm_response_cache with 0 records
+2025-11-04 03:09:28,652 - lightrag - INFO - Process 13335 doc status load bac_doc_status with 0 records
+2025-11-04 03:09:28,652 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:09:28,655 - lightrag - INFO - Process 13335 doc status load bac_doc_status with 0 records
+2025-11-04 03:09:28,656 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:32:29,242 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 03:32:40,704 - lightrag - INFO - Created new empty graph
+2025-11-04 03:32:40,750 - lightrag - INFO - Process 17526 KV load abc_full_docs with 0 records
+2025-11-04 03:32:40,755 - lightrag - INFO - Process 17526 KV load abc_text_chunks with 0 records
+2025-11-04 03:32:40,759 - lightrag - INFO - Process 17526 KV load abc_llm_response_cache with 0 records
+2025-11-04 03:32:40,768 - lightrag - INFO - Process 17526 doc status load abc_doc_status with 1 records
+2025-11-04 03:32:40,778 - lightrag - INFO - Process 17526 doc status load abc_doc_status with 1 records
+2025-11-04 03:32:40,809 - lightrag - INFO - Created new empty graph
+2025-11-04 03:32:40,836 - lightrag - INFO - Process 17526 KV load bac_full_docs with 0 records
+2025-11-04 03:32:40,839 - lightrag - INFO - Process 17526 KV load bac_text_chunks with 0 records
+2025-11-04 03:32:40,843 - lightrag - INFO - Process 17526 KV load bac_llm_response_cache with 0 records
+2025-11-04 03:32:40,846 - lightrag - INFO - Process 17526 doc status load bac_doc_status with 0 records
+2025-11-04 03:32:40,847 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:32:40,850 - lightrag - INFO - Process 17526 doc status load bac_doc_status with 0 records
+2025-11-04 03:32:40,852 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:33:37,642 - lightrag - WARNING - Document statuses not found for the following IDs: ['/abc/thelastquestion.txt/']
+2025-11-04 03:33:37,643 - lightrag - INFO - Starting deletion process for document /abc/thelastquestion.txt/
+2025-11-04 03:33:37,643 - lightrag - WARNING - Document /abc/thelastquestion.txt/ not found
+2025-11-04 03:44:01,307 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 03:44:09,067 - lightrag - INFO - Created new empty graph
+2025-11-04 03:44:09,113 - lightrag - INFO - Process 19620 KV load abc_full_docs with 0 records
+2025-11-04 03:44:09,116 - lightrag - INFO - Process 19620 KV load abc_text_chunks with 0 records
+2025-11-04 03:44:09,119 - lightrag - INFO - Process 19620 KV load abc_llm_response_cache with 0 records
+2025-11-04 03:44:09,131 - lightrag - INFO - Process 19620 doc status load abc_doc_status with 1 records
+2025-11-04 03:44:09,140 - lightrag - INFO - Process 19620 doc status load abc_doc_status with 1 records
+2025-11-04 03:44:09,172 - lightrag - INFO - Created new empty graph
+2025-11-04 03:44:09,196 - lightrag - INFO - Process 19620 KV load bac_full_docs with 0 records
+2025-11-04 03:44:09,198 - lightrag - INFO - Process 19620 KV load bac_text_chunks with 0 records
+2025-11-04 03:44:09,200 - lightrag - INFO - Process 19620 KV load bac_llm_response_cache with 0 records
+2025-11-04 03:44:09,202 - lightrag - INFO - Process 19620 doc status load bac_doc_status with 0 records
+2025-11-04 03:44:09,202 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:44:09,206 - lightrag - INFO - Process 19620 doc status load bac_doc_status with 0 records
+2025-11-04 03:44:09,208 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:45:02,675 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 03:45:09,664 - lightrag - INFO - Created new empty graph
+2025-11-04 03:45:09,720 - lightrag - INFO - Process 19867 KV load abc_full_docs with 0 records
+2025-11-04 03:45:09,723 - lightrag - INFO - Process 19867 KV load abc_text_chunks with 0 records
+2025-11-04 03:45:09,726 - lightrag - INFO - Process 19867 KV load abc_llm_response_cache with 0 records
+2025-11-04 03:45:09,734 - lightrag - INFO - Process 19867 doc status load abc_doc_status with 1 records
+2025-11-04 03:45:09,741 - lightrag - INFO - Process 19867 doc status load abc_doc_status with 1 records
+2025-11-04 03:45:09,768 - lightrag - INFO - Created new empty graph
+2025-11-04 03:45:09,790 - lightrag - INFO - Process 19867 KV load bac_full_docs with 0 records
+2025-11-04 03:45:09,793 - lightrag - INFO - Process 19867 KV load bac_text_chunks with 0 records
+2025-11-04 03:45:09,795 - lightrag - INFO - Process 19867 KV load bac_llm_response_cache with 0 records
+2025-11-04 03:45:09,797 - lightrag - INFO - Process 19867 doc status load bac_doc_status with 0 records
+2025-11-04 03:45:09,798 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:45:09,800 - lightrag - INFO - Process 19867 doc status load bac_doc_status with 0 records
+2025-11-04 03:45:09,802 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:50:09,909 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 03:50:13,795 - lightrag - INFO - Created new empty graph
+2025-11-04 03:50:13,848 - lightrag - INFO - Process 20947 KV load abc_full_docs with 0 records
+2025-11-04 03:50:13,850 - lightrag - INFO - Process 20947 KV load abc_text_chunks with 0 records
+2025-11-04 03:50:13,853 - lightrag - INFO - Process 20947 KV load abc_llm_response_cache with 0 records
+2025-11-04 03:50:13,859 - lightrag - INFO - Process 20947 doc status load abc_doc_status with 1 records
+2025-11-04 03:50:13,865 - lightrag - INFO - Process 20947 doc status load abc_doc_status with 1 records
+2025-11-04 03:50:13,894 - lightrag - INFO - Created new empty graph
+2025-11-04 03:50:13,915 - lightrag - INFO - Process 20947 KV load bac_full_docs with 0 records
+2025-11-04 03:50:13,918 - lightrag - INFO - Process 20947 KV load bac_text_chunks with 0 records
+2025-11-04 03:50:13,921 - lightrag - INFO - Process 20947 KV load bac_llm_response_cache with 0 records
+2025-11-04 03:50:13,923 - lightrag - INFO - Process 20947 doc status load bac_doc_status with 0 records
+2025-11-04 03:50:13,923 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 03:50:13,925 - lightrag - INFO - Process 20947 doc status load bac_doc_status with 0 records
+2025-11-04 03:50:13,927 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:02:40,547 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 04:02:51,883 - lightrag - INFO - Created new empty graph
+2025-11-04 04:02:51,958 - lightrag - INFO - Process 23417 KV load abc_full_docs with 0 records
+2025-11-04 04:02:51,961 - lightrag - INFO - Process 23417 KV load abc_text_chunks with 0 records
+2025-11-04 04:02:51,966 - lightrag - INFO - Process 23417 KV load abc_llm_response_cache with 0 records
+2025-11-04 04:02:51,980 - lightrag - INFO - Process 23417 doc status load abc_doc_status with 1 records
+2025-11-04 04:02:51,994 - lightrag - INFO - Process 23417 doc status load abc_doc_status with 1 records
+2025-11-04 04:02:52,035 - lightrag - INFO - Created new empty graph
+2025-11-04 04:02:52,059 - lightrag - INFO - Process 23417 KV load bac_full_docs with 0 records
+2025-11-04 04:02:52,060 - lightrag - INFO - Process 23417 KV load bac_text_chunks with 0 records
+2025-11-04 04:02:52,062 - lightrag - INFO - Process 23417 KV load bac_llm_response_cache with 0 records
+2025-11-04 04:02:52,064 - lightrag - INFO - Process 23417 doc status load bac_doc_status with 0 records
+2025-11-04 04:02:52,064 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:02:52,068 - lightrag - INFO - Process 23417 doc status load bac_doc_status with 0 records
+2025-11-04 04:02:52,070 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:03:12,550 - lightrag - INFO - Stored 1 new unique documents
+2025-11-04 04:03:12,551 - lightrag - INFO - Processing 2 document(s)
+2025-11-04 04:03:12,552 - lightrag - INFO - Extracting stage 1/2: /abc/thelastquestion.txt/
+2025-11-04 04:03:12,553 - lightrag - INFO - Processing d-id: thelastquestion.txt
+2025-11-04 04:03:12,563 - lightrag - INFO - Extracting stage 2/2: /abc/ff6summary.txt/
+2025-11-04 04:03:12,564 - lightrag - INFO - Processing d-id: ff6summary.txt
+2025-11-04 04:03:12,601 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-11-04 04:03:14,778 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-11-04 04:03:28,098 - lightrag - INFO -  == LLM cache == saving: default:extract:38e6bfa4a23c3b611f84f6cc7f2415f9
+2025-11-04 04:03:29,257 - lightrag - INFO -  == LLM cache == saving: default:extract:2af8849fddc1d77577f21cc150a6ef15
+2025-11-04 04:03:30,818 - lightrag - INFO -  == LLM cache == saving: default:extract:48d694ec9a136d682077f4e5eb8b6c62
+2025-11-04 04:03:33,928 - lightrag - INFO -  == LLM cache == saving: default:extract:687ecc74873ab536ff7084e96cfb949a
+2025-11-04 04:03:41,478 - lightrag - INFO -  == LLM cache == saving: default:extract:efdcc3feb002543aa3c5f0330eca1eb4
+2025-11-04 04:03:41,800 - lightrag - INFO -  == LLM cache == saving: default:extract:1b0a5a07b41efcbc77e69addd637dae5
+2025-11-04 04:03:49,807 - lightrag - INFO -  == LLM cache == saving: default:extract:95c57bb357e370513bbb7cf78ac7d48c
+2025-11-04 04:03:53,864 - lightrag - INFO -  == LLM cache == saving: default:extract:87badcbe572ace95d1c58523d27c9d1b
+2025-11-04 04:03:57,805 - lightrag - ERROR - OpenAI API Connection Error: Request timed out.
+2025-11-04 04:03:58,201 - lightrag - ERROR - OpenAI API Connection Error: Request timed out.
+2025-11-04 04:04:05,995 - lightrag - ERROR - OpenAI API Connection Error: Request timed out.
+2025-11-04 04:04:14,261 - lightrag - ERROR - OpenAI API Connection Error: Request timed out.
+2025-11-04 04:04:22,157 - lightrag - ERROR - OpenAI API Connection Error: Request timed out.
+2025-11-04 04:04:22,511 - lightrag - ERROR - OpenAI API Connection Error: Request timed out.
+2025-11-04 04:04:38,685 - lightrag - INFO -  == LLM cache == saving: default:extract:8832228779df77d3983c4c3ab5cc00ef
+2025-11-04 04:04:38,686 - lightrag - INFO - Chunk 1 of 6 extracted 12 Ent + 12 Rel
+2025-11-04 04:04:39,840 - lightrag - INFO -  == LLM cache == saving: default:extract:b362ba4763a40674426cca441b09b0fc
+2025-11-04 04:04:39,841 - lightrag - INFO - Chunk 2 of 6 extracted 13 Ent + 12 Rel
+2025-11-04 04:04:41,832 - lightrag - INFO -  == LLM cache == saving: default:extract:be69ec7cd1bf4cd7cc0ce3caad9bed44
+2025-11-04 04:04:41,833 - lightrag - INFO - Chunk 3 of 6 extracted 13 Ent + 10 Rel
+2025-11-04 04:04:42,306 - lightrag - INFO -  == LLM cache == saving: default:extract:f18cf9d37e6d6b3b2c1f984b5a71c37d
+2025-11-04 04:04:42,307 - lightrag - INFO - Chunk 4 of 6 extracted 12 Ent + 8 Rel
+2025-11-04 04:04:56,369 - lightrag - INFO -  == LLM cache == saving: default:extract:378fe6386d2bc0fa3b21cedbc5a728f8
+2025-11-04 04:04:56,370 - lightrag - INFO - Chunk 1 of 14 extracted 17 Ent + 16 Rel
+2025-11-04 04:05:02,469 - lightrag - INFO -  == LLM cache == saving: default:extract:f9e4b7849833e51679535626999b2848
+2025-11-04 04:05:02,470 - lightrag - INFO - Chunk 2 of 14 extracted 28 Ent + 16 Rel
+2025-11-04 04:05:04,716 - lightrag - INFO -  == LLM cache == saving: default:extract:b30e1726058c362ce65f6ec6521a4845
+2025-11-04 04:05:10,157 - lightrag - INFO -  == LLM cache == saving: default:extract:207e497cf506e387145edfd03d265e8d
+2025-11-04 04:05:10,159 - lightrag - INFO - Chunk 3 of 14 extracted 25 Ent + 23 Rel
+2025-11-04 04:05:11,255 - lightrag - INFO -  == LLM cache == saving: default:extract:5a440fd9d4aea129b4090ab0eb2c2e8d
+2025-11-04 04:05:11,257 - lightrag - INFO - Chunk 4 of 14 extracted 19 Ent + 15 Rel
+2025-11-04 04:05:12,091 - lightrag - INFO -  == LLM cache == saving: default:extract:8593f47682b428949364ad6017b1a407
+2025-11-04 04:05:25,974 - lightrag - INFO -  == LLM cache == saving: default:extract:c51fb321cfa424ef2a8f4bb62f8c68d8
+2025-11-04 04:05:29,397 - lightrag - INFO -  == LLM cache == saving: default:extract:7f15379df5e6efff2aadb52cabd77c20
+2025-11-04 04:05:30,943 - lightrag - INFO -  == LLM cache == saving: default:extract:82262c3cd6ce4be068dd53047aaa21fa
+2025-11-04 04:05:30,944 - lightrag - INFO - Chunk 5 of 6 extracted 10 Ent + 9 Rel
+2025-11-04 04:05:33,131 - lightrag - INFO -  == LLM cache == saving: default:extract:0e861093c708531a579947a8b9169d59
+2025-11-04 04:05:37,821 - lightrag - INFO -  == LLM cache == saving: default:extract:7c3004dd56bebe1ec697ce4795b8147f
+2025-11-04 04:05:37,822 - lightrag - INFO - Chunk 6 of 6 extracted 11 Ent + 10 Rel
+2025-11-04 04:05:37,827 - lightrag - INFO - Merging stage 1/2: /abc/thelastquestion.txt/
+2025-11-04 04:05:37,830 - lightrag - INFO - Processing: 56 entities and 53 relations
+2025-11-04 04:05:38,750 - lightrag - INFO - Merge N: Multivac | 2+0
+2025-11-04 04:05:39,264 - lightrag - INFO - Merge N: Earth | 2+0
+2025-11-04 04:05:40,637 - lightrag - INFO - Merge N: Cosmic Explosion | 2+0
+2025-11-04 04:05:41,156 - lightrag - INFO - Merge N: Jerrodd | 2+0
+2025-11-04 04:05:41,357 - lightrag - INFO - Merge N: Jerrodine | 2+0
+2025-11-04 04:05:42,018 - lightrag - INFO - Merge N: Microvac | 2+0
+2025-11-04 04:05:42,114 - lightrag - INFO - Merge N: Entropy | 4+0
+2025-11-04 04:05:42,187 - lightrag - INFO - Merge N: Hyperspace | 2+0
+2025-11-04 04:05:42,582 - lightrag - INFO -  == LLM cache == saving: default:extract:507d4e9a97c765a44dfdaeadcbd154f6
+2025-11-04 04:05:43,380 - lightrag - INFO - Merge N: Galaxy | 2+0
+2025-11-04 04:05:45,007 - lightrag - INFO - Merge N: Zee Prime | 2+0
+2025-11-04 04:05:45,062 - lightrag - INFO - Merge N: Dee Sub Wun | 2+0
+2025-11-04 04:05:45,079 - lightrag - INFO - Merge N: Universal AC | 2+0
+2025-11-04 04:05:46,910 - lightrag - INFO - Merge N: Man | 2+0
+2025-11-04 04:05:49,058 - lightrag - INFO -  == LLM cache == saving: default:extract:7225a731fdd1a80b1be66efbb4d5b6ca
+2025-11-04 04:05:49,059 - lightrag - INFO - Chunk 5 of 14 extracted 24 Ent + 17 Rel
+2025-11-04 04:05:50,048 - lightrag - INFO - Merge E: Adell - Multivac | 2+0
+2025-11-04 04:05:50,238 - lightrag - INFO - Merge E: Adell - Lupov | 2+0
+2025-11-04 04:05:50,941 - lightrag - INFO - Merge E: Cosmic Explosion - Lupov | 2+0
+2025-11-04 04:05:51,475 - lightrag - INFO - Merge E: Jerrodd - Jerrodine | 2+0
+2025-11-04 04:05:51,524 - lightrag - INFO -  == LLM cache == saving: default:extract:c11c22cf79a7d66ffa23d28270416438
+2025-11-04 04:05:51,526 - lightrag - INFO - Chunk 6 of 14 extracted 21 Ent + 10 Rel
+2025-11-04 04:05:51,577 - lightrag - INFO - Merge E: Jerrodd - Microvac | 2+0
+2025-11-04 04:05:54,721 - lightrag - INFO - Merge E: MQ-17J - VJ-23X | 2+0
+2025-11-04 04:05:54,906 - lightrag - INFO - Merge E: Dee Sub Wun - Zee Prime | 2+0
+2025-11-04 04:05:57,973 - lightrag - INFO - Merge E: Universal AC - Zee Prime | 2+0
+2025-11-04 04:05:59,010 - lightrag - INFO -  == LLM cache == saving: default:extract:3e5db60d88414824c8f044a4f153724a
+2025-11-04 04:05:59,011 - lightrag - INFO - Chunk 7 of 14 extracted 16 Ent + 13 Rel
+2025-11-04 04:06:02,413 - lightrag - INFO -  == LLM cache == saving: default:extract:b6bd4aeca6dbca94fd65c1a0d431ae4f
+2025-11-04 04:06:02,415 - lightrag - INFO - Chunk 8 of 14 extracted 15 Ent + 11 Rel
+2025-11-04 04:06:03,194 - lightrag - INFO - Writing graph with 57 nodes, 53 edges
+2025-11-04 04:06:03,224 - lightrag - INFO - In memory DB persist to disk
+2025-11-04 04:06:03,225 - lightrag - INFO - Completed processing file 1/2: /abc/thelastquestion.txt/
+2025-11-04 04:06:04,558 - lightrag - INFO -  == LLM cache == saving: default:extract:7cbff9d36cb8faaab18ab77e25a646c7
+2025-11-04 04:06:05,782 - lightrag - INFO -  == LLM cache == saving: default:extract:2437724a023db9e7a74528bcafe396fe
+2025-11-04 04:06:13,763 - lightrag - INFO -  == LLM cache == saving: default:extract:35255c3de0141988dd85b1d08b1c9163
+2025-11-04 04:06:19,395 - lightrag - INFO -  == LLM cache == saving: default:extract:b9ec634c6bedc098a9deabc6819524ab
+2025-11-04 04:06:19,722 - lightrag - INFO -  == LLM cache == saving: default:extract:ec86f43e921208fff8ef4e475359f9b9
+2025-11-04 04:06:19,722 - lightrag - INFO - Chunk 9 of 14 extracted 18 Ent + 13 Rel
+2025-11-04 04:06:20,209 - lightrag - INFO -  == LLM cache == saving: default:extract:ec4feeb3b2b58c1689e7b0a956ad277d
+2025-11-04 04:06:20,210 - lightrag - INFO - Chunk 10 of 14 extracted 16 Ent + 15 Rel
+2025-11-04 04:06:26,844 - lightrag - INFO -  == LLM cache == saving: default:extract:4f2e1eaca88142aaa80c09218397cf40
+2025-11-04 04:06:26,845 - lightrag - INFO - Chunk 11 of 14 extracted 18 Ent + 16 Rel
+2025-11-04 04:06:27,966 - lightrag - INFO -  == LLM cache == saving: default:extract:d688adf29ae556be1a43f02e44a2b85b
+2025-11-04 04:06:32,949 - lightrag - INFO -  == LLM cache == saving: default:extract:f4f24dfc78a9cf0d1d0be4682a649b7e
+2025-11-04 04:06:39,159 - lightrag - INFO -  == LLM cache == saving: default:extract:97e69b7af43d375437200d63497ca1c5
+2025-11-04 04:06:39,161 - lightrag - INFO - Chunk 12 of 14 extracted 9 Ent + 8 Rel
+2025-11-04 04:06:42,953 - lightrag - INFO -  == LLM cache == saving: default:extract:000c92edb304289adf30f1a744379823
+2025-11-04 04:06:42,957 - lightrag - INFO - Chunk 13 of 14 extracted 15 Ent + 13 Rel
+2025-11-04 04:06:52,116 - lightrag - INFO -  == LLM cache == saving: default:extract:4626110b3e47a072b1128a99ef680e34
+2025-11-04 04:06:52,118 - lightrag - INFO - Chunk 14 of 14 extracted 12 Ent + 10 Rel
+2025-11-04 04:06:52,119 - lightrag - INFO - Merging stage 2/2: /abc/ff6summary.txt/
+2025-11-04 04:06:52,120 - lightrag - INFO - Processing: 162 entities and 168 relations
+2025-11-04 04:06:52,161 - lightrag - INFO - LLM merge N: Final Fantasy VI | 9+0
+2025-11-04 04:06:52,163 - lightrag - INFO - Merge N: Yoshinori Kitase | 3+0
+2025-11-04 04:06:52,164 - lightrag - INFO - Merge N: Hiroyuki Itou | 2+0
+2025-11-04 04:06:52,843 - lightrag - INFO - Merge N: Nobuo Uematsu | 3+0
+2025-11-04 04:06:53,040 - lightrag - INFO - Merge N: Yoshitaka Amano | 3+0
+2025-11-04 04:06:53,224 - lightrag - INFO - Merge N: Gestahlian Empire | 3+0
+2025-11-04 04:06:53,538 - lightrag - INFO - LLM merge N: Returners | 6+0
+2025-11-04 04:06:53,748 - lightrag - INFO - Merge N: Terra Branford | 4+0
+2025-11-04 04:06:55,717 - lightrag - INFO -  == LLM cache == saving: default:extract:ca2af061951e5012774b9cd25a4e7eda
+2025-11-04 04:06:56,921 - lightrag - INFO - Merge N: Game Boy Advance | 3+0
+2025-11-04 04:06:57,133 - lightrag - INFO - Merge N: PlayStation | 3+0
+2025-11-04 04:06:57,723 - lightrag - INFO - Merge N: Hironobu Sakaguchi | 2+0
+2025-11-04 04:06:57,787 - lightrag - INFO -  == LLM cache == saving: default:extract:72945595c9094324475d1cf54cb5c93f
+2025-11-04 04:06:58,670 - lightrag - INFO - Merge N: Locke Cole | 2+0
+2025-11-04 04:06:58,878 - lightrag - INFO - Merge N: Edgar Roni Figaro | 2+0
+2025-11-04 04:06:59,250 - lightrag - INFO - Merge N: Sabin Rene Figaro | 2+0
+2025-11-04 04:06:59,579 - lightrag - INFO - Merge N: Cyan Garamonde | 2+0
+2025-11-04 04:06:59,853 - lightrag - INFO - Merge N: Espers | 2+0
+2025-11-04 04:07:00,384 - lightrag - INFO - Merge N: Magicite | 3+0
+2025-11-04 04:07:00,569 - lightrag - INFO - Merge N: Umaro | 3+0
+2025-11-04 04:07:00,631 - lightrag - INFO - Merge N: Gogo | 3+0
+2025-11-04 04:07:01,179 - lightrag - INFO - LLM merge N: Celes | 6+0
+2025-11-04 04:07:01,281 - lightrag - INFO - Merge N: Gau | 2+0
+2025-11-04 04:07:01,562 - lightrag - INFO - Merge N: Setzer Gabbiani | 2+0
+2025-11-04 04:07:01,819 - lightrag - INFO - Merge N: Shadow | 4+0
+2025-11-04 04:07:02,633 - lightrag - INFO - Merge N: Mog | 3+0
+2025-11-04 04:07:02,957 - lightrag - INFO - Merge N: Narshe | 3+0
+2025-11-04 04:07:03,262 - lightrag - INFO - Merge N: War of the Magi | 2+0
+2025-11-04 04:07:03,597 - lightrag - INFO - Merge N: Kefka Palazzo | 2+0
+2025-11-04 04:07:03,904 - lightrag - INFO - Merge N: Valigarmanda | 2+0
+2025-11-04 04:07:04,289 - lightrag - INFO - Merge N: Figaro Castle | 3+0
+2025-11-04 04:07:07,759 - lightrag - INFO - Merge N: Magitek Armor | 2+0
+2025-11-04 04:07:08,093 - lightrag - INFO - Merge N: Empire | 3+0
+2025-11-04 04:07:08,357 - lightrag - INFO - Merge N: Terra | 4+0
+2025-11-04 04:07:08,691 - lightrag - INFO - Merge N: Kefka | 5+0
+2025-11-04 04:07:09,182 - lightrag - INFO - Merge N: Locke | 5+0
+2025-11-04 04:07:09,281 - lightrag - INFO -  == LLM cache == saving: default:extract:adeb7a4e70bb7d90b9c69b156de3a9e9
+2025-11-04 04:07:09,931 - lightrag - INFO - Merge N: Cyan | 2+0
+2025-11-04 04:07:11,533 - lightrag - INFO - Merge N: General Leo | 2+0
+2025-11-04 04:07:11,791 - lightrag - INFO - Merge N: Strago | 2+0
+2025-11-04 04:07:12,658 - lightrag - INFO - Merge N: Thamasa | 2+0
+2025-11-04 04:07:12,755 - lightrag - INFO - Merge N: Cid | 2+0
+2025-11-04 04:07:13,716 - lightrag - INFO - Merge N: Warring Triad | 2+0
+2025-11-04 04:07:14,299 - lightrag - INFO - Merge N: Rachel | 3+0
+2025-11-04 04:07:14,616 - lightrag - INFO - Merge N: Phoenix Cave | 2+0
+2025-11-04 04:07:14,858 - lightrag - INFO - Merge N: Maduin | 2+0
+2025-11-04 04:07:15,497 - lightrag - INFO - Merge N: Square | 2+0
+2025-11-04 04:07:17,449 - lightrag - INFO - Merge N: Final Fantasy V | 2+0
+2025-11-04 04:07:17,843 - lightrag - INFO - Merge N: Ted Woolsey | 2+0
+2025-11-04 04:07:17,863 - lightrag - INFO - Merge N: Super Nintendo Entertainment System (SNES) | 2+0
+2025-11-04 04:07:19,951 - lightrag - INFO - Merge N: Square Enix | 2+0
+2025-11-04 04:07:20,172 - lightrag - INFO - Merge N: iOS | 2+0
+2025-11-04 04:07:20,472 - lightrag - INFO - Merge N: Android | 2+0
+2025-11-04 04:07:26,047 - lightrag - INFO - Merge E: Final Fantasy VI - Yoshinori Kitase | 3+0
+2025-11-04 04:07:26,425 - lightrag - INFO - Merge E: Final Fantasy VI - Nobuo Uematsu | 3+0
+2025-11-04 04:07:26,443 - lightrag - INFO - Merge E: Final Fantasy VI - Yoshitaka Amano | 2+0
+2025-11-04 04:07:26,925 - lightrag - INFO - Merge E: Returners - Terra Branford | 2+0
+2025-11-04 04:07:28,405 - lightrag - INFO - Merge E: Final Fantasy VI - Game Boy Advance | 3+0
+2025-11-04 04:07:28,630 - lightrag - INFO - Merge E: Final Fantasy VI - PlayStation | 2+0
+2025-11-04 04:07:28,948 - lightrag - INFO - Merge E: Final Fantasy VI - Hironobu Sakaguchi | 2+0
+2025-11-04 04:07:29,773 - lightrag - INFO - Merge E: Locke Cole - Returners | 2+0
+2025-11-04 04:07:30,383 - lightrag - INFO - Merge E: Edgar Roni Figaro - Returners | 2+0
+2025-11-04 04:07:30,464 - lightrag - INFO - Merge E: Edgar Roni Figaro - Sabin Rene Figaro | 3+0
+2025-11-04 04:07:32,776 - lightrag - INFO - Merge E: Gau - Veldt | 2+0
+2025-11-04 04:07:34,723 - lightrag - INFO - Merge E: Mog - Narshe Mines | 2+0
+2025-11-04 04:07:35,525 - lightrag - INFO - Merge E: Locke - Returners | 2+0
+2025-11-04 04:07:35,763 - lightrag - INFO - Merge E: Celes - Locke | 2+0
+2025-11-04 04:07:37,041 - lightrag - INFO - Merge E: Celes - Empire | 2+0
+2025-11-04 04:07:43,861 - lightrag - INFO - Merge E: Locke - Rachel | 3+0
+2025-11-04 04:07:48,055 - lightrag - INFO - Merge E: Final Fantasy V - Final Fantasy VI | 2+0
+2025-11-04 04:07:48,710 - lightrag - INFO - Merge E: Final Fantasy VI - Ted Woolsey | 2+0
+2025-11-04 04:07:48,739 - lightrag - INFO - Merge E: Final Fantasy VI - Super Nintendo Entertainment System (SNES) | 2+0
+2025-11-04 04:07:50,910 - lightrag - INFO - Merge E: Final Fantasy VI - Square Enix | 3+0
+2025-11-04 04:07:51,529 - lightrag - INFO - Merge E: Final Fantasy VI - iOS | 2+0
+2025-11-04 04:07:51,577 - lightrag - INFO - Merge E: Android - Final Fantasy VI | 2+0
+2025-11-04 04:07:58,570 - lightrag - INFO - Writing graph with 225 nodes, 221 edges
+2025-11-04 04:07:58,602 - lightrag - INFO - In memory DB persist to disk
+2025-11-04 04:07:58,603 - lightrag - INFO - Completed processing file 2/2: /abc/ff6summary.txt/
+2025-11-04 04:07:58,603 - lightrag - INFO - Document processing pipeline completed
+2025-11-04 04:12:34,341 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 04:12:41,755 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/abc/graph_chunk_entity_relation.graphml with 225 nodes, 221 edges
+2025-11-04 04:12:41,898 - lightrag - INFO - Process 26361 KV load abc_full_docs with 2 records
+2025-11-04 04:12:41,906 - lightrag - INFO - Process 26361 KV load abc_text_chunks with 20 records
+2025-11-04 04:12:41,926 - lightrag - INFO - Process 26361 KV load abc_llm_response_cache with 43 records
+2025-11-04 04:12:41,937 - lightrag - INFO - Process 26361 doc status load abc_doc_status with 2 records
+2025-11-04 04:12:41,947 - lightrag - INFO - Process 26361 doc status load abc_doc_status with 2 records
+2025-11-04 04:12:41,977 - lightrag - INFO - Created new empty graph
+2025-11-04 04:12:41,996 - lightrag - INFO - Process 26361 KV load bac_full_docs with 0 records
+2025-11-04 04:12:41,998 - lightrag - INFO - Process 26361 KV load bac_text_chunks with 0 records
+2025-11-04 04:12:42,000 - lightrag - INFO - Process 26361 KV load bac_llm_response_cache with 0 records
+2025-11-04 04:12:42,001 - lightrag - INFO - Process 26361 doc status load bac_doc_status with 0 records
+2025-11-04 04:12:42,002 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:12:42,004 - lightrag - INFO - Process 26361 doc status load bac_doc_status with 0 records
+2025-11-04 04:12:42,006 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:15:33,106 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 04:15:40,679 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/abc/graph_chunk_entity_relation.graphml with 225 nodes, 221 edges
+2025-11-04 04:15:40,774 - lightrag - INFO - Process 26961 KV load abc_full_docs with 2 records
+2025-11-04 04:15:40,782 - lightrag - INFO - Process 26961 KV load abc_text_chunks with 20 records
+2025-11-04 04:15:40,796 - lightrag - INFO - Process 26961 KV load abc_llm_response_cache with 43 records
+2025-11-04 04:15:40,802 - lightrag - INFO - Process 26961 doc status load abc_doc_status with 2 records
+2025-11-04 04:15:40,809 - lightrag - INFO - Process 26961 doc status load abc_doc_status with 2 records
+2025-11-04 04:15:40,829 - lightrag - INFO - Created new empty graph
+2025-11-04 04:15:40,842 - lightrag - INFO - Process 26961 KV load bac_full_docs with 0 records
+2025-11-04 04:15:40,844 - lightrag - INFO - Process 26961 KV load bac_text_chunks with 0 records
+2025-11-04 04:15:40,846 - lightrag - INFO - Process 26961 KV load bac_llm_response_cache with 0 records
+2025-11-04 04:15:40,848 - lightrag - INFO - Process 26961 doc status load bac_doc_status with 0 records
+2025-11-04 04:15:40,848 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:15:40,851 - lightrag - INFO - Process 26961 doc status load bac_doc_status with 0 records
+2025-11-04 04:15:40,853 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:15:46,504 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-11-04 04:15:48,313 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:f8dace3be75671e65d6c997226dabd0e
+2025-11-04 04:15:48,314 - lightrag - INFO - Process 26961 building query context...
+2025-11-04 04:15:48,314 - lightrag - INFO - Query nodes: Characters, World of Ruin, Espers, Imperial Army, Celes, Terra, Kefka, top_k: 60, cosine: 0.2
+2025-11-04 04:15:48,315 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-11-04 04:15:49,054 - lightrag - INFO - Local query: 60 entites, 149 relations, 14 chunks
+2025-11-04 04:15:49,056 - lightrag - INFO - Query edges: Final Fantasy 6, Video game, Summary, Storyline, top_k: 60, cosine: 0.2
+2025-11-04 04:15:49,924 - lightrag - INFO - Global query: 61 entites, 60 relations, 8 chunks
+2025-11-04 04:15:49,930 - lightrag - INFO - Final context: 112 entities, 150 relations, 4 chunks
+2025-11-04 04:16:20,229 - lightrag - INFO -  == LLM cache == saving: hybrid:query:f8dace3be75671e65d6c997226dabd0e
+2025-11-04 04:21:03,927 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-04 04:21:16,553 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/abc/graph_chunk_entity_relation.graphml with 225 nodes, 221 edges
+2025-11-04 04:21:16,735 - lightrag - INFO - Process 28217 KV load abc_full_docs with 2 records
+2025-11-04 04:21:16,745 - lightrag - INFO - Process 28217 KV load abc_text_chunks with 20 records
+2025-11-04 04:21:16,768 - lightrag - INFO - Process 28217 KV load abc_llm_response_cache with 45 records
+2025-11-04 04:21:16,776 - lightrag - INFO - Process 28217 doc status load abc_doc_status with 2 records
+2025-11-04 04:21:16,791 - lightrag - INFO - Process 28217 doc status load abc_doc_status with 2 records
+2025-11-04 04:21:16,879 - lightrag - INFO - Created new empty graph
+2025-11-04 04:21:16,924 - lightrag - INFO - Process 28217 KV load bac_full_docs with 0 records
+2025-11-04 04:21:16,930 - lightrag - INFO - Process 28217 KV load bac_text_chunks with 0 records
+2025-11-04 04:21:16,933 - lightrag - INFO - Process 28217 KV load bac_llm_response_cache with 0 records
+2025-11-04 04:21:16,936 - lightrag - INFO - Process 28217 doc status load bac_doc_status with 0 records
+2025-11-04 04:21:16,937 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:21:16,943 - lightrag - INFO - Process 28217 doc status load bac_doc_status with 0 records
+2025-11-04 04:21:16,946 - lightrag - INFO - Storage Initialization completed!
+2025-11-04 04:21:26,465 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-11-04 04:21:28,632 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:c68c4c5aa57839e79fcba786f565c78a
+2025-11-04 04:21:28,632 - lightrag - INFO - Process 28217 building query context...
+2025-11-04 04:21:28,633 - lightrag - INFO - Query nodes: Final Fantasy VI, Role-playing game, Characters, Gameplay, Plot, Release date, top_k: 60, cosine: 0.2
+2025-11-04 04:21:28,633 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-11-04 04:21:58,287 - lightrag - INFO - Local query: 60 entites, 105 relations, 14 chunks
+2025-11-04 04:21:58,288 - lightrag - INFO - Query edges: FF6, Video games, Game development, top_k: 60, cosine: 0.2
+2025-11-04 04:22:07,907 - lightrag - INFO - Global query: 61 entites, 60 relations, 8 chunks
+2025-11-04 04:22:07,929 - lightrag - INFO - Final context: 74 entities, 105 relations, 5 chunks
+2025-11-04 04:22:30,777 - lightrag - INFO -  == LLM cache == saving: hybrid:query:c68c4c5aa57839e79fcba786f565c78a
+2025-11-04 04:44:34,560 - lightrag - INFO - Creating a new event loop in main thread.

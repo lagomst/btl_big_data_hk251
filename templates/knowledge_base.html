@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knowledge Base Selection</title>
+    <link rel="stylesheet" href="/static/css/app.css">
     <link rel="stylesheet" href="/static/css/knowledge_base.css">
 </head>
 <body>
@@ -12,7 +13,6 @@
         <nav>
             <a href="/">Home</a>
             <a href="/knowledge-base">Knowledge Base</a>>
-            <a href="/upload">Upload Files</a>
         </nav>
     </header>
     <div class="kb-container">
@@ -35,6 +35,7 @@
         <input id="kb-create-name" placeholder="New knowledge name" />
         <button type="submit" onclick="createKnowledgeBase('{{kb}}')">Create</button>
     </form>
-    <script src='/static/js/knowledge_base.js'></script>
+            <script>const kb = "";</script>
+            <script src='/static/js/knowledge_base.js'></script>
 </body>
 </html>
