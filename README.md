@@ -4,7 +4,9 @@
 1. Install requirements
 
 `conda create --name newsrag python=3.14
+
 conda activate newsrag
+
 pip install -r requirements.txt`
 
 ### Run
