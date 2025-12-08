@@ -1,87 +1,320 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ title }}</title>
-  <link rel="stylesheet" href="/static/css/knowledge_detail.css" />
-  <link rel="stylesheet" href="/static/css/chat.css" />
-</head>
-<body>
-  <header>
-    <h1>{{ title }}</h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/knowledge-base">Back to List</a>
-    </nav>
-  </header>
+{% extends "base.html" %}
 
-  <main>
-    <!-- Upload -->
-    <section id="upload-section">
-      <h2>Upload File</h2>
-      <form id="uploadForm">
-        <input type="file" id="file" name="file" required />
-        <label><input type="checkbox" id="use_ocr" /> Use OCR</label>
-        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Upload</button>
-      </form>
-      <div id="uploadStatus"></div>
-    </section>
+{% block content %}
+<div class="h-[calc(100vh-4.2rem)] flex flex-col md:flex-row overflow-hidden">
+    
+    <!-- LEFT PANEL: THE WIRE (Sources) -->
+    <aside class="w-full md:w-[450px] lg:w-[500px] flex flex-col bg-slate-50 border-r border-slate-200 z-10">
+        
+        <!-- Collection Header -->
+        <div class="p-6 border-b border-slate-200 bg-white">
+            <a href="/knowledge-base" class="text-[10px] font-bold uppercase tracking-widest text-slate-400 hover:text-black mb-2 block">&larr; Back to Archives</a>
+            <h2 class="font-serif text-3xl font-bold text-news-ink leading-none break-all">{{ kb }}</h2>
+            <div class="flex items-center gap-2 mt-3">
+                <span class="px-2 py-0.5 bg-black text-white text-[10px] font-bold uppercase tracking-wider">Investigative Mode</span>
+                <span class="text-[10px] text-slate-500 font-mono">RAG ONLINE</span>
+            </div>
+        </div>
 
-    <!-- Search -->
-    <section id="search-section">
-      <h2>Search Files</h2>
-      <input id="query" placeholder="Search by prefix or filter..." />
-      <button id="searchBtn">Search</button>
-    </section>
+        <!-- Ingest Box -->
+        <div class="p-6 bg-slate-100 border-b border-slate-200">
+            <h3 class="font-sans text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">Add Source Material</h3>
+            <form id="uploadForm" class="space-y-3">
+                <div class="relative">
+                    <input type="file" id="fileInput" name="file" class="block w-full text-sm text-slate-500
+                        file:mr-4 file:py-2 file:px-4
+                        file:border-0 file:text-xs file:font-bold file:uppercase file:tracking-wider
+                        file:bg-black file:text-white
+                        hover:file:bg-news-accent transition-all cursor-pointer bg-white border border-slate-300 p-1
+                    "/>
+                </div>
+                <div class="flex items-center justify-between">
+                    <label class="flex items-center gap-2 cursor-pointer select-none">
+                        <input type="checkbox" id="useOCR" class="rounded border-slate-300 text-black focus:ring-0">
+                        <span class="text-xs font-bold uppercase text-slate-600">OCR (Scanned Docs)</span>
+                    </label>
+                    <button type="submit" id="uploadBtn" class="text-xs font-bold uppercase underline decoration-2 underline-offset-2 hover:text-news-accent transition-colors">
+                        Ingest File &rarr;
+                    </button>
+                </div>
+                <!-- Progress Line -->
+                <div id="progressContainer" class="hidden h-1 w-full bg-slate-200 mt-2">
+                    <div id="progressBar" class="h-full bg-news-accent w-0 transition-all duration-300"></div>
+                </div>
+            </form>
+            <div class="mt-3 text-[10px] text-slate-400 leading-tight">
+                Supported: PDF, DOCX, Parquet (Dataframes), Images.<br>
+                Auto-extraction of text for vector embedding.
+            </div>
+        </div>
 
-    <!-- Files Table -->
-    <section id="files-section">
-      <h2>Files in Knowledge Base</h2>
-      <table id="filesTable">
-        <thead>
-          <tr>
-            <th>File Path</th>
-            <th>Summary</th>
-            <th>Status</th>
-            <th>Updated</th>
-            <th>Chunks</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </section>
+        <!-- Source List -->
+        <div class="flex-1 overflow-y-auto bg-white">
+            <div class="sticky top-0 bg-white/95 backdrop-blur p-4 border-b border-slate-100 z-10">
+                <input type="text" id="fileSearch" placeholder="Filter sources (e.g., 'BBC', 'Report')..." class="w-full bg-transparent border-b border-slate-300 py-1 text-sm focus:border-black focus:ring-0 placeholder:italic">
+            </div>
+            
+            <div id="fileList" class="divide-y divide-slate-100">
+                <!-- Items populated via JS -->
+                <div class="p-8 text-center font-serif italic text-slate-400">Loading sources...</div>
+            </div>
+        </div>
+    </aside>
 
-    <section>
-      <h2>Chat with knowledge base</h2>
-      <form id="chat-form">
-        <input type="text" id="user-input" placeholder="Ask me something..." required>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
+    <!-- RIGHT PANEL: THE DRAFT (Chat) -->
+    <main class="flex-1 flex flex-col h-full bg-[#fcfbf9] relative">
+        <!-- Chat Area -->
+        <div id="chatWindow" class="flex-1 overflow-y-auto p-6 md:p-12 scroll-smooth">
+            <div class="flex flex-col items-center justify-center h-full text-slate-300 space-y-4" id="emptyState">
+                <div class="w-20 h-20 border-2 border-slate-200 rounded-full flex items-center justify-center">
+                    <span class="font-serif text-4xl italic text-slate-200">N</span>
+                </div>
+                <div class="text-center">
+                    <h3 class="font-serif text-xl text-slate-400 mb-2">NewsRAG Assistant</h3>
+                    <p class="font-sans text-sm text-slate-300 max-w-md mx-auto">
+                        Ask about timelines, verify facts against ingested documents, or analyze bias across sources.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-  <script>
-    const kb = "{{ kb }}";
-  </script>
-  <!-- Chat widget -->
-  <div class="chat-widget" id="chat-widget" aria-live="polite">
-    <div class="chat-header">
-      <div class="title">Assistant</div>
-      <button class="chat-toggle" id="chat-toggle" title="Toggle chat">✕</button>
-    </div>
-    <div class="chat-body">
-      <div class="chat-window" id="chat-window" role="log"></div>
-      <div class="chat-input-wrap">
-        <form id="chat-form" style="display:flex; width:100%;">
-          <input id="user-input" class="chat-input" autocomplete="off" placeholder="Ask a question..." />
-          <button type="submit" class="chat-send">Send</button>
-        </form>
-      </div>
-    </div>
-  </div>
+        <!-- Input Area -->
+        <div class="p-6 bg-white border-t border-slate-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
+            <form id="chatForm" class="max-w-4xl mx-auto relative">
+                <div class="relative">
+                    <input type="text" id="userQuery" 
+                           class="w-full pl-0 pr-12 py-4 border-0 border-b-2 border-slate-200 focus:border-news-accent focus:ring-0 bg-transparent text-xl font-serif placeholder:italic placeholder:text-slate-300 transition-colors" 
+                           placeholder="Ex: 'Construct a timeline of events based on BBC reports...'" autocomplete="off">
+                    <button type="submit" class="absolute right-0 bottom-4 text-slate-400 hover:text-news-accent transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 5l7 7-7 7M5 12h14"></path></svg>
+                    </button>
+                </div>
+            </form>
+            <div class="flex justify-between items-center mt-3 max-w-4xl mx-auto">
+                <p class="text-[10px] font-mono text-slate-400 uppercase tracking-widest">
+                    <span class="w-2 h-2 inline-block bg-green-500 rounded-full mr-1"></span>RAG Active
+                </p>
+                <p class="text-[10px] font-mono text-slate-400 uppercase tracking-widest">
+                    AI generated • Verify citations
+                </p>
+            </div>
+        </div>
+    </main>
 
-  <script src="/static/js/knowledge_detail.js"></script>
-</body>
-</html>
+</div>
+
+<script>
+    const KB_NAME = "{{ kb }}";
+    
+    // --- FILE LIST ---
+    const fileListEl = document.getElementById('fileList');
+    const fileSearch = document.getElementById('fileSearch');
+    
+    document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const fileInput = document.getElementById('fileInput');
+        const file = fileInput.files[0];
+        if(!file) return showToast('No source selected', 'error');
+
+        const btn = document.getElementById('uploadBtn');
+        const prog = document.getElementById('progressContainer');
+        const bar = document.getElementById('progressBar');
+
+        btn.disabled = true;
+        btn.textContent = 'Processing...';
+        prog.classList.remove('hidden');
+        bar.style.width = '20%';
+
+        const formData = new FormData();
+        formData.append('file', file);
+        formData.append('use_ocr', document.getElementById('useOCR').checked);
+
+        try {
+            const res = await fetch(`/v1/rag/insert-file?knowledge=${encodeURIComponent(KB_NAME)}`, {
+                method: 'POST',
+                body: formData
+            });
+            const json = await res.json();
+            bar.style.width = '100%';
+            
+            if(json.status === 'success') {
+                showToast(`Ingested: ${file.name}`);
+                fileInput.value = '';
+                setTimeout(loadFiles, 500);
+            } else {
+                showToast(json.message || 'Ingestion failed', 'error');
+            }
+        } catch (err) {
+            showToast('Connection error', 'error');
+        } finally {
+            setTimeout(() => {
+                prog.classList.add('hidden');
+                bar.style.width = '0%';
+                btn.disabled = false;
+                btn.innerHTML = 'Ingest File &rarr;';
+            }, 1000);
+        }
+    });
+
+    async function loadFiles() {
+        try {
+            const search = fileSearch.value.trim();
+            let url = `/v1/rag/search-files?knowledge=${encodeURIComponent(KB_NAME)}`;
+            if(search) url += `&filter=${encodeURIComponent(search)}`;
+
+            const res = await fetch(url);
+            const json = await res.json();
+            fileListEl.innerHTML = '';
+
+            let docs = json.data || [];
+            if(!Array.isArray(docs) && typeof docs === 'object') docs = Object.values(docs);
+
+            if(docs.length === 0) {
+                fileListEl.innerHTML = `<div class="p-8 text-center text-xs font-mono uppercase text-slate-400">No sources found</div>`;
+                return;
+            }
+
+            docs.forEach(doc => {
+                const div = document.createElement('div');
+                div.className = "p-4 hover:bg-slate-50 transition group border-l-2 border-transparent hover:border-black";
+                div.innerHTML = `
+                    <div class="flex items-start justify-between mb-1">
+                        <span class="font-bold text-sm text-news-ink truncate pr-4 font-serif" title="${doc.file_path}">${doc.file_path}</span>
+                        <button onclick="deleteFile('${doc.file_path}')" class="text-slate-300 hover:text-red-600 opacity-0 group-hover:opacity-100 transition">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="flex items-center gap-3 text-[10px] uppercase tracking-wider text-slate-400">
+                        <span class="${doc.status === 'success' ? 'text-green-600 font-bold' : 'text-amber-600'}">${doc.status}</span>
+                        <span>•</span>
+                        <span>${doc.chunks_count || 0} Vectors</span>
+                    </div>
+                `;
+                fileListEl.appendChild(div);
+            });
+        } catch(err) { console.error(err); }
+    }
+
+    async function deleteFile(filename) {
+        if(!confirm(`Remove source "${filename}" from the knowledge graph?`)) return;
+        try {
+            const res = await fetch(`/v1/rag/delete-file?knowledge=${encodeURIComponent(KB_NAME)}&raw_filename=${encodeURIComponent(filename)}`, { method: 'DELETE' });
+            const json = await res.json();
+            if(json.status === 'success') { showToast('Source redacted'); loadFiles(); }
+        } catch(err) { showToast('Error deleting', 'error'); }
+    }
+
+    fileSearch.addEventListener('input', () => {
+        clearTimeout(window.searchTimeout);
+        window.searchTimeout = setTimeout(loadFiles, 300);
+    });
+
+    // --- CHAT ---
+    const chatWindow = document.getElementById('chatWindow');
+    const chatForm = document.getElementById('chatForm');
+    const userQuery = document.getElementById('userQuery');
+
+    function appendMessage(role, text, meta = null) {
+        if (!chatWindow) {
+            console.error("Chat Window Element not found!");
+            return;
+        }
+        document.getElementById('emptyState')?.remove();
+        const isBot = role === 'bot';
+        
+        const wrapper = document.createElement('div');
+        wrapper.className = `flex w-full mb-8 ${isBot ? '' : 'justify-end'}`;
+        
+        // Avatar
+        const avatar = isBot 
+            ? `<div class="w-8 h-8 bg-black text-white flex items-center justify-center font-serif font-bold text-xs mr-4 shrink-0 rounded-sm">N</div>`
+            : ``;
+
+        // Content
+        const contentClass = isBot 
+            ? `font-serif text-lg leading-relaxed text-slate-800`
+            : `bg-slate-100 px-6 py-4 font-sans text-slate-700 max-w-2xl text-lg rounded-tl-xl rounded-tr-xl rounded-bl-xl`;
+
+        // SAFE TEXT HANDLING: Convert to string explicitly to avoid "replace is not a function" errors
+        let safeText = String(text || "");
+        if (isBot) {
+            safeText = safeText.replace(/\n/g, '<br/>');
+        }
+
+        wrapper.innerHTML = `
+            ${avatar}
+            <div class="${isBot ? 'flex-1 max-w-3xl' : ''}">
+                <div class="${contentClass}">
+                    ${safeText}
+                </div>
+                ${meta ? `<div class="mt-2 text-xs font-mono text-slate-400 uppercase tracking-widest border-t border-slate-100 pt-2">${meta}</div>` : ''}
+            </div>
+        `;
+        
+        chatWindow.appendChild(wrapper);
+        chatWindow.scrollTop = chatWindow.scrollHeight;
+    }
+
+    function appendLoader() {
+        const id = 'loader-' + Date.now();
+        const div = document.createElement('div');
+        div.id = id;
+        div.className = "flex w-full mb-8 items-center gap-3";
+        div.innerHTML = `
+            <div class="w-8 h-8 bg-black text-white flex items-center justify-center font-serif font-bold text-xs rounded-sm">N</div>
+            <div class="flex space-x-1">
+                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce"></div>
+                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce" style="animation-delay: 0.1s"></div>
+                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+            </div>
+        `;
+        chatWindow.appendChild(div);
+        return id;
+    }
+
+    chatForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const query = userQuery.value.trim();
+        if(!query) return;
+
+        appendMessage('user', query);
+        userQuery.value = '';
+        const loaderId = appendLoader();
+
+        try {
+            const params = new URLSearchParams({ knowledge: KB_NAME, str_query: query });
+            const res = await fetch(`/v1/rag/query-stream?${params}`);
+            const json = await res.json();
+            
+            console.log("API Response:", json); // DEBUG: Look at Browser Console
+
+            const loader = document.getElementById(loaderId);
+            if(loader) loader.remove();
+
+            if(json.status === 'success') {
+                const data = json.data;
+                
+                if (data.error) {
+                    appendMessage('bot', `⚠️ System Error: ${data.error}`);
+                    return;
+                }
+
+                // If content is null, fallback string
+                const content = data.content || "Warning: Model returned no content.";
+                const time = data.time ? `Analysis completed in ${data.time.toFixed(2)}s` : '';
+                
+                appendMessage('bot', content, time);
+            } else {
+                appendMessage('bot', `API ERROR: ${json.message}`);
+            }
+        } catch (err) {
+            console.error(err);
+            const loader = document.getElementById(loaderId);
+            if(loader) loader.remove();
+            appendMessage('bot', `Connection Lost: ${err.message}`);
+        }
+    });
+
+    loadFiles();
+</script>
+{% endblock %}

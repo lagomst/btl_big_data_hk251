@@ -1,41 +1,167 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knowledge Base Selection</title>
-    <link rel="stylesheet" href="/static/css/app.css">
-    <link rel="stylesheet" href="/static/css/knowledge_base.css">
-</head>
-<body>
-    <header>
-    <h1>{{ title }}</h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/knowledge-base">Knowledge Base</a>>
-        </nav>
-    </header>
-    <div class="kb-container">
-        <h1 class="kb-title">Select Knowledge Base</h1>
-        <ul class="kb-list">
-            {% for kb in knowledge_bases %}
-            <li class="kb-item {% if kb.id == selected_kb %}selected{% endif %}" data-kb-id="{{ kb.id }}">
-                <div class="kb-name">{{ kb.name }}</div>
-                <div class="kb-description">{{ kb.description }}</div>
-                <div class="kb-stats">
-                    <span>Documents: {{ kb.document_count }}</span>
-                    <span>Last updated: {{ kb.last_updated }}</span>
-                </div>
-                <a href="/knowledge-base/{{kb.id}}">Select</a>
-            </li>
-            {% endfor %}
-        </ul>
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 border-b-2 border-black pb-4">
+        <div>
+            <h2 class="font-serif text-4xl font-bold text-news-ink mb-2">News Archives</h2>
+            <p class="text-slate-500 font-sans">Manage datasets from BBC News and other media outlets.</p>
+        </div>
+        <button onclick="document.getElementById('createModal').classList.remove('hidden')" 
+                class="mt-4 md:mt-0 bg-news-accent text-white px-6 py-3 font-bold uppercase text-sm tracking-wider hover:bg-red-800 transition-colors shadow-md">
+            + New Archive
+        </button>
     </div>
-    <form id="kb-create-form" style="margin-bottom:1rem;">
-        <input id="kb-create-name" placeholder="New knowledge name" />
-        <button type="submit" onclick="createKnowledgeBase('{{kb}}')">Create</button>
-    </form>
-            <script>const kb = "";</script>
-            <script src='/static/js/knowledge_base.js'></script>
-</body>
-</html>
+
+    <!-- Grid -->
+    <div id="kb-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Loader -->
+        <div class="col-span-full py-20 text-center">
+            <div class="inline-block animate-spin w-8 h-8 border-4 border-slate-200 border-t-black rounded-full mb-4"></div>
+            <p class="font-serif italic text-xl text-slate-400">Loading archives...</p>
+        </div>
+    </div>
+</div>
+
+<!-- Create Modal -->
+<div id="createModal" class="relative z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="fixed inset-0 bg-black/80 backdrop-blur-sm transition-opacity"></div>
+    <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+        <div class="flex min-h-full items-center justify-center p-4">
+            <div class="relative transform overflow-hidden bg-white shadow-2xl border-2 border-black sm:w-full sm:max-w-lg">
+                
+                <div class="bg-black px-4 py-3 flex justify-between items-center">
+                    <h3 class="text-white font-serif text-xl italic" id="modal-title">Initialize Archive</h3>
+                    <button onclick="document.getElementById('createModal').classList.add('hidden')" class="text-white hover:text-red-500">&times;</button>
+                </div>
+
+                <form id="createForm" onsubmit="handleCreate(event)" class="p-8 bg-news-paper">
+                    <div class="mb-6">
+                        <label for="kb-name" class="block text-sm font-bold uppercase tracking-wider text-slate-700 mb-2">Topic / Event Name</label>
+                        <input type="text" name="kb-name" id="kb-name" required pattern="[a-zA-Z0-9_-]+" 
+                               class="block w-full border border-slate-300 bg-white py-3 px-4 text-lg font-serif focus:border-black focus:ring-0 placeholder:text-slate-300 transition-colors" 
+                               placeholder="e.g. US_Election_2024">
+                        <p class="mt-2 text-xs text-slate-500 font-mono">This will create a dedicated vector space.</p>
+                    </div>
+
+                    <div class="bg-slate-100 p-4 border border-slate-200 mb-6">
+                        <h4 class="font-bold text-xs uppercase mb-2">Default Sources</h4>
+                        <div class="flex gap-2 text-xs text-slate-500">
+                            <span class="bg-white px-2 py-1 border">BBC News</span>
+                            <span class="bg-white px-2 py-1 border">Reuters</span>
+                            <span class="bg-white px-2 py-1 border">+ Local Uploads</span>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-end gap-4">
+                        <button type="submit" 
+                                class="w-full px-6 py-3 bg-black text-white font-bold uppercase text-xs tracking-wider hover:bg-news-accent transition-colors">
+                            Create Database
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const kbGrid = document.getElementById('kb-grid');
+
+    async function loadKBs() {
+        try {
+            const res = await fetch('/v1/rag/knowledge');
+            const json = await res.json();
+            kbGrid.innerHTML = '';
+            const list = json.data || [];
+            
+            if (list.length === 0) {
+                kbGrid.innerHTML = `
+                    <div class="col-span-full border-2 border-dashed border-slate-300 p-12 text-center bg-white">
+                        <p class="font-serif text-xl text-slate-400">No archives found.</p>
+                        <p class="text-sm text-slate-400 mt-2">Initialize a collection to start ingesting news data.</p>
+                    </div>`;
+                return;
+            }
+
+            list.forEach(name => {
+                const card = document.createElement('div');
+                card.className = "group relative bg-white border border-slate-200 hover:border-black transition-all duration-300 shadow-sm hover:shadow-xl p-6 flex flex-col justify-between h-64";
+                
+                const date = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+                card.innerHTML = `
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="font-mono text-xs text-white bg-black px-2 py-0.5">ARCHIVE</span>
+                            <span class="font-serif italic text-slate-400 text-sm">${date}</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-news-ink leading-tight group-hover:text-news-accent transition-colors break-all">
+                            ${name}
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2 font-mono uppercase tracking-wide">BBC News • Aggregated Data</p>
+                    </div>
+                    
+                    <div class="flex items-center justify-between mt-auto pt-4 border-t border-slate-100">
+                        <a href="/knowledge-base/${name}" class="text-sm font-bold uppercase tracking-wider hover:underline decoration-2 underline-offset-4 decoration-news-accent">
+                            Open Dashboard &rarr;
+                        </a>
+                        <button onclick="deleteKB('${name}')" class="text-slate-300 hover:text-red-600 transition-colors" title="Delete Archive">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                        </button>
+                    </div>
+                `;
+                kbGrid.appendChild(card);
+            });
+        } catch (err) {
+            console.error(err);
+            kbGrid.innerHTML = `<div class="col-span-full text-red-600 font-serif text-center">System Error: Unable to fetch archives.</div>`;
+        }
+    }
+
+    async function handleCreate(e) {
+        e.preventDefault();
+        const nameInput = document.getElementById('kb-name');
+        const name = nameInput.value.trim();
+        if(!name) return;
+
+        try {
+            const res = await fetch(`/v1/rag/knowledge/${encodeURIComponent(name)}`, { method: 'POST' });
+            const json = await res.json();
+            if(json.status === 'success') {
+                showToast('Archive initialized successfully');
+                document.getElementById('createModal').classList.add('hidden');
+                nameInput.value = '';
+                loadKBs();
+            } else {
+                showToast(json.message || 'Creation failed', 'error');
+            }
+        } catch (err) {
+            showToast('Network error', 'error');
+        }
+    }
+
+    async function deleteKB(name) {
+        if(!confirm(`WARNING: You are about to delete the archive "${name}".\n\nAll ingested documents and embeddings will be lost.\n\nContinue?`)) return;
+        try {
+            const res = await fetch(`/v1/rag/knowledge/${encodeURIComponent(name)}`, { method: 'DELETE' });
+            const json = await res.json();
+            if(json.status === 'success') {
+                showToast('Archive deleted');
+                loadKBs();
+            } else {
+                showToast('Delete failed', 'error');
+            }
+        } catch (err) {
+            showToast('Network error', 'error');
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadKBs);
+</script>
+{% endblock %}

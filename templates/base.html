@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | Investigative Intelligence</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts: Playfair (Serif) for News feel, Source Sans for UI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Source Sans 3"', 'sans-serif'],
+                    },
+                    colors: {
+                        news: {
+                            paper: '#fcfbf9', // Off-white newspaper background
+                            ink: '#1a1a1a',   // Deep black for text
+                            accent: '#b91c1c', // Editorial Red
+                            line: '#e5e7eb',  // Borders
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #fcfbf9; color: #1a1a1a; }
+        /* Professional scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 0px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        
+        .typewriter { font-family: 'Courier New', Courier, monospace; }
+    </style>
+</head>
+<body class="font-sans min-h-screen flex flex-col selection:bg-news-accent selection:text-white">
+
+    <!-- Navbar: Minimalist News Header -->
+    <nav class="border-b-4 border-black bg-white sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Branding -->
+                <a href="/" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 bg-black text-white flex items-center justify-center font-serif font-bold text-xl group-hover:bg-news-accent transition-colors">
+                        N
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-serif font-bold text-2xl leading-none tracking-tight">THE NEWS RAG</span>
+                        <span class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Investigative Suite</span>
+                    </div>
+                </a>
+
+                <!-- Nav Links -->
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="/" class="text-sm font-semibold uppercase tracking-wider text-slate-500 hover:text-black hover:underline decoration-2 underline-offset-4 transition-all">Front Page</a>
+                    <a href="/knowledge-base" class="text-sm font-semibold uppercase tracking-wider text-slate-500 hover:text-black hover:underline decoration-2 underline-offset-4 transition-all">Archives</a>
+                    <div class="h-4 w-px bg-slate-300"></div>
+                    <span class="text-xs text-slate-400 font-mono">v1.0.0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 py-12 mt-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="font-serif italic text-slate-400 mb-4">"Democracy Dies in Darkness / Data Lives in Light"</div>
+            <p class="text-xs text-slate-300 uppercase tracking-widest">&copy; {{ title }} System</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Script -->
+    <script>
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            const bg = type === 'error' ? 'bg-black text-white' : 'bg-news-accent text-white';
+            toast.className = `fixed bottom-5 right-5 ${bg} px-6 py-4 shadow-2xl font-serif text-lg transform transition-all duration-300 translate-y-full opacity-0 z-50 border border-white`;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            requestAnimationFrame(() => toast.classList.remove('translate-y-full', 'opacity-0'));
+            setTimeout(() => {
+                toast.classList.add('translate-y-full', 'opacity-0');
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+    </script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
