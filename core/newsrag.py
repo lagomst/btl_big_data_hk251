@@ -34,6 +34,9 @@ LLM_MODEL_FUNC_MAP: dict[str,Any] = {
     'gpt-4o-mini': gpt_4o_mini_complete
 }
 
+def process_name(name:str):
+    return name.strip().replace(' ', '_')
+
 class ManagerRAG():
     # managing rag usage and knowledges instance
     def __init__(self):
@@ -112,6 +115,7 @@ class ManagerRAG():
         return rags 
 
     async def create_knowledge(name):
+        name = process_name(name)
         knowledges = await ManagerRAG.get_knowledges()
         if  name in knowledges:
             raise Exception(f'Knowledge {name} is existed!')   
@@ -240,6 +244,8 @@ class ManagerRAG():
         result = {}
         for doc_id, doc_status_obj in docs.items():
             doc_data = asdict(doc_status_obj)
+            if not doc_data.get("filename"):
+                doc_data["filename"] = doc_id
             if blacklist:
                 doc_data = get_dict_except_blacklist(doc_data, blacklist)
             result[doc_id] = doc_data

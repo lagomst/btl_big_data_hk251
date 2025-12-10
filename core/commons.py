@@ -4,6 +4,9 @@ from pptx import Presentation
 from pdf2image import convert_from_bytes, pdfinfo_from_bytes
 import pytesseract
 import pandas as pd
+import pyarrow as pa
+import pyarrow.parquet as pq
+import base64
 
 from PIL import Image, ImageOps, ImageStat
 
@@ -14,6 +17,7 @@ import subprocess
 import tempfile
 from typing import Protocol
 from functools import partial
+from newsplease import NewsPlease, NewsArticle
 
 class ImageProcessor(Protocol):
     def __call__(self, image: Image.Image, **kwargs) -> Image.Image:
@@ -180,6 +184,11 @@ def extract_text_from_pdf_by_OCR(pdf_bytes: bytes, process_instruction="", langu
     
     return text   
 
+def detect_parquet_magic(file_bytes: bytes) -> bool:
+    # Why: Parquet signature is always the first 4 bytes
+    return file_bytes.startswith(b"PAR1")
+
+
 def get_etx_from_content_type(content_type):
     if content_type.endswith('pdf'):
         return '.pdf'
@@ -203,6 +212,8 @@ def get_etx_from_content_type(content_type):
         return '.jpg'
     elif content_type.endswith('png'):
         return '.png'
+    elif content_type.endswith("parquet"):
+        return '.parquet'
     return content_type
 
 def get_text_from_stream_with_OCR(stream: bytes, ext: str, process_instructions="", languages='eng') -> str:
@@ -266,13 +277,43 @@ def get_text_from_stream(stream, filetype):
         return get_text_from_pptx(stream)
     elif filetype == '.xlsx' or filetype == '.xls':
         return get_text_from_xlsx(stream)
+    elif filetype == '.parquet':
+        return stream_parquet_as_strings(stream)
     return stream.read().decode('utf-8', errors="ignore").splitlines()
     # reader = PdfReader(stream)
     # texts = []
     # for page in  reader.pages: 
     #     texts.append(page.extract_text())
     # return texts
- 
+
+
+def row_to_string(row: dict, column_names: list[str]) -> str:
+    # Optimization: Pass column_names explicitly to avoid calling row.keys() every time
+    # and to guarantee the order matches the file schema exactly.
+    parts = [f"{col}:{row[col]}" for col in column_names]
+    return ";".join(parts)
+
+def stream_parquet_as_strings(parquet_path: str):
+    """
+    Generator that yields one formatted string per row, 
+    keeping memory usage low.
+    """
+    # 1. Open the file wrapper (reads only metadata/schema, not data)
+    parquet_file = pq.ParquetFile(parquet_path)
+    
+    # 2. Extract schema names once to ensure deterministic ordering
+    columns = parquet_file.schema.names
+    
+    # 3. Iterate over the file in batches (Row Groups)
+    # You can tune batch_size based on your memory constraints (default is usually fine)
+    for batch in parquet_file.iter_batches():
+        
+        # 4. Convert only this small batch to a list of dicts
+        batch_rows = batch.to_pylist()
+        
+        for row in batch_rows:
+            yield row_to_string(row, columns)
+
 def get_text_from_pdf(stream):
     print("Extracting text from PDF...")
     pdf_bytes = stream.read()
@@ -329,7 +370,12 @@ def get_dict_except_blacklist(target, blacklist: tuple[str,...] | list[str]):
         return [get_dict_except_blacklist(item, blacklist_set) for item in target]
     else:
         return target
-        
+
+
+def crawl_news_from_url(url:str):
+    article = NewsPlease.from_url(url)
+    return article.get_dict()
+    
 def main():
     # Example usage
     path = '../../test_files/image/' 

@@ -1,10 +1,11 @@
+from sys import getsizeof
 from core.newsrag import ManagerRAG
 from fastapi import HTTPException, File, UploadFile, APIRouter, Request, Form, Query
 from fastapi.responses import StreamingResponse
 import core.commons as commons
 
 # import utils
-from typing import Optional
+from typing import Generator, Optional
 import time
 from datetime import datetime
 from decimal import Decimal
@@ -12,6 +13,7 @@ from decimal import Decimal
 from core.models import ChatResponse, PathListResponse, InsertRequest, BaseModel, InsertResponse, LimitTracker, ModelDetail
 from core.config import settings
 from core.request import download_google_drive_file
+from newsplease import NewsPlease, NewsArticle
 
 router = APIRouter()
 
@@ -119,8 +121,18 @@ async def stream_text(
     limit_tracker = LimitTracker(
         tokens_limit=tokens_limit,
     )
-    result = await manager_rag.aquery(question=str_query, stream=False, limit_tracker=limit_tracker)
-
+    try:
+        result = await manager_rag.aquery(question=str_query, stream=False, limit_tracker=limit_tracker)
+        if result.get("error"):
+            raise RuntimeError(result.get("error"))
+    
+    except Exception as e:
+        return ChatResponse(
+            status="error",
+            data= result if result else None,
+            message=f"Query failed! Reason: {e}"
+        )
+    
     return ChatResponse(
         status="success",
         data=result,
@@ -196,12 +208,8 @@ async def insert_file(
             filename = file.filename
             content_type = file.content_type
         elif file_url:            
-            lower_part = file_url.split("/file/d/")[1]
-            file_id = (lower_part.split("/")[0]).strip()
-            file_from_url = await download_google_drive_file(file_id)
-            content = await file_from_url.read()
-            filename = file_from_url.filename
-            content_type = file_from_url.content_type
+            # TODO: create cloud based solution for uploaded files
+            raise NotImplemented("Cloud-based files are not supported at the moment!")
         else:
             raise ValueError("No file or url received!")
     except Exception as e:
@@ -215,7 +223,12 @@ async def insert_file(
             }
         )
     
-    ext = commons.get_etx_from_content_type(content_type)
+    if isinstance(content, bytes) and commons.detect_parquet_magic(content):
+        ext = ".parquet"
+    else:
+        ext = commons.get_etx_from_content_type(content_type)
+    
+    print(f"content-type: {ext}")
     
     # Start OCR if enabled
     ocr_extract_time = None
@@ -225,10 +238,11 @@ async def insert_file(
         ocr_extract_time = time.time() - ocr_start
     else:
         raw_text = commons.get_text_from_stream(content, ext)
-        
+    
     if isinstance(raw_text, list):
         raw_text = '\n\n'.join(raw_text)
-    
+    # print("Snippet of raw_text extracted:")
+    # print(raw_text[:min(64, len(raw_text))]+'...')
     # Setup knowlege-based name and path
     # kb_filename = generate_filename(knowledge, filename)
     kb_file_paths = generate_filepath(knowledge, filename, custom_file_path)
@@ -240,12 +254,24 @@ async def insert_file(
     
     # Let LightRAG process the files
     try:
-        resp: InsertResponse = await manager_rag.ainsert(
-            text=raw_text, 
-            filename=filename, 
-            file_paths=kb_file_paths, 
-            limit_tracker=limit_tracker
-        )
+        if isinstance(raw_text, str):
+            resp: InsertResponse = await manager_rag.ainsert(
+                text=raw_text, 
+                filename=filename, 
+                file_paths=kb_file_paths, 
+                limit_tracker=limit_tracker
+            )
+        elif isinstance(raw_text, Generator):
+            for text in raw_text:
+                curr_filename = filename + text.split(';')[0]
+                resp: InsertResponse = await manager_rag.ainsert(
+                    text=text, 
+                    filename=curr_filename, 
+                    file_paths=kb_file_paths, 
+                    limit_tracker=limit_tracker
+                )
+        else:
+            raise ValueError("Unsupported raw_text type!")
     except Exception as e:
         return ChatResponse(
             status="error",
@@ -270,6 +296,97 @@ async def insert_file(
     else:
         status = "error"
         message = f"File content from {filename} inserted failed."
+    
+    print(resp.model_dump())
+    
+    return ChatResponse(
+        status=status,
+        message=message,
+        data=resp.model_dump()
+    )
+
+@router.post("/insert-news-url", response_model=ChatResponse)
+async def insert_news_url(
+    knowledge:str, 
+    request: Request,
+    url: Optional[str] = Form(""),
+    custom_file_path: Optional[str] = Form(""),
+    tokens_limit: Optional[int] = Form(None),
+):
+    manager_rag: ManagerRAG = request.app.state.rags[knowledge]
+    # print("File received: ", file) # DEBUG
+    # Get files from UploadFile or URL
+    filename = content_type = None
+    try:
+       
+        # TODO: create news-site url identifier
+        if not url:
+            raise ValueError("Please input an url")
+        article = commons.crawl_news_from_url(url)
+        if not article:
+            raise RuntimeError("Unable to crawl website!")
+        
+        print("Content: ", article)
+        filename = article.get("filename")
+        maintext = article.get("maintext")
+        title = article.get("title")
+        date_publish = article.get("date_publish")
+        date_modify = article.get("date_modify")
+        
+                    
+    except Exception as e:
+        return ChatResponse(
+            status="error",
+            message=f"Extracing url failed!",
+            data={
+                  "url": url, 
+                  "error": str(e)
+                }   
+        )
+    
+    
+    kb_file_paths = generate_filepath(knowledge, filename, custom_file_path)
+    
+    # Setup limit
+    limit_tracker = LimitTracker(
+        tokens_limit=tokens_limit,
+    )
+    
+    raw_text = title + '\n' + f'{date_publish=} {date_modify=}' \
+        + maintext  
+    
+    # Let LightRAG process the files
+    try:
+        resp: InsertResponse = await manager_rag.ainsert(
+            text=raw_text, 
+            filename=filename, 
+            file_paths=kb_file_paths, 
+            limit_tracker=limit_tracker
+        )
+
+    except Exception as e:
+        return ChatResponse(
+            status="error",
+            message="An error encountered while RAG inserting texts!",
+            data={"error": str(e)}
+        )
+    
+    # Set data fields
+    resp.files = {
+        "filename": filename,
+        "content_type": "text",
+        "size": getsizeof(raw_text)
+    }
+    
+    # Set status and message fields
+    if resp.error is None:
+        status = "success"
+        message = f"File content from {filename} inserted successfully."
+    else:
+        status = "error"
+        message = f"File content from {filename} inserted failed."
+    
+    print(resp.model_dump())
     
     return ChatResponse(
         status=status,

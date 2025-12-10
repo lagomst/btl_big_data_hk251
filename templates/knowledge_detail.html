@@ -47,6 +47,49 @@
                 Auto-extraction of text for vector embedding.
             </div>
         </div>
+        <!-- URL Ingest Box -->
+        <div class="p-6 bg-slate-50 border-b border-slate-200">
+            <h3 class="font-sans text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">
+                Add News Article by URL
+            </h3>
+
+            <form id="uploadUrlForm" class="space-y-3">
+                <!-- URL Input -->
+                <div class="relative">
+                    <input 
+                        type="text" 
+                        id="newsUrlInput"
+                        placeholder="https://example.com/news/article"
+                        class="block w-full text-sm text-slate-600 bg-white border border-slate-300 rounded-md
+                            px-3 py-2 focus:outline-none focus:ring-2 focus:ring-news-accent/50
+                            placeholder-slate-400 transition-all"
+                    />
+                </div>
+
+                <div class="flex items-center justify-between">
+                    <div class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
+                        URL Crawl & Ingest
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        id="uploadUrlBtn" 
+                        class="text-xs font-bold uppercase underline decoration-2 underline-offset-2 hover:text-news-accent transition-colors"
+                    >
+                        Ingest URL &rarr;
+                    </button>
+                </div>
+
+                <!-- Progress Line (reuses same IDs) -->
+                <div id="progressContainer" class="hidden h-1 w-full bg-slate-200 mt-2">
+                    <div id="progressBar" class="h-full bg-news-accent w-0 transition-all duration-300"></div>
+                </div>
+            </form>
+
+            <div class="mt-3 text-[10px] text-slate-400 leading-tight">
+                Paste any online article URL. System auto-scrapes content & converts to embeddings.
+            </div>
+        </div>
 
         <!-- Source List -->
         <div class="flex-1 overflow-y-auto bg-white">
@@ -110,6 +153,15 @@
     const fileListEl = document.getElementById('fileList');
     const fileSearch = document.getElementById('fileSearch');
     
+    function extractParquetUrl(str) {
+        // find where parqueturl starts
+        const idx = str.indexOf("url:");
+        if (idx === -1) {
+            return null; // why: no parqueturl tag found, caller should handle
+        }
+        return str.slice(idx);
+    }
+
     document.getElementById('uploadForm').addEventListener('submit', async (e) => {
         e.preventDefault();
         const fileInput = document.getElementById('fileInput');
@@ -143,6 +195,7 @@
                 setTimeout(loadFiles, 500);
             } else {
                 showToast(json.message || 'Ingestion failed', 'error');
+                console.log(json.data)
             }
         } catch (err) {
             showToast('Connection error', 'error');
@@ -152,6 +205,68 @@
                 bar.style.width = '0%';
                 btn.disabled = false;
                 btn.innerHTML = 'Ingest File &rarr;';
+            }, 1000);
+        }
+    });
+
+    // --- NEW: NEWS ARTICLE URL INGEST ---
+    document.getElementById('uploadUrlForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const urlInput = document.getElementById('newsUrlInput');
+        const url = urlInput.value.trim();
+        if (!url) return showToast('No URL provided', 'error');
+
+        const btn = document.getElementById('uploadUrlBtn');
+        const prog = document.getElementById('progressContainer');
+        const bar = document.getElementById('progressBar');
+
+        btn.disabled = true;
+        btn.textContent = 'Processing...';
+        prog.classList.remove('hidden');
+        bar.style.width = '20%';
+
+        const formData = new FormData();
+        formData.append("url", url);  // REQUIRED
+
+        // Only append if you want to send a custom file path
+        const customFilePath = "";
+        if (customFilePath) {
+            formData.append("custom_file_path", customFilePath);
+        }
+
+        // Only append if user specifies a tokens limit
+        // Ensure type is correct (integer OR don’t send it)
+        const tokensLimit = null;
+        if (tokensLimit !== null && tokensLimit !== undefined) {
+            formData.append("tokens_limit", String(tokensLimit));
+        }
+
+        try {
+            const res = await fetch(`/v1/rag/insert-news-url?knowledge=${encodeURIComponent(KB_NAME)}`, {
+                method: 'POST',
+                body: formData
+            });
+
+            const json = await res.json();
+            bar.style.width = '100%';
+
+            if (json.status === 'success') {
+                showToast(`Ingested URL`);
+                urlInput.value = "";
+                setTimeout(loadFiles, 500);
+            } else {
+                showToast(json.message || 'URL ingestion failed', 'error');
+            }
+
+        } catch (err) {
+            showToast("Connection error", "error");
+        } finally {
+            setTimeout(() => {
+                prog.classList.add("hidden");
+                bar.style.width = "0%";
+                btn.disabled = false;
+                btn.innerHTML = "Ingest URL →";
             }, 1000);
         }
     });
@@ -176,11 +291,15 @@
 
             docs.forEach(doc => {
                 const div = document.createElement('div');
+                let title = extractParquetUrl(doc.filename);
+                if (title === null){
+                    title = doc.filename
+                }
                 div.className = "p-4 hover:bg-slate-50 transition group border-l-2 border-transparent hover:border-black";
                 div.innerHTML = `
                     <div class="flex items-start justify-between mb-1">
-                        <span class="font-bold text-sm text-news-ink truncate pr-4 font-serif" title="${doc.file_path}">${doc.file_path}</span>
-                        <button onclick="deleteFile('${doc.file_path}')" class="text-slate-300 hover:text-red-600 opacity-0 group-hover:opacity-100 transition">
+                        <span class="font-bold text-sm text-news-ink truncate pr-4 font-serif" title="${title}">${title}</span>
+                        <button onclick="deleteFile('${doc.filename}')" class="text-slate-300 hover:text-red-600 opacity-0 group-hover:opacity-100 transition">
                             &times;
                         </button>
                     </div>
