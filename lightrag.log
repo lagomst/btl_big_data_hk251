@@ -4616,3 +4616,1171 @@ tenacity.RetryError: RetryError[<Future at 0x77d6db839e50 state=finished raised 
 2025-12-10 09:14:20,321 - lightrag - INFO - In memory DB persist to disk
 2025-12-10 09:14:20,322 - lightrag - INFO - Completed processing file 1/1: /HCM_Highways/https%3A%2F%2Fvnexpress.net%2Fhon-36-000-ty-dong-mo-rong-cao-toc-tp-hcm-trung-luong-my-thuan-4991178.html.json/
 2025-12-10 09:14:20,322 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 09:48:38,364 - lightrag - INFO - Creating a new event loop in main thread.
+2025-12-10 09:48:47,407 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/BBC_news/graph_chunk_entity_relation.graphml with 298 nodes, 277 edges
+2025-12-10 09:48:47,532 - lightrag - INFO - Process 54047 KV load BBC_news_full_docs with 26 records
+2025-12-10 09:48:47,539 - lightrag - INFO - Process 54047 KV load BBC_news_text_chunks with 29 records
+2025-12-10 09:48:47,561 - lightrag - INFO - Process 54047 KV load BBC_news_llm_response_cache with 62 records
+2025-12-10 09:48:47,571 - lightrag - INFO - Process 54047 doc status load BBC_news_doc_status with 27 records
+2025-12-10 09:48:47,587 - lightrag - INFO - Process 54047 doc status load BBC_news_doc_status with 27 records
+2025-12-10 09:48:47,632 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/HCM_Highways/graph_chunk_entity_relation.graphml with 14 nodes, 12 edges
+2025-12-10 09:48:47,680 - lightrag - INFO - Process 54047 KV load HCM_Highways_full_docs with 1 records
+2025-12-10 09:48:47,685 - lightrag - INFO - Process 54047 KV load HCM_Highways_text_chunks with 1 records
+2025-12-10 09:48:47,694 - lightrag - INFO - Process 54047 KV load HCM_Highways_llm_response_cache with 2 records
+2025-12-10 09:48:47,699 - lightrag - INFO - Process 54047 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 09:48:47,700 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:48:47,709 - lightrag - INFO - Process 54047 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 09:48:47,741 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Novel/graph_chunk_entity_relation.graphml with 48 nodes, 48 edges
+2025-12-10 09:48:47,784 - lightrag - INFO - Process 54047 KV load Novel_full_docs with 1 records
+2025-12-10 09:48:47,790 - lightrag - INFO - Process 54047 KV load Novel_text_chunks with 6 records
+2025-12-10 09:48:47,801 - lightrag - INFO - Process 54047 KV load Novel_llm_response_cache with 12 records
+2025-12-10 09:48:47,805 - lightrag - INFO - Process 54047 doc status load Novel_doc_status with 1 records
+2025-12-10 09:48:47,806 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:48:47,813 - lightrag - INFO - Process 54047 doc status load Novel_doc_status with 1 records
+2025-12-10 09:48:47,851 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Reuter_news/graph_chunk_entity_relation.graphml with 71 nodes, 67 edges
+2025-12-10 09:48:47,896 - lightrag - INFO - Process 54047 KV load Reuter_news_full_docs with 5 records
+2025-12-10 09:48:47,904 - lightrag - INFO - Process 54047 KV load Reuter_news_text_chunks with 5 records
+2025-12-10 09:48:47,911 - lightrag - INFO - Process 54047 KV load Reuter_news_llm_response_cache with 10 records
+2025-12-10 09:48:47,917 - lightrag - INFO - Process 54047 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 09:48:47,918 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:48:47,929 - lightrag - INFO - Process 54047 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 09:48:47,932 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:50:58,295 - lightrag - INFO - Creating a new event loop in main thread.
+2025-12-10 09:51:03,029 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/BBC_news/graph_chunk_entity_relation.graphml with 298 nodes, 277 edges
+2025-12-10 09:51:03,140 - lightrag - INFO - Process 54594 KV load BBC_news_full_docs with 26 records
+2025-12-10 09:51:03,146 - lightrag - INFO - Process 54594 KV load BBC_news_text_chunks with 29 records
+2025-12-10 09:51:03,161 - lightrag - INFO - Process 54594 KV load BBC_news_llm_response_cache with 62 records
+2025-12-10 09:51:03,167 - lightrag - INFO - Process 54594 doc status load BBC_news_doc_status with 27 records
+2025-12-10 09:51:03,174 - lightrag - INFO - Process 54594 doc status load BBC_news_doc_status with 27 records
+2025-12-10 09:51:03,202 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/HCM_Highways/graph_chunk_entity_relation.graphml with 14 nodes, 12 edges
+2025-12-10 09:51:03,236 - lightrag - INFO - Process 54594 KV load HCM_Highways_full_docs with 1 records
+2025-12-10 09:51:03,240 - lightrag - INFO - Process 54594 KV load HCM_Highways_text_chunks with 1 records
+2025-12-10 09:51:03,247 - lightrag - INFO - Process 54594 KV load HCM_Highways_llm_response_cache with 2 records
+2025-12-10 09:51:03,252 - lightrag - INFO - Process 54594 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 09:51:03,252 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:51:03,258 - lightrag - INFO - Process 54594 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 09:51:03,289 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Novel/graph_chunk_entity_relation.graphml with 48 nodes, 48 edges
+2025-12-10 09:51:03,328 - lightrag - INFO - Process 54594 KV load Novel_full_docs with 1 records
+2025-12-10 09:51:03,334 - lightrag - INFO - Process 54594 KV load Novel_text_chunks with 6 records
+2025-12-10 09:51:03,342 - lightrag - INFO - Process 54594 KV load Novel_llm_response_cache with 12 records
+2025-12-10 09:51:03,348 - lightrag - INFO - Process 54594 doc status load Novel_doc_status with 1 records
+2025-12-10 09:51:03,348 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:51:03,355 - lightrag - INFO - Process 54594 doc status load Novel_doc_status with 1 records
+2025-12-10 09:51:03,387 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Reuter_news/graph_chunk_entity_relation.graphml with 71 nodes, 67 edges
+2025-12-10 09:51:03,430 - lightrag - INFO - Process 54594 KV load Reuter_news_full_docs with 5 records
+2025-12-10 09:51:03,436 - lightrag - INFO - Process 54594 KV load Reuter_news_text_chunks with 5 records
+2025-12-10 09:51:03,445 - lightrag - INFO - Process 54594 KV load Reuter_news_llm_response_cache with 10 records
+2025-12-10 09:51:03,450 - lightrag - INFO - Process 54594 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 09:51:03,451 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:51:03,457 - lightrag - INFO - Process 54594 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 09:51:03,459 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:51:52,207 - lightrag - INFO - Created new empty graph
+2025-12-10 09:51:52,286 - lightrag - INFO - Process 54594 KV load Vietnam_news_full_docs with 0 records
+2025-12-10 09:51:52,295 - lightrag - INFO - Process 54594 KV load Vietnam_news_text_chunks with 0 records
+2025-12-10 09:51:52,300 - lightrag - INFO - Process 54594 KV load Vietnam_news_llm_response_cache with 0 records
+2025-12-10 09:51:52,308 - lightrag - INFO - Process 54594 doc status load Vietnam_news_doc_status with 0 records
+2025-12-10 09:51:52,317 - lightrag - INFO - Process 54594 doc status load Vietnam_news_doc_status with 0 records
+2025-12-10 09:51:52,331 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:55:07,138 - lightrag - INFO - Creating a new event loop in main thread.
+2025-12-10 09:55:11,822 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/BBC_news/graph_chunk_entity_relation.graphml with 298 nodes, 277 edges
+2025-12-10 09:55:11,919 - lightrag - INFO - Process 55516 KV load BBC_news_full_docs with 26 records
+2025-12-10 09:55:11,926 - lightrag - INFO - Process 55516 KV load BBC_news_text_chunks with 29 records
+2025-12-10 09:55:11,938 - lightrag - INFO - Process 55516 KV load BBC_news_llm_response_cache with 62 records
+2025-12-10 09:55:11,945 - lightrag - INFO - Process 55516 doc status load BBC_news_doc_status with 27 records
+2025-12-10 09:55:11,950 - lightrag - INFO - Process 55516 doc status load BBC_news_doc_status with 27 records
+2025-12-10 09:55:11,978 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/HCM_Highways/graph_chunk_entity_relation.graphml with 14 nodes, 12 edges
+2025-12-10 09:55:12,011 - lightrag - INFO - Process 55516 KV load HCM_Highways_full_docs with 1 records
+2025-12-10 09:55:12,015 - lightrag - INFO - Process 55516 KV load HCM_Highways_text_chunks with 1 records
+2025-12-10 09:55:12,021 - lightrag - INFO - Process 55516 KV load HCM_Highways_llm_response_cache with 2 records
+2025-12-10 09:55:12,027 - lightrag - INFO - Process 55516 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 09:55:12,027 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:55:12,033 - lightrag - INFO - Process 55516 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 09:55:12,061 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Novel/graph_chunk_entity_relation.graphml with 48 nodes, 48 edges
+2025-12-10 09:55:12,098 - lightrag - INFO - Process 55516 KV load Novel_full_docs with 1 records
+2025-12-10 09:55:12,102 - lightrag - INFO - Process 55516 KV load Novel_text_chunks with 6 records
+2025-12-10 09:55:12,111 - lightrag - INFO - Process 55516 KV load Novel_llm_response_cache with 12 records
+2025-12-10 09:55:12,116 - lightrag - INFO - Process 55516 doc status load Novel_doc_status with 1 records
+2025-12-10 09:55:12,116 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:55:12,124 - lightrag - INFO - Process 55516 doc status load Novel_doc_status with 1 records
+2025-12-10 09:55:12,152 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Reuter_news/graph_chunk_entity_relation.graphml with 71 nodes, 67 edges
+2025-12-10 09:55:12,195 - lightrag - INFO - Process 55516 KV load Reuter_news_full_docs with 5 records
+2025-12-10 09:55:12,199 - lightrag - INFO - Process 55516 KV load Reuter_news_text_chunks with 5 records
+2025-12-10 09:55:12,206 - lightrag - INFO - Process 55516 KV load Reuter_news_llm_response_cache with 10 records
+2025-12-10 09:55:12,212 - lightrag - INFO - Process 55516 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 09:55:12,213 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:55:12,218 - lightrag - INFO - Process 55516 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 09:55:12,265 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/vnnews/graph_chunk_entity_relation.graphml with 71 nodes, 67 edges
+2025-12-10 09:55:12,333 - lightrag - INFO - Process 55516 KV load vnnews_full_docs with 0 records
+2025-12-10 09:55:12,335 - lightrag - INFO - Process 55516 KV load vnnews_text_chunks with 0 records
+2025-12-10 09:55:12,336 - lightrag - INFO - Process 55516 KV load vnnews_llm_response_cache with 0 records
+2025-12-10 09:55:12,338 - lightrag - INFO - Process 55516 doc status load vnnews_doc_status with 0 records
+2025-12-10 09:55:12,339 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 09:55:12,342 - lightrag - INFO - Process 55516 doc status load vnnews_doc_status with 0 records
+2025-12-10 09:55:12,343 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:00:48,502 - lightrag - INFO - Creating a new event loop in main thread.
+2025-12-10 10:00:53,608 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/BBC_news/graph_chunk_entity_relation.graphml with 298 nodes, 277 edges
+2025-12-10 10:00:53,727 - lightrag - INFO - Process 56688 KV load BBC_news_full_docs with 26 records
+2025-12-10 10:00:53,733 - lightrag - INFO - Process 56688 KV load BBC_news_text_chunks with 29 records
+2025-12-10 10:00:53,748 - lightrag - INFO - Process 56688 KV load BBC_news_llm_response_cache with 62 records
+2025-12-10 10:00:53,754 - lightrag - INFO - Process 56688 doc status load BBC_news_doc_status with 27 records
+2025-12-10 10:00:53,762 - lightrag - INFO - Process 56688 doc status load BBC_news_doc_status with 27 records
+2025-12-10 10:00:53,802 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/HCM_Highways/graph_chunk_entity_relation.graphml with 14 nodes, 12 edges
+2025-12-10 10:00:53,841 - lightrag - INFO - Process 56688 KV load HCM_Highways_full_docs with 1 records
+2025-12-10 10:00:53,847 - lightrag - INFO - Process 56688 KV load HCM_Highways_text_chunks with 1 records
+2025-12-10 10:00:53,855 - lightrag - INFO - Process 56688 KV load HCM_Highways_llm_response_cache with 2 records
+2025-12-10 10:00:53,860 - lightrag - INFO - Process 56688 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 10:00:53,860 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:00:53,866 - lightrag - INFO - Process 56688 doc status load HCM_Highways_doc_status with 1 records
+2025-12-10 10:00:53,901 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Novel/graph_chunk_entity_relation.graphml with 48 nodes, 48 edges
+2025-12-10 10:00:53,948 - lightrag - INFO - Process 56688 KV load Novel_full_docs with 1 records
+2025-12-10 10:00:53,953 - lightrag - INFO - Process 56688 KV load Novel_text_chunks with 6 records
+2025-12-10 10:00:53,964 - lightrag - INFO - Process 56688 KV load Novel_llm_response_cache with 12 records
+2025-12-10 10:00:53,970 - lightrag - INFO - Process 56688 doc status load Novel_doc_status with 1 records
+2025-12-10 10:00:53,970 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:00:53,981 - lightrag - INFO - Process 56688 doc status load Novel_doc_status with 1 records
+2025-12-10 10:00:54,018 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Reuter_news/graph_chunk_entity_relation.graphml with 71 nodes, 67 edges
+2025-12-10 10:00:54,071 - lightrag - INFO - Process 56688 KV load Reuter_news_full_docs with 5 records
+2025-12-10 10:00:54,076 - lightrag - INFO - Process 56688 KV load Reuter_news_text_chunks with 5 records
+2025-12-10 10:00:54,084 - lightrag - INFO - Process 56688 KV load Reuter_news_llm_response_cache with 10 records
+2025-12-10 10:00:54,091 - lightrag - INFO - Process 56688 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 10:00:54,092 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:00:54,097 - lightrag - INFO - Process 56688 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 10:00:54,131 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/vnnews/graph_chunk_entity_relation.graphml with 71 nodes, 67 edges
+2025-12-10 10:00:54,171 - lightrag - INFO - Process 56688 KV load vnnews_full_docs with 0 records
+2025-12-10 10:00:54,172 - lightrag - INFO - Process 56688 KV load vnnews_text_chunks with 0 records
+2025-12-10 10:00:54,175 - lightrag - INFO - Process 56688 KV load vnnews_llm_response_cache with 0 records
+2025-12-10 10:00:54,179 - lightrag - INFO - Process 56688 doc status load vnnews_doc_status with 0 records
+2025-12-10 10:00:54,180 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:00:54,183 - lightrag - INFO - Process 56688 doc status load vnnews_doc_status with 0 records
+2025-12-10 10:00:54,185 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:01:44,404 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/binnews/graph_chunk_entity_relation.graphml with 298 nodes, 277 edges
+2025-12-10 10:01:44,485 - lightrag - INFO - Process 56688 KV load binnews_full_docs with 26 records
+2025-12-10 10:01:44,491 - lightrag - INFO - Process 56688 KV load binnews_text_chunks with 29 records
+2025-12-10 10:01:44,505 - lightrag - INFO - Process 56688 KV load binnews_llm_response_cache with 62 records
+2025-12-10 10:01:44,510 - lightrag - INFO - Process 56688 doc status load binnews_doc_status with 27 records
+2025-12-10 10:01:44,515 - lightrag - INFO - Process 56688 doc status load binnews_doc_status with 27 records
+2025-12-10 10:01:44,520 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:08:59,890 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-12-10 10:09:04,251 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:2c095315caa57d2782b712789acc2fab
+2025-12-10 10:09:04,252 - lightrag - INFO - Process 56688 building query context...
+2025-12-10 10:09:04,253 - lightrag - INFO - Query nodes: Referendum, SNP, Devolution, Brexit, Public opinion, Scottish Government, top_k: 60, cosine: 0.2
+2025-12-10 10:09:04,254 - lightrag - INFO - limit_async: 8 new workers initialized
+2025-12-10 10:09:07,070 - lightrag - INFO - Local query: 60 entites, 74 relations, 15 chunks
+2025-12-10 10:09:07,072 - lightrag - INFO - Query edges: Scotland independence, Political movement, News updates, Historical timeline, top_k: 60, cosine: 0.2
+2025-12-10 10:09:09,342 - lightrag - INFO - Global query: 69 entites, 60 relations, 14 chunks
+2025-12-10 10:09:09,348 - lightrag - INFO - Final context: 93 entities, 84 relations, 5 chunks
+2025-12-10 10:10:09,985 - lightrag - INFO - Process 56688 building query context...
+2025-12-10 10:10:09,986 - lightrag - INFO - Query nodes: Referendum, SNP, Devolution, Brexit, Public opinion, Scottish Government, top_k: 60, cosine: 0.2
+2025-12-10 10:10:13,083 - lightrag - INFO - Local query: 60 entites, 74 relations, 15 chunks
+2025-12-10 10:10:13,084 - lightrag - INFO - Query edges: Scotland independence, Political movement, News updates, Historical timeline, top_k: 60, cosine: 0.2
+2025-12-10 10:10:14,348 - lightrag - INFO - Global query: 69 entites, 60 relations, 14 chunks
+2025-12-10 10:10:14,352 - lightrag - INFO - Final context: 93 entities, 84 relations, 5 chunks
+2025-12-10 10:10:29,249 - lightrag - INFO -  == LLM cache == saving: hybrid:query:2c095315caa57d2782b712789acc2fab
+2025-12-10 10:13:35,717 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-15399724
+2025-12-10 10:13:35,718 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:35,719 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:35,720 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:35,812 - lightrag - INFO - Writing graph with 298 nodes, 277 edges
+2025-12-10 10:13:35,855 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:35,855 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-wiltshire-21192574
+2025-12-10 10:13:35,856 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:35,856 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:35,857 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:35,858 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:35,859 - lightrag - INFO - Successfully deleted 11 relations
+2025-12-10 10:13:35,947 - lightrag - INFO - Writing graph with 287 nodes, 266 edges
+2025-12-10 10:13:35,983 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:35,984 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/newsround/21504741
+2025-12-10 10:13:35,984 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:35,985 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:35,985 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:35,986 - lightrag - INFO - Successfully deleted 8 entities
+2025-12-10 10:13:35,987 - lightrag - INFO - Successfully deleted 8 relations
+2025-12-10 10:13:36,081 - lightrag - INFO - Writing graph with 279 nodes, 258 edges
+2025-12-10 10:13:36,113 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:36,114 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-europe-25497127
+2025-12-10 10:13:36,114 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:36,115 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:36,116 - lightrag - INFO - Successfully deleted 2 chunks from storage
+2025-12-10 10:13:36,117 - lightrag - INFO - Successfully deleted 24 entities
+2025-12-10 10:13:36,118 - lightrag - INFO - Successfully deleted 22 relations
+2025-12-10 10:13:36,207 - lightrag - INFO - Writing graph with 255 nodes, 236 edges
+2025-12-10 10:13:36,240 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:36,241 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-northamptonshire-20920616
+2025-12-10 10:13:36,242 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:36,242 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:36,243 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:36,244 - lightrag - INFO - Successfully deleted 9 entities
+2025-12-10 10:13:36,245 - lightrag - INFO - Successfully deleted 6 relations
+2025-12-10 10:13:36,328 - lightrag - INFO - Writing graph with 246 nodes, 230 edges
+2025-12-10 10:13:36,361 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:36,361 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/world-middle-east-23881814
+2025-12-10 10:13:36,362 - lightrag - INFO - Found 1 affected entities
+2025-12-10 10:13:36,362 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:36,363 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:36,363 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:36,364 - lightrag - INFO - Successfully deleted 7 relations
+2025-12-10 10:13:36,365 - lightrag - INFO - Rebuilding knowledge from 2 cached chunk extractions
+2025-12-10 10:13:36,365 - lightrag - INFO - Found 4 valid cache entries, 2 chunks with results
+2025-12-10 10:13:39,555 - lightrag - INFO - Rebuilt entity: Barack Obama from 2 chunks
+2025-12-10 10:13:39,556 - lightrag - INFO - KG rebuild completed: 1 entities and 0 relationships.
+2025-12-10 10:13:39,670 - lightrag - INFO - Writing graph with 239 nodes, 223 edges
+2025-12-10 10:13:39,722 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:39,723 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-us-canada-23323333
+2025-12-10 10:13:39,723 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:39,724 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:39,724 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:39,725 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:39,726 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:39,813 - lightrag - INFO - Writing graph with 228 nodes, 213 edges
+2025-12-10 10:13:39,859 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:39,859 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-europe-27101228
+2025-12-10 10:13:39,860 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:39,861 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:39,861 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:39,862 - lightrag - INFO - Successfully deleted 17 entities
+2025-12-10 10:13:39,863 - lightrag - INFO - Successfully deleted 15 relations
+2025-12-10 10:13:39,938 - lightrag - INFO - Writing graph with 211 nodes, 198 edges
+2025-12-10 10:13:39,974 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:39,974 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-us-canada-24528038
+2025-12-10 10:13:39,976 - lightrag - INFO - Found 1 affected entities
+2025-12-10 10:13:39,976 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:39,977 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:39,978 - lightrag - INFO - Successfully deleted 5 entities
+2025-12-10 10:13:39,979 - lightrag - INFO - Successfully deleted 9 relations
+2025-12-10 10:13:39,980 - lightrag - INFO - Rebuilding knowledge from 1 cached chunk extractions
+2025-12-10 10:13:39,981 - lightrag - INFO - Found 2 valid cache entries, 1 chunks with results
+2025-12-10 10:13:40,947 - lightrag - INFO - Rebuilt entity: Barack Obama from 1 chunks
+2025-12-10 10:13:40,948 - lightrag - INFO - KG rebuild completed: 1 entities and 0 relationships.
+2025-12-10 10:13:41,056 - lightrag - INFO - Writing graph with 206 nodes, 189 edges
+2025-12-10 10:13:41,106 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:41,107 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/world-us-canada-22823284
+2025-12-10 10:13:41,108 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:41,108 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:41,109 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:41,109 - lightrag - INFO - Successfully deleted 13 entities
+2025-12-10 10:13:41,110 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:41,207 - lightrag - INFO - Writing graph with 193 nodes, 179 edges
+2025-12-10 10:13:41,235 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:41,235 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-wales-north-west-wales-16269221
+2025-12-10 10:13:41,236 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:41,236 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:41,236 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:41,237 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:41,237 - lightrag - INFO - Successfully deleted 12 relations
+2025-12-10 10:13:41,314 - lightrag - INFO - Writing graph with 182 nodes, 167 edges
+2025-12-10 10:13:41,339 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:41,339 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-africa-37349683
+2025-12-10 10:13:41,340 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:41,340 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:41,340 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:41,341 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:41,342 - lightrag - INFO - Successfully deleted 6 relations
+2025-12-10 10:13:41,403 - lightrag - INFO - Writing graph with 175 nodes, 161 edges
+2025-12-10 10:13:41,430 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:41,430 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-17903674
+2025-12-10 10:13:41,431 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:41,431 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:41,432 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:41,432 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:41,433 - lightrag - INFO - Successfully deleted 6 relations
+2025-12-10 10:13:41,504 - lightrag - INFO - Writing graph with 168 nodes, 155 edges
+2025-12-10 10:13:41,531 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:41,531 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-stoke-staffordshire-22871192
+2025-12-10 10:13:41,532 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:41,535 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:41,536 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:41,537 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:41,538 - lightrag - INFO - Successfully deleted 9 relations
+2025-12-10 10:13:41,613 - lightrag - INFO - Writing graph with 157 nodes, 146 edges
+2025-12-10 10:13:41,637 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:41,637 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-latin-america-13869175
+2025-12-10 10:13:41,638 - lightrag - INFO - Found 1 affected entities
+2025-12-10 10:13:41,638 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:41,639 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:41,639 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:41,640 - lightrag - INFO - Successfully deleted 8 relations
+2025-12-10 10:13:41,641 - lightrag - INFO - Rebuilding knowledge from 1 cached chunk extractions
+2025-12-10 10:13:41,644 - lightrag - INFO - Found 2 valid cache entries, 1 chunks with results
+2025-12-10 10:13:41,889 - lightrag - INFO - Rebuilt entity: Brazil from 1 chunks
+2025-12-10 10:13:41,890 - lightrag - INFO - KG rebuild completed: 1 entities and 0 relationships.
+2025-12-10 10:13:41,965 - lightrag - INFO - Writing graph with 150 nodes, 138 edges
+2025-12-10 10:13:41,991 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:41,992 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-europe-28478941
+2025-12-10 10:13:41,992 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:41,993 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:41,994 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:41,995 - lightrag - INFO - Successfully deleted 14 entities
+2025-12-10 10:13:41,996 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:42,055 - lightrag - INFO - Writing graph with 136 nodes, 128 edges
+2025-12-10 10:13:42,077 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,079 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-england-merseyside-35726224
+2025-12-10 10:13:42,080 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,080 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,081 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,082 - lightrag - INFO - Successfully deleted 10 entities
+2025-12-10 10:13:42,083 - lightrag - INFO - Successfully deleted 8 relations
+2025-12-10 10:13:42,139 - lightrag - INFO - Writing graph with 126 nodes, 120 edges
+2025-12-10 10:13:42,157 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,158 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-northern-ireland-24348798
+2025-12-10 10:13:42,158 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,158 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,159 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,159 - lightrag - INFO - Successfully deleted 12 entities
+2025-12-10 10:13:42,160 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:42,213 - lightrag - INFO - Writing graph with 114 nodes, 110 edges
+2025-12-10 10:13:42,230 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,231 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-scotland-24758166
+2025-12-10 10:13:42,231 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,232 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,232 - lightrag - INFO - Successfully deleted 2 chunks from storage
+2025-12-10 10:13:42,233 - lightrag - INFO - Successfully deleted 24 entities
+2025-12-10 10:13:42,233 - lightrag - INFO - Successfully deleted 22 relations
+2025-12-10 10:13:42,279 - lightrag - INFO - Writing graph with 90 nodes, 88 edges
+2025-12-10 10:13:42,297 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,298 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-22750937
+2025-12-10 10:13:42,299 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,299 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,299 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,300 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:42,301 - lightrag - INFO - Successfully deleted 7 relations
+2025-12-10 10:13:42,350 - lightrag - INFO - Writing graph with 83 nodes, 81 edges
+2025-12-10 10:13:42,366 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,367 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/business-29151280
+2025-12-10 10:13:42,367 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,367 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,368 - lightrag - INFO - Successfully deleted 2 chunks from storage
+2025-12-10 10:13:42,368 - lightrag - INFO - Successfully deleted 21 entities
+2025-12-10 10:13:42,369 - lightrag - INFO - Successfully deleted 21 relations
+2025-12-10 10:13:42,406 - lightrag - INFO - Writing graph with 62 nodes, 60 edges
+2025-12-10 10:13:42,416 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,417 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.com/news/world-asia-37743411
+2025-12-10 10:13:42,417 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,418 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,418 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,419 - lightrag - INFO - Successfully deleted 12 entities
+2025-12-10 10:13:42,419 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:42,454 - lightrag - INFO - Writing graph with 50 nodes, 50 edges
+2025-12-10 10:13:42,463 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,463 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-27762684
+2025-12-10 10:13:42,464 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,464 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,465 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,466 - lightrag - INFO - Successfully deleted 10 entities
+2025-12-10 10:13:42,467 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:42,499 - lightrag - INFO - Writing graph with 40 nodes, 40 edges
+2025-12-10 10:13:42,506 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,506 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-wales-north-west-wales-43924596
+2025-12-10 10:13:42,507 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,507 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,508 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,508 - lightrag - INFO - Successfully deleted 8 entities
+2025-12-10 10:13:42,509 - lightrag - INFO - Successfully deleted 7 relations
+2025-12-10 10:13:42,540 - lightrag - INFO - Writing graph with 32 nodes, 33 edges
+2025-12-10 10:13:42,555 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,555 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-20583801
+2025-12-10 10:13:42,555 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,556 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,556 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,556 - lightrag - INFO - Successfully deleted 10 entities
+2025-12-10 10:13:42,557 - lightrag - INFO - Successfully deleted 9 relations
+2025-12-10 10:13:42,654 - lightrag - INFO - Writing graph with 22 nodes, 24 edges
+2025-12-10 10:13:42,660 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,660 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-scotland-south-scotland-21689753
+2025-12-10 10:13:42,661 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,661 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,662 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,662 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:42,663 - lightrag - INFO - Successfully deleted 11 relations
+2025-12-10 10:13:42,691 - lightrag - INFO - Writing graph with 11 nodes, 13 edges
+2025-12-10 10:13:42,698 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:42,699 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-politics-22637048
+2025-12-10 10:13:42,700 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:42,700 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:42,701 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:42,701 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:42,702 - lightrag - INFO - Successfully deleted 13 relations
+2025-12-10 10:13:42,723 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-12-10 10:13:42,728 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:44,676 - lightrag - INFO - Starting deletion process for document https%3A%2F%2Fvnexpress.net%2Fhon-36-000-ty-dong-mo-rong-cao-toc-tp-hcm-trung-luong-my-thuan-4991178.html.json
+2025-12-10 10:13:44,677 - lightrag - INFO - Process 56688 reloading graph chunk_entity_relation due to update by another process
+2025-12-10 10:13:44,687 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:44,687 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:44,688 - lightrag - INFO - Process 56688 reloading chunks due to update by another process
+2025-12-10 10:13:44,697 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:44,697 - lightrag - INFO - Process 56688 reloading entities due to update by another process
+2025-12-10 10:13:44,710 - lightrag - INFO - Successfully deleted 14 entities
+2025-12-10 10:13:44,710 - lightrag - INFO - Process 56688 reloading relationships due to update by another process
+2025-12-10 10:13:44,719 - lightrag - INFO - Successfully deleted 12 relations
+2025-12-10 10:13:44,745 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-12-10 10:13:44,749 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:47,094 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-15399724
+2025-12-10 10:13:47,095 - lightrag - INFO - Process 56688 reloading graph chunk_entity_relation due to update by another process
+2025-12-10 10:13:47,114 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:47,114 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:47,114 - lightrag - INFO - Process 56688 reloading chunks due to update by another process
+2025-12-10 10:13:47,123 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:47,132 - lightrag - WARNING - Storage for entities was updated by another process, reloading...
+2025-12-10 10:13:47,165 - lightrag - WARNING - Storage for relationships was updated by another process, reloading...
+2025-12-10 10:13:47,205 - lightrag - INFO - Writing graph with 298 nodes, 277 edges
+2025-12-10 10:13:47,249 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:47,250 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-wiltshire-21192574
+2025-12-10 10:13:47,250 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:47,251 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:47,251 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:47,252 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:47,254 - lightrag - INFO - Successfully deleted 11 relations
+2025-12-10 10:13:47,363 - lightrag - INFO - Writing graph with 287 nodes, 266 edges
+2025-12-10 10:13:47,412 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:47,412 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/newsround/21504741
+2025-12-10 10:13:47,413 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:47,414 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:47,414 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:47,415 - lightrag - INFO - Successfully deleted 8 entities
+2025-12-10 10:13:47,415 - lightrag - INFO - Successfully deleted 8 relations
+2025-12-10 10:13:47,512 - lightrag - INFO - Writing graph with 279 nodes, 258 edges
+2025-12-10 10:13:47,546 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:47,547 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-europe-25497127
+2025-12-10 10:13:47,547 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:47,548 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:47,548 - lightrag - INFO - Successfully deleted 2 chunks from storage
+2025-12-10 10:13:47,549 - lightrag - INFO - Successfully deleted 24 entities
+2025-12-10 10:13:47,549 - lightrag - INFO - Successfully deleted 22 relations
+2025-12-10 10:13:47,627 - lightrag - INFO - Writing graph with 255 nodes, 236 edges
+2025-12-10 10:13:47,656 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:47,657 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-northamptonshire-20920616
+2025-12-10 10:13:47,657 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:47,658 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:47,658 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:47,659 - lightrag - INFO - Successfully deleted 9 entities
+2025-12-10 10:13:47,660 - lightrag - INFO - Successfully deleted 6 relations
+2025-12-10 10:13:47,738 - lightrag - INFO - Writing graph with 246 nodes, 230 edges
+2025-12-10 10:13:47,769 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:47,770 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/world-middle-east-23881814
+2025-12-10 10:13:47,771 - lightrag - INFO - Found 1 affected entities
+2025-12-10 10:13:47,771 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:47,772 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:47,772 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:47,773 - lightrag - INFO - Successfully deleted 7 relations
+2025-12-10 10:13:47,773 - lightrag - INFO - Rebuilding knowledge from 2 cached chunk extractions
+2025-12-10 10:13:47,774 - lightrag - INFO - Found 4 valid cache entries, 2 chunks with results
+2025-12-10 10:13:47,776 - lightrag - INFO - limit_async: 8 new workers initialized
+2025-12-10 10:13:49,496 - lightrag - INFO - Rebuilt entity: Barack Obama from 2 chunks
+2025-12-10 10:13:49,497 - lightrag - INFO - KG rebuild completed: 1 entities and 0 relationships.
+2025-12-10 10:13:49,572 - lightrag - INFO - Writing graph with 239 nodes, 223 edges
+2025-12-10 10:13:49,601 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:49,601 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-us-canada-23323333
+2025-12-10 10:13:49,602 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:49,602 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:49,603 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:49,603 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:49,604 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:49,678 - lightrag - INFO - Writing graph with 228 nodes, 213 edges
+2025-12-10 10:13:49,707 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:49,708 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-europe-27101228
+2025-12-10 10:13:49,708 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:49,709 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:49,709 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:49,710 - lightrag - INFO - Successfully deleted 17 entities
+2025-12-10 10:13:49,710 - lightrag - INFO - Successfully deleted 15 relations
+2025-12-10 10:13:49,777 - lightrag - INFO - Writing graph with 211 nodes, 198 edges
+2025-12-10 10:13:49,801 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:49,802 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-us-canada-24528038
+2025-12-10 10:13:49,803 - lightrag - INFO - Found 1 affected entities
+2025-12-10 10:13:49,803 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:49,803 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:49,804 - lightrag - INFO - Successfully deleted 5 entities
+2025-12-10 10:13:49,804 - lightrag - INFO - Successfully deleted 9 relations
+2025-12-10 10:13:49,805 - lightrag - INFO - Rebuilding knowledge from 1 cached chunk extractions
+2025-12-10 10:13:49,805 - lightrag - INFO - Found 2 valid cache entries, 1 chunks with results
+2025-12-10 10:13:49,842 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-us-canada-24528038
+2025-12-10 10:13:52,337 - lightrag - INFO - Rebuilt entity: Barack Obama from 1 chunks
+2025-12-10 10:13:52,338 - lightrag - INFO - KG rebuild completed: 1 entities and 0 relationships.
+2025-12-10 10:13:52,339 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:52,340 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:52,340 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:52,423 - lightrag - INFO - Writing graph with 206 nodes, 189 edges
+2025-12-10 10:13:52,499 - lightrag - INFO - Writing graph with 206 nodes, 189 edges
+2025-12-10 10:13:52,530 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:52,531 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/world-us-canada-22823284
+2025-12-10 10:13:52,532 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:52,533 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:52,533 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:52,534 - lightrag - INFO - Successfully deleted 13 entities
+2025-12-10 10:13:52,534 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:52,535 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:52,535 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/world-us-canada-22823284
+2025-12-10 10:13:52,536 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/world-us-canada-22823284 not found
+2025-12-10 10:13:52,536 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-wales-north-west-wales-16269221
+2025-12-10 10:13:52,537 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:52,537 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:52,537 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:52,538 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:52,539 - lightrag - INFO - Successfully deleted 12 relations
+2025-12-10 10:13:52,611 - lightrag - INFO - Writing graph with 182 nodes, 167 edges
+2025-12-10 10:13:52,677 - lightrag - INFO - Writing graph with 182 nodes, 167 edges
+2025-12-10 10:13:52,699 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:52,700 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-wales-north-west-wales-16269221
+2025-12-10 10:13:52,700 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-wales-north-west-wales-16269221 not found
+2025-12-10 10:13:52,700 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-africa-37349683
+2025-12-10 10:13:52,701 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:52,701 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:52,702 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:52,702 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:52,703 - lightrag - INFO - Successfully deleted 6 relations
+2025-12-10 10:13:52,703 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:52,703 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-africa-37349683
+2025-12-10 10:13:52,704 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-africa-37349683 not found
+2025-12-10 10:13:52,704 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-17903674
+2025-12-10 10:13:52,704 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:52,705 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:52,705 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:52,705 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:52,706 - lightrag - INFO - Successfully deleted 6 relations
+2025-12-10 10:13:52,765 - lightrag - INFO - Writing graph with 168 nodes, 155 edges
+2025-12-10 10:13:52,825 - lightrag - INFO - Writing graph with 168 nodes, 155 edges
+2025-12-10 10:13:52,849 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:52,849 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-17903674
+2025-12-10 10:13:52,850 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-17903674 not found
+2025-12-10 10:13:52,850 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-stoke-staffordshire-22871192
+2025-12-10 10:13:52,850 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:52,851 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:52,851 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:52,852 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:52,852 - lightrag - INFO - Successfully deleted 9 relations
+2025-12-10 10:13:52,853 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:52,854 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-stoke-staffordshire-22871192
+2025-12-10 10:13:52,854 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-england-stoke-staffordshire-22871192 not found
+2025-12-10 10:13:52,855 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-latin-america-13869175
+2025-12-10 10:13:52,855 - lightrag - INFO - Found 1 affected entities
+2025-12-10 10:13:52,856 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:52,856 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:52,857 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:52,858 - lightrag - INFO - Successfully deleted 8 relations
+2025-12-10 10:13:52,858 - lightrag - INFO - Rebuilding knowledge from 1 cached chunk extractions
+2025-12-10 10:13:52,858 - lightrag - INFO - Found 2 valid cache entries, 1 chunks with results
+2025-12-10 10:13:52,914 - lightrag - INFO - Writing graph with 150 nodes, 138 edges
+2025-12-10 10:13:52,947 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:52,948 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/world-latin-america-13869175
+2025-12-10 10:13:54,035 - lightrag - INFO - Rebuilt entity: Brazil from 1 chunks
+2025-12-10 10:13:54,036 - lightrag - INFO - KG rebuild completed: 1 entities and 0 relationships.
+2025-12-10 10:13:54,037 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,037 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,038 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,095 - lightrag - INFO - Writing graph with 150 nodes, 138 edges
+2025-12-10 10:13:54,158 - lightrag - INFO - Writing graph with 150 nodes, 138 edges
+2025-12-10 10:13:54,182 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,182 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-europe-28478941
+2025-12-10 10:13:54,182 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,183 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,183 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,184 - lightrag - INFO - Successfully deleted 14 entities
+2025-12-10 10:13:54,184 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:54,185 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,185 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-europe-28478941
+2025-12-10 10:13:54,185 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/world-europe-28478941 not found
+2025-12-10 10:13:54,186 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-england-merseyside-35726224
+2025-12-10 10:13:54,186 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,186 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,187 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,187 - lightrag - INFO - Successfully deleted 10 entities
+2025-12-10 10:13:54,188 - lightrag - INFO - Successfully deleted 8 relations
+2025-12-10 10:13:54,254 - lightrag - INFO - Writing graph with 126 nodes, 120 edges
+2025-12-10 10:13:54,312 - lightrag - INFO - Writing graph with 126 nodes, 120 edges
+2025-12-10 10:13:54,333 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,334 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-england-merseyside-35726224
+2025-12-10 10:13:54,335 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-england-merseyside-35726224 not found
+2025-12-10 10:13:54,336 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-northern-ireland-24348798
+2025-12-10 10:13:54,337 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,337 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,338 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,339 - lightrag - INFO - Successfully deleted 12 entities
+2025-12-10 10:13:54,339 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:54,340 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,340 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-northern-ireland-24348798
+2025-12-10 10:13:54,341 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-northern-ireland-24348798 not found
+2025-12-10 10:13:54,341 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-scotland-24758166
+2025-12-10 10:13:54,342 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,342 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,342 - lightrag - INFO - Successfully deleted 2 chunks from storage
+2025-12-10 10:13:54,343 - lightrag - INFO - Successfully deleted 24 entities
+2025-12-10 10:13:54,343 - lightrag - INFO - Successfully deleted 22 relations
+2025-12-10 10:13:54,397 - lightrag - INFO - Writing graph with 90 nodes, 88 edges
+2025-12-10 10:13:54,450 - lightrag - INFO - Writing graph with 90 nodes, 88 edges
+2025-12-10 10:13:54,468 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,469 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-scotland-24758166
+2025-12-10 10:13:54,470 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-scotland-24758166 not found
+2025-12-10 10:13:54,470 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-22750937
+2025-12-10 10:13:54,471 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,471 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,471 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,472 - lightrag - INFO - Successfully deleted 7 entities
+2025-12-10 10:13:54,472 - lightrag - INFO - Successfully deleted 7 relations
+2025-12-10 10:13:54,473 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,473 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-22750937
+2025-12-10 10:13:54,474 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-22750937 not found
+2025-12-10 10:13:54,474 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/business-29151280
+2025-12-10 10:13:54,474 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,475 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,475 - lightrag - INFO - Successfully deleted 2 chunks from storage
+2025-12-10 10:13:54,476 - lightrag - INFO - Successfully deleted 21 entities
+2025-12-10 10:13:54,477 - lightrag - INFO - Successfully deleted 21 relations
+2025-12-10 10:13:54,541 - lightrag - INFO - Writing graph with 62 nodes, 60 edges
+2025-12-10 10:13:54,581 - lightrag - INFO - Writing graph with 62 nodes, 60 edges
+2025-12-10 10:13:54,596 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,596 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/business-29151280
+2025-12-10 10:13:54,596 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/business-29151280 not found
+2025-12-10 10:13:54,597 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.com/news/world-asia-37743411
+2025-12-10 10:13:54,597 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,598 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,598 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,598 - lightrag - INFO - Successfully deleted 12 entities
+2025-12-10 10:13:54,599 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:54,599 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,600 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.com/news/world-asia-37743411
+2025-12-10 10:13:54,600 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.com/news/world-asia-37743411 not found
+2025-12-10 10:13:54,600 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-27762684
+2025-12-10 10:13:54,600 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,601 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,601 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,602 - lightrag - INFO - Successfully deleted 10 entities
+2025-12-10 10:13:54,602 - lightrag - INFO - Successfully deleted 10 relations
+2025-12-10 10:13:54,649 - lightrag - INFO - Writing graph with 40 nodes, 40 edges
+2025-12-10 10:13:54,684 - lightrag - INFO - Writing graph with 40 nodes, 40 edges
+2025-12-10 10:13:54,694 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,694 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-27762684
+2025-12-10 10:13:54,695 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-27762684 not found
+2025-12-10 10:13:54,696 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-wales-north-west-wales-43924596
+2025-12-10 10:13:54,696 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,697 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,697 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,698 - lightrag - INFO - Successfully deleted 8 entities
+2025-12-10 10:13:54,699 - lightrag - INFO - Successfully deleted 7 relations
+2025-12-10 10:13:54,699 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,700 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-wales-north-west-wales-43924596
+2025-12-10 10:13:54,700 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:https://www.bbc.co.uk/news/uk-wales-north-west-wales-43924596 not found
+2025-12-10 10:13:54,701 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-20583801
+2025-12-10 10:13:54,701 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,702 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,702 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,703 - lightrag - INFO - Successfully deleted 10 entities
+2025-12-10 10:13:54,703 - lightrag - INFO - Successfully deleted 9 relations
+2025-12-10 10:13:54,736 - lightrag - INFO - Writing graph with 22 nodes, 24 edges
+2025-12-10 10:13:54,763 - lightrag - INFO - Writing graph with 22 nodes, 24 edges
+2025-12-10 10:13:54,773 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,773 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-20583801
+2025-12-10 10:13:54,774 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/business-20583801 not found
+2025-12-10 10:13:54,774 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-scotland-south-scotland-21689753
+2025-12-10 10:13:54,775 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,775 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,775 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,776 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:54,777 - lightrag - INFO - Successfully deleted 11 relations
+2025-12-10 10:13:54,777 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,778 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-scotland-south-scotland-21689753
+2025-12-10 10:13:54,778 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.co.uk/news/uk-scotland-south-scotland-21689753 not found
+2025-12-10 10:13:54,778 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-politics-22637048
+2025-12-10 10:13:54,779 - lightrag - INFO - Found 0 affected entities
+2025-12-10 10:13:54,779 - lightrag - INFO - Found 0 affected relations
+2025-12-10 10:13:54,780 - lightrag - INFO - Successfully deleted 1 chunks from storage
+2025-12-10 10:13:54,780 - lightrag - INFO - Successfully deleted 11 entities
+2025-12-10 10:13:54,781 - lightrag - INFO - Successfully deleted 13 relations
+2025-12-10 10:13:54,809 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-12-10 10:13:54,826 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-12-10 10:13:54,830 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:13:54,831 - lightrag - INFO - Starting deletion process for document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-politics-22637048
+2025-12-10 10:13:54,831 - lightrag - WARNING - Document bbc_news_lite_part_0001_split_0000.parqueturl:http://www.bbc.com/news/uk-politics-22637048 not found
+2025-12-10 10:13:54,851 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:15:19,034 - lightrag - INFO - Created new empty graph
+2025-12-10 10:15:19,089 - lightrag - INFO - Process 56688 doc status load BBC_news_doc_status with 0 records
+2025-12-10 10:15:19,096 - lightrag - INFO - Process 56688 doc status load BBC_news_doc_status with 0 records
+2025-12-10 10:15:19,108 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:15:28,133 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:15:28,134 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:15:28,134 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:15:28,135 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/entertainment/4427388.stm
+2025-12-10 10:15:28,150 - lightrag - INFO - limit_async: 8 new workers initialized
+2025-12-10 10:15:30,509 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-12-10 10:15:46,074 - lightrag - INFO -  == LLM cache == saving: default:extract:e4c27f46c9d258918947729bca8de542
+2025-12-10 10:16:03,844 - lightrag - INFO -  == LLM cache == saving: default:extract:f3b579e19d71308253aa7eab03f3c0be
+2025-12-10 10:16:03,845 - lightrag - INFO - Chunk 1 of 1 extracted 19 Ent + 14 Rel
+2025-12-10 10:16:03,846 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:16:03,847 - lightrag - INFO - Processing: 19 entities and 14 relations
+2025-12-10 10:16:22,655 - lightrag - INFO - Writing graph with 20 nodes, 14 edges
+2025-12-10 10:16:22,662 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:16:22,662 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:16:22,663 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:16:22,669 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:16:22,670 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:16:22,670 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:16:22,671 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/americas/431311.stm
+2025-12-10 10:16:32,421 - lightrag - INFO -  == LLM cache == saving: default:extract:933ab63067ff502c6992f6c84c32d191
+2025-12-10 10:16:34,560 - lightrag - INFO -  == LLM cache == saving: default:extract:8812385f6ebe4d88cc14386bbe22db8c
+2025-12-10 10:16:49,564 - lightrag - INFO -  == LLM cache == saving: default:extract:a969c31721b3100423b56cb1c1e0a56e
+2025-12-10 10:16:49,565 - lightrag - INFO - Chunk 1 of 2 extracted 13 Ent + 13 Rel
+2025-12-10 10:16:51,356 - lightrag - INFO -  == LLM cache == saving: default:extract:609426288eaf646802032c6e76f83c3d
+2025-12-10 10:16:51,358 - lightrag - INFO - Chunk 2 of 2 extracted 11 Ent + 12 Rel
+2025-12-10 10:16:51,359 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:16:51,359 - lightrag - INFO - Processing: 24 entities and 24 relations
+2025-12-10 10:16:58,921 - lightrag - INFO - Merge E: Davidians - Flames Await | 2+0
+2025-12-10 10:17:05,912 - lightrag - INFO - Writing graph with 44 nodes, 38 edges
+2025-12-10 10:17:05,921 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:17:05,921 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:05,922 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:17:05,928 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:17:05,929 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:17:05,930 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:05,930 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/uk-politics-18791922
+2025-12-10 10:17:17,552 - lightrag - INFO -  == LLM cache == saving: default:extract:dda59d27d9e58804f014dd9306777ed9
+2025-12-10 10:17:29,035 - lightrag - INFO -  == LLM cache == saving: default:extract:f990a8f9fb5ff208eb847c7b06f72e54
+2025-12-10 10:17:29,036 - lightrag - INFO - Chunk 1 of 1 extracted 7 Ent + 8 Rel
+2025-12-10 10:17:29,037 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:29,038 - lightrag - INFO - Processing: 7 entities and 8 relations
+2025-12-10 10:17:33,742 - lightrag - INFO - Writing graph with 51 nodes, 46 edges
+2025-12-10 10:17:33,756 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:17:33,756 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:33,757 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:17:33,762 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:17:33,763 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:17:33,764 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:33,765 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/uk-england-wiltshire-21192574
+2025-12-10 10:17:34,623 - lightrag - INFO - Chunk 1 of 1 extracted 11 Ent + 12 Rel
+2025-12-10 10:17:34,623 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:34,624 - lightrag - INFO - Processing: 11 entities and 11 relations
+2025-12-10 10:17:37,688 - lightrag - INFO - Merge E: Peter Batey - Sir Edward Heath | 2+0
+2025-12-10 10:17:39,763 - lightrag - INFO - Writing graph with 62 nodes, 57 edges
+2025-12-10 10:17:39,778 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:17:39,779 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:39,780 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:17:39,787 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:17:39,788 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:17:39,788 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:39,788 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/newsround/21504741
+2025-12-10 10:17:40,709 - lightrag - INFO - Chunk 1 of 1 extracted 8 Ent + 8 Rel
+2025-12-10 10:17:40,710 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:40,710 - lightrag - INFO - Processing: 8 entities and 8 relations
+2025-12-10 10:17:45,721 - lightrag - INFO - Writing graph with 70 nodes, 65 edges
+2025-12-10 10:17:45,732 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:17:45,732 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:45,733 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:17:45,739 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:17:45,740 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:17:45,740 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:17:45,741 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/sport2/hi/football/teams/d/derby_county/7174189.stm
+2025-12-10 10:17:55,510 - lightrag - INFO -  == LLM cache == saving: default:extract:be7adb3c117e940c245a485297f70dd2
+2025-12-10 10:18:13,685 - lightrag - INFO -  == LLM cache == saving: default:extract:88e7c3163f727a8ec5d3f62c1f4071da
+2025-12-10 10:18:13,687 - lightrag - INFO - Chunk 1 of 1 extracted 12 Ent + 10 Rel
+2025-12-10 10:18:13,688 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:18:13,689 - lightrag - INFO - Processing: 12 entities and 10 relations
+2025-12-10 10:18:19,085 - lightrag - INFO - Writing graph with 83 nodes, 75 edges
+2025-12-10 10:18:19,098 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:18:19,099 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:18:19,099 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:18:19,105 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:18:19,105 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:18:19,106 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:18:19,106 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/africa/8201647.stm
+2025-12-10 10:18:27,445 - lightrag - INFO -  == LLM cache == saving: default:extract:8e81ed86622d561a21afeee3e24aa529
+2025-12-10 10:18:35,753 - lightrag - INFO -  == LLM cache == saving: hybrid:query:2c095315caa57d2782b712789acc2fab
+2025-12-10 10:18:44,809 - lightrag - INFO -  == LLM cache == saving: default:extract:61b8d806b77fd74a0254adf65b594444
+2025-12-10 10:18:44,810 - lightrag - INFO - Chunk 1 of 1 extracted 9 Ent + 9 Rel
+2025-12-10 10:18:44,811 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:18:44,812 - lightrag - INFO - Processing: 9 entities and 9 relations
+2025-12-10 10:18:49,862 - lightrag - INFO - Writing graph with 92 nodes, 84 edges
+2025-12-10 10:18:49,875 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:18:49,875 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:18:49,875 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:18:49,880 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:18:49,881 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:18:49,881 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:18:49,881 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/sport2/hi/football/teams/m/man_city/4338665.stm
+2025-12-10 10:18:59,823 - lightrag - INFO -  == LLM cache == saving: default:extract:7b81fdb7233d1d0dfdef09b143c3aa0d
+2025-12-10 10:19:19,484 - lightrag - INFO -  == LLM cache == saving: default:extract:d0356de3b47a1c357726a369d55a463b
+2025-12-10 10:19:19,486 - lightrag - INFO - Chunk 1 of 1 extracted 11 Ent + 9 Rel
+2025-12-10 10:19:19,487 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:19:19,488 - lightrag - INFO - Processing: 11 entities and 9 relations
+2025-12-10 10:19:23,795 - lightrag - INFO - Writing graph with 103 nodes, 93 edges
+2025-12-10 10:19:23,810 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:19:23,810 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:19:23,811 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:19:23,817 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:19:23,818 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:19:23,818 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:19:23,819 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/world-asia-16218112
+2025-12-10 10:19:35,422 - lightrag - INFO -  == LLM cache == saving: default:extract:bc7c519811ebc4720f8a56d7b98868e7
+2025-12-10 10:19:38,317 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:106e87e8d246aea4b142b6b7a873277d
+2025-12-10 10:19:38,317 - lightrag - INFO - Process 56688 building query context...
+2025-12-10 10:19:38,318 - lightrag - INFO - Query nodes: Upcoming matches, Transfers, Club history, Player statistics, Recent events, top_k: 60, cosine: 0.2
+2025-12-10 10:19:39,207 - lightrag - INFO - Local query: 27 entites, 25 relations, 4 chunks
+2025-12-10 10:19:39,208 - lightrag - INFO - Query edges: Timeline, News, Manchester City, top_k: 60, cosine: 0.2
+2025-12-10 10:19:39,969 - lightrag - INFO - Global query: 34 entites, 26 relations, 4 chunks
+2025-12-10 10:19:39,972 - lightrag - INFO - Final context: 37 entities, 28 relations, 4 chunks
+2025-12-10 10:19:49,968 - lightrag - INFO -  == LLM cache == saving: hybrid:query:106e87e8d246aea4b142b6b7a873277d
+2025-12-10 10:19:55,525 - lightrag - INFO -  == LLM cache == saving: default:extract:2f3c94bb07981b0bc732ddd7411f55bf
+2025-12-10 10:19:55,526 - lightrag - INFO - Chunk 1 of 1 extracted 13 Ent + 11 Rel
+2025-12-10 10:19:55,527 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:19:55,528 - lightrag - INFO - Processing: 13 entities and 11 relations
+2025-12-10 10:19:58,400 - lightrag - INFO - Writing graph with 116 nodes, 104 edges
+2025-12-10 10:19:58,419 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:19:58,419 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:19:58,419 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:19:58,426 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:19:58,427 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:19:58,428 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:19:58,428 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/today/hi/today/newsid_9259000/9259585.stm
+2025-12-10 10:20:07,790 - lightrag - INFO -  == LLM cache == saving: default:extract:98daf1e2f6d6bbc36eb6714f0fda5e90
+2025-12-10 10:20:20,729 - lightrag - INFO -  == LLM cache == saving: default:extract:6c00076fa0b02427326bafea31e7c79b
+2025-12-10 10:20:20,731 - lightrag - INFO - Chunk 1 of 1 extracted 7 Ent + 7 Rel
+2025-12-10 10:20:20,732 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:20:20,732 - lightrag - INFO - Processing: 7 entities and 7 relations
+2025-12-10 10:20:24,524 - lightrag - INFO - Writing graph with 123 nodes, 111 edges
+2025-12-10 10:20:24,545 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:20:24,546 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:20:24,546 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:20:24,552 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:20:24,553 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:20:24,553 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:20:24,554 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.com/news/world-europe-25497127
+2025-12-10 10:20:25,761 - lightrag - INFO - Chunk 1 of 2 extracted 18 Ent + 15 Rel
+2025-12-10 10:20:25,763 - lightrag - INFO - Chunk 2 of 2 extracted 8 Ent + 7 Rel
+2025-12-10 10:20:25,764 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:20:25,765 - lightrag - INFO - Processing: 24 entities and 22 relations
+2025-12-10 10:20:25,765 - lightrag - INFO - Merge N: Gulen Movement | 2+0
+2025-12-10 10:20:27,228 - lightrag - INFO - Merge N: Turkey | 2+0
+2025-12-10 10:20:33,251 - lightrag - INFO - Writing graph with 147 nodes, 133 edges
+2025-12-10 10:20:33,282 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:20:33,285 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:20:33,286 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:20:33,306 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:20:33,307 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:20:33,308 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:20:33,308 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/middle_east/7205131.stm
+2025-12-10 10:20:44,913 - lightrag - INFO -  == LLM cache == saving: default:extract:a03018485d285991fc6960a0e9e76380
+2025-12-10 10:20:56,752 - lightrag - INFO -  == LLM cache == saving: default:extract:72ba6a2b0dcfb587adaf55467ab5f6ec
+2025-12-10 10:20:56,753 - lightrag - INFO - Chunk 1 of 1 extracted 10 Ent + 12 Rel
+2025-12-10 10:20:56,754 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:20:56,755 - lightrag - INFO - Processing: 10 entities and 11 relations
+2025-12-10 10:20:59,768 - lightrag - INFO - Merge E: Hamas - Israeli Troops | 2+0
+2025-12-10 10:21:01,775 - lightrag - INFO - Writing graph with 157 nodes, 144 edges
+2025-12-10 10:21:01,797 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:21:01,798 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:21:01,798 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:21:01,808 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:21:01,809 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:21:01,809 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:21:01,810 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/world-us-canada-25748245
+2025-12-10 10:21:14,664 - lightrag - INFO -  == LLM cache == saving: default:extract:f75240356723f974821abc82be444f8c
+2025-12-10 10:21:26,201 - lightrag - INFO -  == LLM cache == saving: default:extract:906d63b11522aa5c76d0668153727824
+2025-12-10 10:21:26,203 - lightrag - INFO - Chunk 1 of 1 extracted 15 Ent + 15 Rel
+2025-12-10 10:21:26,203 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:21:26,204 - lightrag - INFO - Processing: 15 entities and 15 relations
+2025-12-10 10:21:32,336 - lightrag - INFO - Writing graph with 172 nodes, 159 edges
+2025-12-10 10:21:32,356 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:21:32,356 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:21:32,356 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:21:32,361 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:21:32,362 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:21:32,362 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:21:32,362 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/uk-england-surrey-15278713
+2025-12-10 10:21:51,070 - lightrag - INFO -  == LLM cache == saving: default:extract:674f38276ad14796bbaf9c466b92f6fc
+2025-12-10 10:22:16,433 - lightrag - INFO -  == LLM cache == saving: default:extract:d4670f9b5abb1f11fef2f05caf12e52f
+2025-12-10 10:22:16,435 - lightrag - INFO - Chunk 1 of 1 extracted 18 Ent + 16 Rel
+2025-12-10 10:22:16,436 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:16,436 - lightrag - INFO - Processing: 18 entities and 16 relations
+2025-12-10 10:22:23,502 - lightrag - INFO - Writing graph with 190 nodes, 175 edges
+2025-12-10 10:22:23,524 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:22:23,524 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:23,525 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:22:23,530 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:22:23,531 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:22:23,532 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:23,532 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/uk-england-cambridgeshire-24888817
+2025-12-10 10:22:33,706 - lightrag - INFO -  == LLM cache == saving: default:extract:d2634b2c487789f6e0ce5e40401dc581
+2025-12-10 10:22:45,024 - lightrag - INFO -  == LLM cache == saving: default:extract:40ef46f6876326b8d25f909d06f1d487
+2025-12-10 10:22:45,025 - lightrag - INFO - Chunk 1 of 1 extracted 11 Ent + 12 Rel
+2025-12-10 10:22:45,026 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:45,026 - lightrag - INFO - Processing: 11 entities and 12 relations
+2025-12-10 10:22:56,470 - lightrag - INFO - Writing graph with 201 nodes, 187 edges
+2025-12-10 10:22:56,494 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:22:56,495 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:56,495 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:22:54,102 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:22:54,103 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:22:54,103 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:54,104 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/uk-england-northamptonshire-20920616
+2025-12-10 10:22:54,910 - lightrag - INFO - Chunk 1 of 1 extracted 8 Ent + 6 Rel
+2025-12-10 10:22:54,911 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:54,911 - lightrag - INFO - Processing: 8 entities and 6 relations
+2025-12-10 10:22:58,091 - lightrag - INFO - Writing graph with 210 nodes, 193 edges
+2025-12-10 10:22:58,115 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:22:58,116 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:58,116 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:22:58,122 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:22:58,123 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:22:58,123 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:58,124 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/world-middle-east-23881814
+2025-12-10 10:22:58,941 - lightrag - INFO - Chunk 1 of 1 extracted 8 Ent + 7 Rel
+2025-12-10 10:22:58,942 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:22:58,943 - lightrag - INFO - Processing: 8 entities and 7 relations
+2025-12-10 10:23:02,449 - lightrag - INFO - Writing graph with 218 nodes, 200 edges
+2025-12-10 10:23:02,475 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:23:02,475 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:23:02,475 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:23:02,480 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:23:02,481 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:23:02,481 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:23:02,482 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.com/news/technology-17051910
+2025-12-10 10:23:15,353 - lightrag - INFO -  == LLM cache == saving: default:extract:ee6dafad829a493ed103512a236b3dea
+2025-12-10 10:23:30,716 - lightrag - INFO -  == LLM cache == saving: default:extract:ec68a6bf4daf6d3a0fa1d3c2c5ce1928
+2025-12-10 10:23:30,718 - lightrag - INFO - Chunk 1 of 1 extracted 15 Ent + 15 Rel
+2025-12-10 10:23:30,719 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:23:30,720 - lightrag - INFO - Processing: 15 entities and 14 relations
+2025-12-10 10:23:33,916 - lightrag - INFO - Merge E: Find Friends - Twitter | 2+0
+2025-12-10 10:23:37,530 - lightrag - INFO - Writing graph with 233 nodes, 214 edges
+2025-12-10 10:23:37,556 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:23:37,557 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:23:37,557 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:23:37,562 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:23:37,563 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:23:37,563 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:23:37,564 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/middle_east/3527221.stm
+2025-12-10 10:23:56,800 - lightrag - INFO -  == LLM cache == saving: default:extract:ed395966e37151c7c76e6863685ca428
+2025-12-10 10:24:24,418 - lightrag - INFO -  == LLM cache == saving: default:extract:701637369025ce4c4579fd047dbda086
+2025-12-10 10:24:24,419 - lightrag - INFO - Chunk 1 of 1 extracted 15 Ent + 11 Rel
+2025-12-10 10:24:24,420 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:24:24,421 - lightrag - INFO - Processing: 15 entities and 11 relations
+2025-12-10 10:24:27,758 - lightrag - INFO - Writing graph with 248 nodes, 225 edges
+2025-12-10 10:24:27,786 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:24:27,786 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:24:27,787 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:24:27,792 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:24:27,793 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:24:27,793 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:24:27,794 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/middle_east/4726421.stm
+2025-12-10 10:24:43,940 - lightrag - INFO -  == LLM cache == saving: default:extract:e15a5886978793cb5aef9dde4caa5c0d
+2025-12-10 10:25:01,876 - lightrag - INFO -  == LLM cache == saving: default:extract:b3513f2e93e95f2767cf0b7e18bfaf0d
+2025-12-10 10:25:01,877 - lightrag - INFO - Chunk 1 of 1 extracted 10 Ent + 8 Rel
+2025-12-10 10:25:01,878 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:25:01,878 - lightrag - INFO - Processing: 10 entities and 8 relations
+2025-12-10 10:25:05,779 - lightrag - INFO - Writing graph with 258 nodes, 233 edges
+2025-12-10 10:25:05,809 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:25:05,810 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:25:05,810 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:25:05,816 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:25:05,816 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:25:05,817 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:25:05,817 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/business-27543054
+2025-12-10 10:25:21,363 - lightrag - INFO -  == LLM cache == saving: default:extract:75e0851c991bd5355b1b3f91bfba724c
+2025-12-10 10:25:43,295 - lightrag - INFO -  == LLM cache == saving: default:extract:2f16acac1866d399ca615b2138d148c9
+2025-12-10 10:25:43,296 - lightrag - INFO - Chunk 1 of 1 extracted 14 Ent + 10 Rel
+2025-12-10 10:25:43,297 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:25:43,298 - lightrag - INFO - Processing: 14 entities and 10 relations
+2025-12-10 10:25:48,301 - lightrag - INFO - Writing graph with 272 nodes, 243 edges
+2025-12-10 10:25:48,331 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:25:48,331 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:25:48,331 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:25:48,337 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:25:48,337 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:25:48,338 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:25:48,339 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/sport2/hi/rugby_union/8336894.stm
+2025-12-10 10:25:52,594 - lightrag - INFO -  == LLM cache == saving: default:extract:f02d1adb5c0fd9c087b1163616fde447
+2025-12-10 10:25:54,226 - lightrag - INFO -  == LLM cache == saving: default:extract:48b7c7ad677a3836d2f856c3f4036fb0
+2025-12-10 10:25:54,227 - lightrag - INFO - Chunk 1 of 2 extracted 2 Ent + 1 Rel
+2025-12-10 10:26:05,635 - lightrag - INFO -  == LLM cache == saving: default:extract:a371dd0e675fcccbf4f573737d071e15
+2025-12-10 10:26:29,941 - lightrag - INFO -  == LLM cache == saving: default:extract:993a5ad64eec005fe18b40fb5d8002b2
+2025-12-10 10:26:29,942 - lightrag - INFO - Chunk 2 of 2 extracted 22 Ent + 13 Rel
+2025-12-10 10:26:29,943 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:26:29,944 - lightrag - INFO - Processing: 24 entities and 14 relations
+2025-12-10 10:26:39,336 - lightrag - INFO - Writing graph with 296 nodes, 257 edges
+2025-12-10 10:26:39,368 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:26:39,368 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:26:39,368 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:26:39,374 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:26:39,374 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:26:39,375 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:26:39,375 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.com/news/world-us-canada-23323333
+2025-12-10 10:26:40,234 - lightrag - INFO - Chunk 1 of 1 extracted 11 Ent + 10 Rel
+2025-12-10 10:26:40,235 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:26:40,236 - lightrag - INFO - Processing: 11 entities and 10 relations
+2025-12-10 10:26:45,120 - lightrag - INFO - Writing graph with 307 nodes, 267 edges
+2025-12-10 10:26:45,153 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:26:45,153 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:26:45,154 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:26:45,160 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:26:45,161 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:26:45,162 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:26:45,162 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/europe/4086296.stm
+2025-12-10 10:26:58,645 - lightrag - INFO -  == LLM cache == saving: default:extract:6071265487e44619f8d96aeb8b78a586
+2025-12-10 10:27:18,171 - lightrag - INFO -  == LLM cache == saving: default:extract:e1d59076a5fe94cfb95bf4b0cf75c755
+2025-12-10 10:27:18,172 - lightrag - INFO - Chunk 1 of 1 extracted 9 Ent + 8 Rel
+2025-12-10 10:27:18,173 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:27:18,174 - lightrag - INFO - Processing: 9 entities and 8 relations
+2025-12-10 10:27:22,286 - lightrag - INFO - Writing graph with 317 nodes, 275 edges
+2025-12-10 10:27:22,319 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:27:22,320 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:27:22,320 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:27:22,327 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:27:22,328 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:27:22,328 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:27:22,328 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/uk_news/scotland/3632207.stm
+2025-12-10 10:27:36,935 - lightrag - INFO -  == LLM cache == saving: default:extract:875e0da50e92f197d62ec0d338504798
+2025-12-10 10:27:59,865 - lightrag - INFO -  == LLM cache == saving: default:extract:39bde015848c934b20498662639d58ed
+2025-12-10 10:27:59,866 - lightrag - INFO - Chunk 1 of 1 extracted 13 Ent + 11 Rel
+2025-12-10 10:27:59,867 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:27:59,868 - lightrag - INFO - Processing: 13 entities and 11 relations
+2025-12-10 10:28:05,394 - lightrag - INFO - Writing graph with 330 nodes, 286 edges
+2025-12-10 10:28:05,428 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:28:05,429 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:28:05,429 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:28:05,435 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:28:05,436 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:28:05,437 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:28:05,437 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/2/hi/uk_news/england/cornwall/7196104.stm
+2025-12-10 10:28:18,418 - lightrag - INFO -  == LLM cache == saving: default:extract:ae8694407acd0fb8a150f328fab46fd8
+2025-12-10 10:28:37,521 - lightrag - INFO - Created new empty graph
+2025-12-10 10:28:37,558 - lightrag - INFO - Process 56688 KV load VNnews_full_docs with 0 records
+2025-12-10 10:28:37,562 - lightrag - INFO - Process 56688 KV load VNnews_text_chunks with 0 records
+2025-12-10 10:28:37,566 - lightrag - INFO - Process 56688 KV load VNnews_llm_response_cache with 0 records
+2025-12-10 10:28:37,572 - lightrag - INFO - Process 56688 doc status load VNnews_doc_status with 0 records
+2025-12-10 10:28:37,576 - lightrag - INFO - Process 56688 doc status load VNnews_doc_status with 0 records
+2025-12-10 10:28:37,582 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:28:42,297 - lightrag - INFO -  == LLM cache == saving: default:extract:e13274f713e925d99ecd3b2213ce494f
+2025-12-10 10:28:42,299 - lightrag - INFO - Chunk 1 of 1 extracted 9 Ent + 11 Rel
+2025-12-10 10:28:42,300 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:28:42,301 - lightrag - INFO - Processing: 9 entities and 11 relations
+2025-12-10 10:28:56,508 - lightrag - INFO - Writing graph with 339 nodes, 297 edges
+2025-12-10 10:28:56,543 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:28:56,543 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:28:56,544 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:28:56,550 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:28:56,551 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:28:56,551 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:28:56,552 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://www.bbc.co.uk/news/uk-scotland-scotland-business-14424814
+2025-12-10 10:29:07,195 - lightrag - INFO -  == LLM cache == saving: default:extract:dce9d9df486558dd65ea082c8cb46296
+2025-12-10 10:29:11,221 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:29:11,222 - lightrag - INFO - Another process is already processing the document queue. Request queued.
+2025-12-10 10:29:23,448 - lightrag - INFO -  == LLM cache == saving: default:extract:cfe7a31a9427dad3a8373e3f842211bf
+2025-12-10 10:29:23,449 - lightrag - INFO - Chunk 1 of 1 extracted 8 Ent + 7 Rel
+2025-12-10 10:29:23,450 - lightrag - INFO - Merging stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:29:23,451 - lightrag - INFO - Processing: 8 entities and 7 relations
+2025-12-10 10:29:24,320 - lightrag - INFO - Writing graph with 347 nodes, 304 edges
+2025-12-10 10:29:24,357 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:29:24,357 - lightrag - INFO - Completed processing file 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:29:24,357 - lightrag - INFO - Processing additional documents due to pending request
+2025-12-10 10:29:24,358 - lightrag - INFO - All documents have been processed or are duplicates
+2025-12-10 10:29:24,358 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:29:24,365 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:29:24,365 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:29:24,366 - lightrag - INFO - Extracting stage 1/1: /BBC_news/worker_0_part_0001.parquet/
+2025-12-10 10:29:24,366 - lightrag - INFO - Processing d-id: worker_0_part_0001.parqueturl:http://news.bbc.co.uk/1/hi/england/hereford/worcs/3685809.stm
+2025-12-10 10:29:24,481 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:29:24,482 - lightrag - INFO - Another process is already processing the document queue. Request queued.
+2025-12-10 10:29:41,899 - lightrag - INFO - No new unique documents were found.
+2025-12-10 10:29:41,900 - lightrag - INFO - Another process is already processing the document queue. Request queued.
+2025-12-10 10:29:42,174 - lightrag - INFO -  == LLM cache == saving: default:extract:cf13d3419595f6bcead607cfd93abf94
+2025-12-10 10:29:51,682 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:29:52,157 - lightrag - INFO - Creating a new event loop in main thread.
+2025-12-10 10:29:52,371 - lightrag - ERROR - limit_async: Critical error in worker: Event loop is closed
+2025-12-10 10:29:57,570 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/BBC_news/graph_chunk_entity_relation.graphml with 347 nodes, 304 edges
+2025-12-10 10:29:57,697 - lightrag - INFO - Process 64524 KV load BBC_news_full_docs with 27 records
+2025-12-10 10:29:57,703 - lightrag - INFO - Process 64524 KV load BBC_news_text_chunks with 30 records
+2025-12-10 10:29:57,725 - lightrag - INFO - Process 64524 KV load BBC_news_llm_response_cache with 112 records
+2025-12-10 10:29:57,733 - lightrag - INFO - Process 64524 doc status load BBC_news_doc_status with 28 records
+2025-12-10 10:29:57,738 - lightrag - INFO - Process 64524 doc status load BBC_news_doc_status with 28 records
+2025-12-10 10:29:57,769 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Novel/graph_chunk_entity_relation.graphml with 48 nodes, 48 edges
+2025-12-10 10:29:57,808 - lightrag - INFO - Process 64524 KV load Novel_full_docs with 1 records
+2025-12-10 10:29:57,813 - lightrag - INFO - Process 64524 KV load Novel_text_chunks with 6 records
+2025-12-10 10:29:57,822 - lightrag - INFO - Process 64524 KV load Novel_llm_response_cache with 12 records
+2025-12-10 10:29:57,827 - lightrag - INFO - Process 64524 doc status load Novel_doc_status with 1 records
+2025-12-10 10:29:57,827 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:29:57,833 - lightrag - INFO - Process 64524 doc status load Novel_doc_status with 1 records
+2025-12-10 10:29:57,867 - lightrag - INFO - Loaded graph from /mnt/b/schoolwork/big_data/app/knowledges/Reuter_news/graph_chunk_entity_relation.graphml with 71 nodes, 67 edges
+2025-12-10 10:29:57,913 - lightrag - INFO - Process 64524 KV load Reuter_news_full_docs with 5 records
+2025-12-10 10:29:57,917 - lightrag - INFO - Process 64524 KV load Reuter_news_text_chunks with 5 records
+2025-12-10 10:29:57,924 - lightrag - INFO - Process 64524 KV load Reuter_news_llm_response_cache with 10 records
+2025-12-10 10:29:57,931 - lightrag - INFO - Process 64524 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 10:29:57,932 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:29:57,937 - lightrag - INFO - Process 64524 doc status load Reuter_news_doc_status with 5 records
+2025-12-10 10:29:57,960 - lightrag - INFO - Created new empty graph
+2025-12-10 10:29:57,979 - lightrag - INFO - Process 64524 KV load VNnews_full_docs with 0 records
+2025-12-10 10:29:57,981 - lightrag - INFO - Process 64524 KV load VNnews_text_chunks with 0 records
+2025-12-10 10:29:57,984 - lightrag - INFO - Process 64524 KV load VNnews_llm_response_cache with 0 records
+2025-12-10 10:29:57,989 - lightrag - INFO - Process 64524 doc status load VNnews_doc_status with 2 records
+2025-12-10 10:29:57,990 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:29:57,995 - lightrag - INFO - Process 64524 doc status load VNnews_doc_status with 2 records
+2025-12-10 10:29:57,997 - lightrag - INFO - Storage Initialization completed!
+2025-12-10 10:31:21,272 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-12-10 10:31:21,216 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:4d91da42fc8cefd0c37d1edd7fc1bc4d
+2025-12-10 10:31:21,216 - lightrag - INFO - Process 64524 building query context...
+2025-12-10 10:31:21,217 - lightrag - INFO - Query nodes: Match results, Winning team, Goals, Trophy, Final, top_k: 60, cosine: 0.2
+2025-12-10 10:31:21,217 - lightrag - INFO - limit_async: 8 new workers initialized
+2025-12-10 10:31:22,267 - lightrag - INFO - Local query: 42 entites, 36 relations, 6 chunks
+2025-12-10 10:31:22,270 - lightrag - INFO - Query edges: FA Cup, Victory, Football, top_k: 60, cosine: 0.2
+2025-12-10 10:31:23,052 - lightrag - INFO - Global query: 74 entites, 60 relations, 11 chunks
+2025-12-10 10:31:23,059 - lightrag - INFO - Final context: 84 entities, 65 relations, 5 chunks
+2025-12-10 10:31:27,691 - lightrag - INFO -  == LLM cache == saving: hybrid:query:4d91da42fc8cefd0c37d1edd7fc1bc4d
+2025-12-10 10:32:30,649 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:32:30,650 - lightrag - INFO - Processing 3 document(s)
+2025-12-10 10:32:30,652 - lightrag - INFO - Extracting stage 1/3: /VNnews/reuter.txt/
+2025-12-10 10:32:30,653 - lightrag - INFO - Processing d-id: reuter.txt
+2025-12-10 10:32:30,655 - lightrag - INFO - Extracting stage 2/3: /VNnews/problem-set-8.pdf/
+2025-12-10 10:32:30,655 - lightrag - INFO - Processing d-id: problem-set-8.pdf
+2025-12-10 10:32:30,689 - lightrag - INFO - limit_async: 8 new workers initialized
+2025-12-10 10:32:31,460 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-12-10 10:32:43,187 - lightrag - INFO -  == LLM cache == saving: default:extract:5da8f93d495e859d3551cc9a52776571
+2025-12-10 10:32:48,630 - lightrag - INFO -  == LLM cache == saving: default:extract:2d02c86e1767c4823ab78233ce9f130a
+2025-12-10 10:32:49,625 - lightrag - INFO -  == LLM cache == saving: default:extract:adad7f0f5d51d98015515f5a2fec8a04
+2025-12-10 10:32:54,907 - lightrag - INFO -  == LLM cache == saving: default:extract:2699e5ed5cec9f7c06c0b3029f1092a5
+2025-12-10 10:32:54,908 - lightrag - INFO - Chunk 1 of 2 extracted 15 Ent + 9 Rel
+2025-12-10 10:33:07,352 - lightrag - INFO -  == LLM cache == saving: default:extract:4f5f097efcda57496cce16bc5690a303
+2025-12-10 10:33:07,354 - lightrag - INFO - Chunk 1 of 1 extracted 12 Ent + 12 Rel
+2025-12-10 10:33:07,355 - lightrag - INFO - Merging stage 1/3: /VNnews/reuter.txt/
+2025-12-10 10:33:07,355 - lightrag - INFO - Processing: 12 entities and 10 relations
+2025-12-10 10:33:08,801 - lightrag - INFO -  == LLM cache == saving: default:extract:6d65d20311ec011c047fd9a35067105c
+2025-12-10 10:33:08,802 - lightrag - INFO - Chunk 2 of 2 extracted 15 Ent + 11 Rel
+2025-12-10 10:33:08,803 - lightrag - INFO - Merging stage 2/3: /VNnews/problem-set-8.pdf/
+2025-12-10 10:33:08,803 - lightrag - INFO - Processing: 29 entities and 20 relations
+2025-12-10 10:33:08,803 - lightrag - INFO - Merge N: American University of Beirut | 2+0
+2025-12-10 10:33:10,151 - lightrag - INFO - Merge E: Democratic National Committee - Eileen Higgins | 2+0
+2025-12-10 10:33:10,386 - lightrag - INFO - Merge E: Hispanic Majority - Miami | 2+0
+2025-12-10 10:33:12,530 - lightrag - INFO - Writing graph with 29 nodes, 10 edges
+2025-12-10 10:33:12,545 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:33:12,545 - lightrag - INFO - Completed processing file 1/3: /VNnews/reuter.txt/
+2025-12-10 10:33:12,546 - lightrag - INFO - Extracting stage 3/3: /VNnews/https%3A%2F%2Fvnexpress.net%2Ftp-hcm-giao-vingroup-dau-tu-metro-ben-thanh-can-gio-4991140.html.json/
+2025-12-10 10:33:12,547 - lightrag - INFO - Processing d-id: https%3A%2F%2Fvnexpress.net%2Ftp-hcm-giao-vingroup-dau-tu-metro-ben-thanh-can-gio-4991140.html.json
+2025-12-10 10:33:19,760 - lightrag - INFO - Writing graph with 41 nodes, 30 edges
+2025-12-10 10:33:19,769 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:33:19,769 - lightrag - INFO - Completed processing file 2/3: /VNnews/problem-set-8.pdf/
+2025-12-10 10:33:25,413 - lightrag - INFO -  == LLM cache == saving: default:extract:bae54c42e051ded8f4328fa180d1a228
+2025-12-10 10:33:52,122 - lightrag - INFO -  == LLM cache == saving: default:extract:37877d181462234f33d775db9f89527c
+2025-12-10 10:33:52,124 - lightrag - INFO - Chunk 1 of 1 extracted 17 Ent + 14 Rel
+2025-12-10 10:33:52,125 - lightrag - INFO - Merging stage 3/3: /VNnews/https%3A%2F%2Fvnexpress.net%2Ftp-hcm-giao-vingroup-dau-tu-metro-ben-thanh-can-gio-4991140.html.json/
+2025-12-10 10:33:52,125 - lightrag - INFO - Processing: 17 entities and 14 relations
+2025-12-10 10:34:06,532 - lightrag - INFO - Writing graph with 58 nodes, 44 edges
+2025-12-10 10:34:06,543 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:34:06,544 - lightrag - INFO - Completed processing file 3/3: /VNnews/https%3A%2F%2Fvnexpress.net%2Ftp-hcm-giao-vingroup-dau-tu-metro-ben-thanh-can-gio-4991140.html.json/
+2025-12-10 10:34:06,545 - lightrag - INFO - Document processing pipeline completed
+2025-12-10 10:34:33,384 - lightrag - INFO - Stored 1 new unique documents
+2025-12-10 10:34:33,385 - lightrag - INFO - Processing 1 document(s)
+2025-12-10 10:34:33,386 - lightrag - INFO - Extracting stage 1/1: /VNnews/https%3A%2F%2Fvnexpress.net%2Fdiem-dau-metro-ben-thanh-can-gio-se-nam-trong-cong-vien-23-9-4965788.html.json/
+2025-12-10 10:34:33,386 - lightrag - INFO - Processing d-id: https%3A%2F%2Fvnexpress.net%2Fdiem-dau-metro-ben-thanh-can-gio-se-nam-trong-cong-vien-23-9-4965788.html.json
+2025-12-10 10:34:57,792 - lightrag - INFO -  == LLM cache == saving: default:extract:fa4ace43e7d3f53d35bfc81dc1e884ad
+2025-12-10 10:34:58,799 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:cca18fcff2c9d71c4b1e56c1cbc56cc0
+2025-12-10 10:34:58,800 - lightrag - INFO - Process 64524 building query context...
+2025-12-10 10:34:58,801 - lightrag - INFO - Query nodes: Bến Thành, Cần Giờ, Vietnam, Public transit, Infrastructure, top_k: 60, cosine: 0.2
+2025-12-10 10:35:00,321 - lightrag - INFO - Local query: 15 entites, 14 relations, 1 chunks
+2025-12-10 10:35:00,322 - lightrag - INFO - Query edges: Metro, Transportation, Urban development, top_k: 60, cosine: 0.2
+2025-12-10 10:35:01,573 - lightrag - INFO - Global query: 22 entites, 19 relations, 2 chunks
+2025-12-10 10:35:01,575 - lightrag - INFO - Final context: 24 entities, 19 relations, 2 chunks
+2025-12-10 10:35:14,980 - lightrag - INFO -  == LLM cache == saving: hybrid:query:cca18fcff2c9d71c4b1e56c1cbc56cc0
+2025-12-10 10:35:28,386 - lightrag - INFO -  == LLM cache == saving: default:extract:19decea94f6a85581c4cdf4fa1331d08
+2025-12-10 10:35:28,388 - lightrag - INFO - Chunk 1 of 1 extracted 16 Ent + 13 Rel
+2025-12-10 10:35:28,389 - lightrag - INFO - Merging stage 1/1: /VNnews/https%3A%2F%2Fvnexpress.net%2Fdiem-dau-metro-ben-thanh-can-gio-se-nam-trong-cong-vien-23-9-4965788.html.json/
+2025-12-10 10:35:28,390 - lightrag - INFO - Processing: 16 entities and 12 relations
+2025-12-10 10:35:28,391 - lightrag - INFO - Merge N: Công viên 23/9 | 1+1
+2025-12-10 10:35:29,553 - lightrag - INFO - Merge N: Cần Giờ | 1+1
+2025-12-10 10:35:32,315 - lightrag - INFO - Merge E: Metro Bến Thành - Cần Giờ - UBND TP HCM | 2+0
+2025-12-10 10:35:35,753 - lightrag - INFO - Writing graph with 72 nodes, 56 edges
+2025-12-10 10:35:35,765 - lightrag - INFO - In memory DB persist to disk
+2025-12-10 10:35:35,765 - lightrag - INFO - Completed processing file 1/1: /VNnews/https%3A%2F%2Fvnexpress.net%2Fdiem-dau-metro-ben-thanh-can-gio-se-nam-trong-cong-vien-23-9-4965788.html.json/
+2025-12-10 10:35:35,766 - lightrag - INFO - Document processing pipeline completed

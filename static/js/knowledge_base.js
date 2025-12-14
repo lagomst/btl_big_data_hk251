@@ -90,9 +90,11 @@ async function selectKnowledgeBase(kbName, cardElement = null) {
   // }
 }
 
-async function createKnowledgeBase(name) {
+async function createKnowledgeBase(name, source) {
   try {
-    const res = await fetch(`/v1/rag/knowledge/${encodeURIComponent(name)}`, { method: 'POST' });
+    const formData = new FormData();
+    formData.append('source', source)
+    const res = await fetch(`/v1/rag/knowledge/${encodeURIComponent(name)}`, { method: 'POST', body: formData });
     // console.log(res)
     const json = await res.json();
     if (json.status === 'success') {
@@ -136,8 +138,9 @@ document.addEventListener('DOMContentLoaded', () => {
     createForm.addEventListener('submit', async (e) => {
       e.preventDefault();
       const name = document.getElementById('kb-create-name').value.trim();
+      const source = document.getElementById('kb-create-source').value.trim();
       if (!name) return alert('Enter a name');
-      const ok = await createKnowledgeBase(name);
+      const ok = await createKnowledgeBase(name, source);
       if (ok) document.getElementById('kb-create-name').value = '';
     });
   }

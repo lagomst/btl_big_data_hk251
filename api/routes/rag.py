@@ -49,9 +49,11 @@ async def knowledges():
     return PathListResponse(status="success", data=knowledges)
     
 @router.post("/knowledge/{name}")
-async def create_knowledge(name: str, request: Request):
+async def create_knowledge(request: Request, name: str, 
+    source: Optional[str] = Form(""),
+):
     try:
-        knowledge = await ManagerRAG.create_knowledge(name)
+        knowledge = await ManagerRAG.create_knowledge(name, source=source)
         request.app.state.rags[name] = knowledge
         knowledges = await ManagerRAG.get_knowledges()
         return PathListResponse(status="success", data=knowledges)

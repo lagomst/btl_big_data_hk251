@@ -24,6 +24,7 @@ from core.models import InsertResponse, LimitTracker, ModelDetail
 from functools import partial
 from typing import Any
 from dataclasses import asdict
+import shutil
 
 KNOWLEDGE_DIR = Path('./knowledges').resolve()
 
@@ -50,7 +51,7 @@ class ManagerRAG():
         self._api_tier: str = None
         self._model_used: str = None
     
-    async def create_isntance(self, knowledge, kg_path, 
+    async def create_instance(self, knowledge, kg_path, 
         llm_model: str = "gpt-4o-mini",
         api_tier: str = "standard"
     ):
@@ -110,21 +111,60 @@ class ManagerRAG():
         for knowledge in knowledges :
             working_dir=KNOWLEDGE_DIR / knowledge
             print(f'\n*** {working_dir=}')
-            rags[knowledge] = await ManagerRAG().create_isntance(knowledge, working_dir, settings.LLM_MODEL)
+            rags[knowledge] = await ManagerRAG().create_instance(knowledge, working_dir, settings.LLM_MODEL)
 
         return rags 
 
-    async def create_knowledge(name):
+    async def create_knowledge(name, source=None):
         name = process_name(name)
         knowledges = await ManagerRAG.get_knowledges()
-        if  name in knowledges:
-            raise Exception(f'Knowledge {name} is existed!')   
+        if name in knowledges:
+            raise Exception(f'Knowledge {name} have already existed!')   
         
         store_dir=KNOWLEDGE_DIR/name
-        return await ManagerRAG().create_isntance(name, store_dir, settings.LLM_MODEL)     
-    
-    async def gen_html_graph(knowledge_name):
-        return gen_html_graph(KNOWLEDGE_DIR / knowledge_name)
+        if source:
+            if source not in knowledges:
+                # Better to use a specific exception or just log/return False
+                raise ValueError(f"Source knowledge {source} does not exist!")
+
+            # 2. Define the source and destination directories using Path
+            source_dir = KNOWLEDGE_DIR / source
+            dest_dir = KNOWLEDGE_DIR / name
+
+            # 3. Create the destination directory if it doesn't exist
+            # This prevents the `shutil.copy2` from failing later
+            dest_dir.mkdir(exist_ok=True)
+            
+            # Optional: If the source directory itself doesn't exist locally, handle it
+            if not source_dir.is_dir():
+                raise FileNotFoundError(f"Source directory {source_dir} not found locally.")
+
+            # 4. Iterate over files in the source directory
+            for source_file in source_dir.iterdir():
+                # Only process files, skip subdirectories
+                if source_file.is_file():
+                    
+                    # Get the original file name as a string (e.g., 'ABC_source_DEF.txt')
+                    source_filename_str = source_file.name
+
+                    # 5. Create the destination filename by replacing the 'source' string
+                    # In your example: ABC_source_DEF.txt -> ABC_dest_DEF.txt
+                    if source in source_filename_str:
+                        dest_filename_str = source_filename_str.replace(source, name)
+                    else:
+                        # Handle the case where the source name isn't in the filename
+                        dest_filename_str = source_filename_str
+                        
+                    # 6. Define the full destination path
+                    dest_file = dest_dir / dest_filename_str
+                    
+                    # 7. Copy the file
+                    # shutil.copy2 is generally preferred as it attempts to preserve metadata
+                    shutil.copy2(source_file, dest_file)
+                    
+                    print(f"Copied and Renamed: {source_file.name} -> {dest_file.name}")
+        
+        return await ManagerRAG().create_instance(name, store_dir, settings.LLM_MODEL)     
         
     async def delete_knowledge(self, name):
         knowledges = await ManagerRAG.get_knowledges()
@@ -139,6 +179,9 @@ class ManagerRAG():
         working_dir=KNOWLEDGE_DIR/name
         if working_dir.exists() and working_dir.is_dir():
             shutil.rmtree(working_dir) 
+    
+    async def gen_html_graph(knowledge_name):
+        return gen_html_graph(KNOWLEDGE_DIR / knowledge_name)
     
     async def get_model_from_knowledge(self):
         return ModelDetail(
@@ -255,7 +298,7 @@ class ManagerRAG():
         result = {}
         for key in DocStatus:
             docs = await self.get_docs_by_status(key, blacklist)
-            print(f"{docs=}")
+            # print(f"{docs=}")
             result.update(docs)
         
         return result
