@@ -1,4 +1,8 @@
-### Installation
+# Newspaper sources retriever with RAG 
+
+A RAG implementation using LightRAG framework to provide LLM for their sourcing tasks. Come with custom prompts. 
+
+# Installation
 0. Install conda (see here: https://www.anaconda.com/docs/getting-started/miniconda/install)
 
 1. Install requirements:
@@ -9,7 +13,7 @@
   pip install -r requirements.txt
   ```
 
-### Run
+# Run
 Before running, set-up environment variable as so:
 
   ```.env
